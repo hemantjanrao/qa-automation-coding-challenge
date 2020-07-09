@@ -31,7 +31,7 @@ public class PropertyUtils {
     }
 
     /**
-     * This method return the provided key from the properties file
+     * This method return value of provided key from the properties file
      * @param param Environment
      * @return String
      */

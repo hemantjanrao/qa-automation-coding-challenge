@@ -6,12 +6,13 @@ public enum Environment {
     WEB_DEFAULT_TIMEOUT("web.defaultTimeout"),
     WEB_DATA_DIR("web.dataDir");
 
-    private String key;
+    private final String key;
+
     Environment(String key) {
-        this.key=key;
+        this.key = key;
     }
 
-    public String getKey(){
+    public String getKey() {
         return this.key;
     }
 }
