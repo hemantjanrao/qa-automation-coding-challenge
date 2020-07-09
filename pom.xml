@@ -8,5 +8,51 @@
     <artifactId>qa-task</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        <selenium.version>3.141.59</selenium.version>
+        <testng.version>7.1.0</testng.version>
+        <webdrivermanager.version>3.4.0</webdrivermanager.version>
+        <log4j.version>1.2.17</log4j.version>
+        <allure.version>2.13.1</allure.version>
+    </properties>
+
+    <dependencies>
+
+        <!-- Testing Dependencies -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>${selenium.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>${testng.version}</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>${webdrivermanager.version}</version>
+        </dependency>
+
+        <!-- Logging -->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
+
+        <!-- Reporting -->
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-testng</artifactId>
+            <version>${allure.version}</version>
+        </dependency>
+
+    </dependencies>
+
 
 </project>
