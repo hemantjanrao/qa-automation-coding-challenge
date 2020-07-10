@@ -2,8 +2,12 @@ package org.projecta.framework.restservice;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
+import org.apache.http.HttpStatus;
 import org.projecta.framework.util.Environment;
 import org.projecta.framework.util.PropertyUtils;
+import org.testng.Assert;
+
+import java.util.List;
 
 public class RestService {
 
@@ -20,5 +24,13 @@ public class RestService {
                 .get(PropertyUtils.get(Environment.REPOSITORY_ENDPOINT).replace("{USERNAME}", userName))
                 .then()
                 .extract().response();
+    }
+
+    public static List<RepositoryResponse> getRepos(final String userName){
+        Response repositoryList = getRepositoryList(userName);
+
+        Assert.assertEquals(repositoryList.statusCode(), HttpStatus.SC_OK);
+
+        return TestHelper.deserializeJson(repositoryList);
     }
 }

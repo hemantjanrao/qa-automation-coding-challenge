@@ -1,9 +1,5 @@
 package org.projecta.test;
 
-import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.GherkinKeyword;
-import com.aventstack.extentreports.gherkin.model.Feature;
-import com.aventstack.extentreports.gherkin.model.Scenario;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Story;
@@ -42,7 +38,7 @@ public class Demotest extends BaseWebTest {
     @Test(dataProvider = "userData")
     @Story("User search with existing GitHub username and get all the public GitHub repositories for the same users")
     @Description("User search with existing GitHub username and get all the public GitHub repositories for the same users")
-    public void testWeb(String userData, String status) throws ClassNotFoundException {
+    public void testWeb(String userData, String status) {
 
         HomePage homePage = new HomePage(driver);
         homePage.navigateTo();
@@ -53,9 +49,12 @@ public class Demotest extends BaseWebTest {
             Assert.assertFalse(homePage.isUserRepositoriesPresent(false));
         } else {
             Assert.assertTrue(homePage.isUserRepositoriesPresent(true));
+            List<RepositoryResponse> repos = RestService.getRepos(userData);
+
+            Assert.assertEquals(homePage.getSearchedResultCount(), repos.size());
+            Assert.assertEquals(homePage.getSearchedResult().size(), repos.size());
+
         }
-
-
     }
 
     @DataProvider(name = "userData")
