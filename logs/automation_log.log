@@ -1010,3 +1010,1225 @@
 2020-07-10 20:02:40 INFO  Demotest:45 - Destroying the driver
 2020-07-10 20:02:40 INFO  CustomListener:13 - Listener is activated
 2020-07-10 20:02:40 INFO  Demotest:29 - Starting the After class of 'Base Test'
+2020-07-10 20:21:50 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:21:51 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:21:51 INFO  Demotest:41 - Starting the Before class of 'Base Test'
+2020-07-10 20:21:51 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:21:51 INFO  Demotest:31 - Start initializing the driver
+2020-07-10 20:21:54 INFO  Demotest:38 - Finish initializing the driver
+2020-07-10 20:21:54 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:21:54 INFO  Demotest:89 -  =============================================== Starting test method [testRest] ===================================
+2020-07-10 20:21:59 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:22:01 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:22:01 WARN  CustomListener:24 - 'getResult' method is failed, saving screenshot
+2020-07-10 20:22:03 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:22:03 INFO  Demotest:94 - =============================================== Ending test method [testRest] ===================================
+2020-07-10 20:22:03 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:22:03 INFO  Demotest:45 - Destroying the driver
+2020-07-10 20:22:03 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:22:03 INFO  Demotest:84 - Starting the After class of 'Base Test'
+2020-07-10 20:22:21 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:22:21 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:22:21 INFO  Demotest:41 - Starting the Before class of 'Base Test'
+2020-07-10 20:22:21 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:22:21 INFO  Demotest:31 - Start initializing the driver
+2020-07-10 20:22:23 INFO  Demotest:38 - Finish initializing the driver
+2020-07-10 20:22:24 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:22:24 INFO  Demotest:89 -  =============================================== Starting test method [testRest] ===================================
+2020-07-10 20:22:29 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:22:31 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:22:31 WARN  CustomListener:24 - 'getResult' method is failed, saving screenshot
+2020-07-10 20:22:32 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:22:32 INFO  Demotest:94 - =============================================== Ending test method [testRest] ===================================
+2020-07-10 20:22:32 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:22:32 INFO  Demotest:45 - Destroying the driver
+2020-07-10 20:22:32 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:22:32 INFO  Demotest:84 - Starting the After class of 'Base Test'
+2020-07-10 20:22:45 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:22:46 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:22:46 INFO  Demotest:41 - Starting the Before class of 'Base Test'
+2020-07-10 20:22:46 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:22:46 INFO  Demotest:31 - Start initializing the driver
+2020-07-10 20:22:49 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:22:49 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:22:49 INFO  Demotest:41 - Starting the Before class of 'Base Test'
+2020-07-10 20:22:49 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:22:49 INFO  Demotest:31 - Start initializing the driver
+2020-07-10 20:22:49 INFO  Demotest:38 - Finish initializing the driver
+2020-07-10 20:22:49 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:22:49 INFO  Demotest:89 -  =============================================== Starting test method [testRest] ===================================
+2020-07-10 20:22:53 INFO  Demotest:38 - Finish initializing the driver
+2020-07-10 20:22:53 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:22:53 INFO  Demotest:89 -  =============================================== Starting test method [testRest] ===================================
+2020-07-10 20:22:55 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:22:58 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:22:59 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:22:59 WARN  CustomListener:24 - 'getResult' method is failed, saving screenshot
+2020-07-10 20:23:01 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:23:05 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:23:05 INFO  Demotest:94 - =============================================== Ending test method [testRest] ===================================
+2020-07-10 20:23:05 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:23:05 INFO  Demotest:45 - Destroying the driver
+2020-07-10 20:23:05 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:23:05 INFO  Demotest:84 - Starting the After class of 'Base Test'
+2020-07-10 20:26:11 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:26:11 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:26:11 INFO  Demotest:41 - Starting the Before class of 'Base Test'
+2020-07-10 20:26:11 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:26:11 INFO  Demotest:31 - Start initializing the driver
+2020-07-10 20:26:13 INFO  Demotest:38 - Finish initializing the driver
+2020-07-10 20:26:13 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:26:13 INFO  Demotest:89 -  =============================================== Starting test method [testRest] ===================================
+2020-07-10 20:26:19 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:26:21 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:26:21 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:26:21 INFO  Demotest:95 - =============================================== Ending test method [testRest] ===================================
+2020-07-10 20:26:21 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:26:21 INFO  Demotest:45 - Destroying the driver
+2020-07-10 20:26:21 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:26:21 INFO  Demotest:84 - Starting the After class of 'Base Test'
+2020-07-10 20:27:57 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:28:53 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:28:53 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:28:53 INFO  Demotest:41 - Starting the Before class of 'Base Test'
+2020-07-10 20:28:53 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:28:53 INFO  Demotest:31 - Start initializing the driver
+2020-07-10 20:28:55 INFO  Demotest:38 - Finish initializing the driver
+2020-07-10 20:28:55 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:28:55 INFO  Demotest:89 -  =============================================== Starting test method [testRest] ===================================
+2020-07-10 20:29:00 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:29:03 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:29:03 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:29:03 INFO  Demotest:95 - =============================================== Ending test method [testRest] ===================================
+2020-07-10 20:29:03 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:29:03 INFO  Demotest:45 - Destroying the driver
+2020-07-10 20:29:03 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:29:03 INFO  Demotest:84 - Starting the After class of 'Base Test'
+2020-07-10 20:30:03 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:30:03 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:30:03 INFO  Demotest:40 - Starting the Before class of 'Base Test'
+2020-07-10 20:30:03 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:30:03 INFO  Demotest:31 - Start initializing the driver
+2020-07-10 20:30:05 INFO  Demotest:38 - Finish initializing the driver
+2020-07-10 20:30:05 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:30:05 INFO  Demotest:94 -  =============================================== Starting test method [testRest] ===================================
+2020-07-10 20:30:10 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:30:12 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:30:12 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:30:12 INFO  Demotest:100 - =============================================== Ending test method [testRest] ===================================
+2020-07-10 20:30:12 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:30:12 INFO  Demotest:45 - Destroying the driver
+2020-07-10 20:30:12 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:30:12 INFO  Demotest:89 - Starting the After class of 'Base Test'
+2020-07-10 20:30:12 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:30:56 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:30:57 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:30:57 INFO  Demotest:40 - Starting the Before class of 'Base Test'
+2020-07-10 20:30:57 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:30:57 INFO  Demotest:31 - Start initializing the driver
+2020-07-10 20:30:59 INFO  Demotest:38 - Finish initializing the driver
+2020-07-10 20:30:59 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:30:59 INFO  Demotest:94 -  =============================================== Starting test method [testRest] ===================================
+2020-07-10 20:31:04 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:31:07 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:31:07 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:31:07 INFO  Demotest:100 - =============================================== Ending test method [testRest] ===================================
+2020-07-10 20:31:07 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:31:07 INFO  Demotest:45 - Destroying the driver
+2020-07-10 20:31:07 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:31:07 INFO  Demotest:89 - Starting the After class of 'Base Test'
+2020-07-10 20:31:07 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:32:05 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:32:05 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:32:05 INFO  Demotest:40 - Starting the Before class of 'Base Test'
+2020-07-10 20:32:05 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:32:05 INFO  Demotest:31 - Start initializing the driver
+2020-07-10 20:32:07 INFO  Demotest:38 - Finish initializing the driver
+2020-07-10 20:32:07 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:32:07 INFO  Demotest:94 -  =============================================== Starting test method [testRest] ===================================
+2020-07-10 20:32:12 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:32:14 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:32:14 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:32:14 INFO  Demotest:100 - =============================================== Ending test method [testRest] ===================================
+2020-07-10 20:32:14 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:32:14 INFO  Demotest:45 - Destroying the driver
+2020-07-10 20:32:14 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:32:14 INFO  Demotest:89 - Starting the After class of 'Base Test'
+2020-07-10 20:32:14 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:33:57 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:33:57 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:33:57 INFO  Demotest:40 - Starting the Before class of 'Base Test'
+2020-07-10 20:33:57 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:33:57 INFO  Demotest:31 - Start initializing the driver
+2020-07-10 20:33:59 INFO  Demotest:38 - Finish initializing the driver
+2020-07-10 20:33:59 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:33:59 INFO  Demotest:94 -  =============================================== Starting test method [testRest] ===================================
+2020-07-10 20:34:04 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:34:07 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:34:07 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:34:07 INFO  Demotest:100 - =============================================== Ending test method [testRest] ===================================
+2020-07-10 20:34:07 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:34:07 INFO  Demotest:45 - Destroying the driver
+2020-07-10 20:34:07 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:34:07 INFO  Demotest:89 - Starting the After class of 'Base Test'
+2020-07-10 20:34:07 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:35:18 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:35:18 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:35:18 INFO  Demotest:40 - Starting the Before class of 'Base Test'
+2020-07-10 20:35:18 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:35:18 INFO  Demotest:31 - Start initializing the driver
+2020-07-10 20:35:20 INFO  Demotest:38 - Finish initializing the driver
+2020-07-10 20:35:20 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:35:20 INFO  Demotest:94 -  =============================================== Starting test method [testRest] ===================================
+2020-07-10 20:35:25 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:35:27 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:35:27 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:35:27 INFO  Demotest:100 - =============================================== Ending test method [testRest] ===================================
+2020-07-10 20:35:27 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:35:27 INFO  Demotest:45 - Destroying the driver
+2020-07-10 20:35:28 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:35:28 INFO  Demotest:89 - Starting the After class of 'Base Test'
+2020-07-10 20:35:28 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:37:35 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:37:35 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:37:35 INFO  Demotest:40 - Starting the Before class of 'Base Test'
+2020-07-10 20:37:35 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:37:35 INFO  Demotest:31 - Start initializing the driver
+2020-07-10 20:37:38 INFO  Demotest:38 - Finish initializing the driver
+2020-07-10 20:37:38 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:37:38 INFO  Demotest:94 -  =============================================== Starting test method [sampleTest] ===================================
+2020-07-10 20:37:44 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:37:44 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:37:44 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:37:44 INFO  Demotest:100 - =============================================== Ending test method [sampleTest] ===================================
+2020-07-10 20:37:44 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:37:44 INFO  Demotest:94 -  =============================================== Starting test method [testRest] ===================================
+2020-07-10 20:37:44 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:37:47 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:37:47 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:37:47 INFO  Demotest:100 - =============================================== Ending test method [testRest] ===================================
+2020-07-10 20:37:47 INFO  Demotest:110 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'username'
+2020-07-10 20:37:47 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:37:47 INFO  Demotest:94 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 20:37:47 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:37:47 INFO  HomePage:38 - Fill Github username
+2020-07-10 20:37:47 INFO  HomePage:42 - Click on Go button
+2020-07-10 20:37:53 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:37:53 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:37:53 INFO  Demotest:100 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 20:37:53 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:37:53 INFO  Demotest:94 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 20:37:58 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:37:58 INFO  HomePage:38 - Fill Github username
+2020-07-10 20:37:58 INFO  HomePage:42 - Click on Go button
+2020-07-10 20:38:04 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:38:04 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:38:04 INFO  Demotest:100 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 20:38:04 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:38:04 INFO  Demotest:94 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 20:38:09 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:38:09 INFO  HomePage:38 - Fill Github username
+2020-07-10 20:38:09 INFO  HomePage:42 - Click on Go button
+2020-07-10 20:38:24 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:38:24 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:38:24 INFO  Demotest:100 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 20:38:24 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:38:24 INFO  Demotest:94 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 20:38:29 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:38:29 INFO  HomePage:38 - Fill Github username
+2020-07-10 20:38:29 INFO  HomePage:42 - Click on Go button
+2020-07-10 20:38:34 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:38:34 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:38:34 INFO  Demotest:100 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 20:38:34 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:38:34 INFO  Demotest:45 - Destroying the driver
+2020-07-10 20:38:34 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:38:34 INFO  Demotest:89 - Starting the After class of 'Base Test'
+2020-07-10 20:38:34 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:45:34 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:45:35 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:45:35 INFO  Demotest:39 - Starting the Before class of 'Base Test'
+2020-07-10 20:45:35 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:45:35 INFO  Demotest:32 - Start initializing the driver
+2020-07-10 20:45:37 INFO  Demotest:39 - Finish initializing the driver
+2020-07-10 20:45:37 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:45:37 INFO  Demotest:91 -  =============================================== Starting test method [sampleTest] ===================================
+2020-07-10 20:45:43 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:45:43 WARN  CustomListener:24 - 'sampleTest' method is failed, saving screenshot
+2020-07-10 20:45:44 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:45:44 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:45:44 INFO  Demotest:97 - =============================================== Ending test method [sampleTest] ===================================
+2020-07-10 20:45:44 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:45:44 INFO  Demotest:91 -  =============================================== Starting test method [testRest] ===================================
+2020-07-10 20:45:44 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:45:46 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:45:46 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:45:46 INFO  Demotest:97 - =============================================== Ending test method [testRest] ===================================
+2020-07-10 20:45:46 INFO  Demotest:107 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'username'
+2020-07-10 20:45:46 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:45:46 INFO  Demotest:91 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 20:45:46 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:45:46 INFO  HomePage:38 - Fill Github username
+2020-07-10 20:45:47 INFO  HomePage:42 - Click on Go button
+2020-07-10 20:45:52 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:45:52 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:45:52 INFO  Demotest:97 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 20:45:52 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:45:52 INFO  Demotest:91 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 20:45:57 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:45:57 INFO  HomePage:38 - Fill Github username
+2020-07-10 20:45:57 INFO  HomePage:42 - Click on Go button
+2020-07-10 20:46:00 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:46:00 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:46:00 INFO  Demotest:97 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 20:46:00 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:46:00 INFO  Demotest:91 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 20:46:00 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:46:00 INFO  HomePage:38 - Fill Github username
+2020-07-10 20:46:00 INFO  HomePage:42 - Click on Go button
+2020-07-10 20:46:10 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:46:10 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:46:10 INFO  Demotest:97 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 20:46:10 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:46:10 INFO  Demotest:91 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 20:46:15 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:46:15 INFO  HomePage:38 - Fill Github username
+2020-07-10 20:46:15 INFO  HomePage:42 - Click on Go button
+2020-07-10 20:46:21 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:46:21 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:46:21 INFO  Demotest:97 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 20:46:21 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:46:21 INFO  Demotest:46 - Destroying the driver
+2020-07-10 20:46:21 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:46:21 INFO  Demotest:86 - Starting the After class of 'Base Test'
+2020-07-10 20:46:21 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:49:04 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:49:04 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:49:04 INFO  Demotest:39 - Starting the Before class of 'Base Test'
+2020-07-10 20:49:04 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:49:04 INFO  Demotest:32 - Start initializing the driver
+2020-07-10 20:49:17 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:49:17 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:49:17 INFO  Demotest:39 - Starting the Before class of 'Base Test'
+2020-07-10 20:49:17 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:49:17 INFO  Demotest:32 - Start initializing the driver
+2020-07-10 20:49:19 INFO  Demotest:39 - Finish initializing the driver
+2020-07-10 20:49:19 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:49:19 INFO  Demotest:91 -  =============================================== Starting test method [sampleTest] ===================================
+2020-07-10 20:49:25 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:49:25 WARN  CustomListener:24 - 'sampleTest' method is failed, saving screenshot
+2020-07-10 20:49:27 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:49:27 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:49:27 INFO  Demotest:97 - =============================================== Ending test method [sampleTest] ===================================
+2020-07-10 20:49:27 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:49:27 INFO  Demotest:91 -  =============================================== Starting test method [testRest] ===================================
+2020-07-10 20:49:27 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:49:32 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:49:32 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:49:32 INFO  Demotest:97 - =============================================== Ending test method [testRest] ===================================
+2020-07-10 20:49:32 INFO  Demotest:107 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'username'
+2020-07-10 20:49:32 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:49:32 INFO  Demotest:91 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 20:49:37 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:49:38 INFO  HomePage:38 - Fill Github username
+2020-07-10 20:49:38 INFO  HomePage:42 - Click on Go button
+2020-07-10 20:49:43 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:49:43 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:49:43 INFO  Demotest:97 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 20:49:43 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:49:43 INFO  Demotest:91 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 20:49:48 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:49:48 INFO  HomePage:38 - Fill Github username
+2020-07-10 20:49:48 INFO  HomePage:42 - Click on Go button
+2020-07-10 20:49:54 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:49:54 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:49:54 INFO  Demotest:97 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 20:49:54 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:49:54 INFO  Demotest:91 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 20:49:59 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:49:59 INFO  HomePage:38 - Fill Github username
+2020-07-10 20:49:59 INFO  HomePage:42 - Click on Go button
+2020-07-10 20:50:14 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:50:14 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:50:14 INFO  Demotest:97 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 20:50:14 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:50:14 INFO  Demotest:91 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 20:50:19 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:50:19 INFO  HomePage:38 - Fill Github username
+2020-07-10 20:50:19 INFO  HomePage:42 - Click on Go button
+2020-07-10 20:50:23 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:50:23 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:50:23 INFO  Demotest:97 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 20:50:23 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:50:23 INFO  Demotest:46 - Destroying the driver
+2020-07-10 20:50:24 INFO  CustomListener:13 - Listener is activated
+2020-07-10 20:50:24 INFO  Demotest:86 - Starting the After class of 'Base Test'
+2020-07-10 20:50:24 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:00:47 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:00:47 WARN  CustomListener:24 - 'baseBeforeTest' method is failed, saving screenshot
+2020-07-10 21:00:47 WARN  Demotest:62 - WebDriver is null, unable to save screenshot
+2020-07-10 21:00:52 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:00:52 INFO  Demotest:50 - Starting the Before class of 'Base Test'
+2020-07-10 21:00:52 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:00:52 INFO  Demotest:32 - Start initializing the driver
+2020-07-10 21:00:54 INFO  Demotest:39 - Finish initializing the driver
+2020-07-10 21:00:54 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:00:54 INFO  Demotest:122 -  =============================================== Starting test method [sampleTest] ===================================
+2020-07-10 21:00:54 WARN  CustomListener:24 - 'logStartMethod' method is failed, saving screenshot
+2020-07-10 21:00:54 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:00:54 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:00:54 INFO  Demotest:128 - =============================================== Ending test method [sampleTest] ===================================
+2020-07-10 21:00:54 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:00:54 INFO  Demotest:122 -  =============================================== Starting test method [testRest] ===================================
+2020-07-10 21:00:54 WARN  CustomListener:24 - 'logStartMethod' method is failed, saving screenshot
+2020-07-10 21:00:54 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:00:54 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:00:54 INFO  Demotest:128 - =============================================== Ending test method [testRest] ===================================
+2020-07-10 21:00:54 INFO  Demotest:138 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'username'
+2020-07-10 21:00:54 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:00:54 INFO  Demotest:122 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:00:54 WARN  CustomListener:24 - 'logStartMethod' method is failed, saving screenshot
+2020-07-10 21:00:54 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:00:54 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:00:54 INFO  Demotest:128 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:00:54 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:00:54 INFO  Demotest:122 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:00:54 WARN  CustomListener:24 - 'logStartMethod' method is failed, saving screenshot
+2020-07-10 21:00:54 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:00:54 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:00:54 INFO  Demotest:128 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:00:54 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:00:54 INFO  Demotest:122 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:00:54 WARN  CustomListener:24 - 'logStartMethod' method is failed, saving screenshot
+2020-07-10 21:00:54 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:00:54 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:00:54 INFO  Demotest:128 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:00:54 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:00:54 INFO  Demotest:122 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:00:54 WARN  CustomListener:24 - 'logStartMethod' method is failed, saving screenshot
+2020-07-10 21:00:54 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:00:54 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:00:54 INFO  Demotest:128 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:00:54 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:00:54 INFO  Demotest:46 - Destroying the driver
+2020-07-10 21:00:55 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:00:55 INFO  Demotest:117 - Starting the After class of 'Base Test'
+2020-07-10 21:03:15 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:03:15 WARN  CustomListener:24 - 'baseBeforeTest' method is failed, saving screenshot
+2020-07-10 21:03:15 WARN  Demotest:62 - WebDriver is null, unable to save screenshot
+2020-07-10 21:03:21 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:03:21 INFO  Demotest:50 - Starting the Before class of 'Base Test'
+2020-07-10 21:03:21 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:03:21 INFO  Demotest:32 - Start initializing the driver
+2020-07-10 21:03:22 INFO  Demotest:39 - Finish initializing the driver
+2020-07-10 21:03:22 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:03:22 INFO  Demotest:122 -  =============================================== Starting test method [sampleTest] ===================================
+2020-07-10 21:03:23 WARN  CustomListener:24 - 'logStartMethod' method is failed, saving screenshot
+2020-07-10 21:03:23 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:03:23 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:03:23 INFO  Demotest:128 - =============================================== Ending test method [sampleTest] ===================================
+2020-07-10 21:03:23 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:03:23 INFO  Demotest:122 -  =============================================== Starting test method [testRest] ===================================
+2020-07-10 21:03:23 WARN  CustomListener:24 - 'logStartMethod' method is failed, saving screenshot
+2020-07-10 21:03:23 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:03:23 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:03:23 INFO  Demotest:128 - =============================================== Ending test method [testRest] ===================================
+2020-07-10 21:03:23 INFO  Demotest:138 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'username'
+2020-07-10 21:03:23 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:03:23 INFO  Demotest:122 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:03:23 WARN  CustomListener:24 - 'logStartMethod' method is failed, saving screenshot
+2020-07-10 21:03:23 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:03:23 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:03:23 INFO  Demotest:128 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:03:23 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:03:23 INFO  Demotest:122 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:03:23 WARN  CustomListener:24 - 'logStartMethod' method is failed, saving screenshot
+2020-07-10 21:03:23 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:03:23 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:03:23 INFO  Demotest:128 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:03:23 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:03:23 INFO  Demotest:122 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:03:23 WARN  CustomListener:24 - 'logStartMethod' method is failed, saving screenshot
+2020-07-10 21:03:23 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:03:23 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:03:23 INFO  Demotest:128 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:03:23 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:03:23 INFO  Demotest:122 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:03:23 WARN  CustomListener:24 - 'logStartMethod' method is failed, saving screenshot
+2020-07-10 21:03:23 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:03:23 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:03:23 INFO  Demotest:128 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:03:23 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:03:23 INFO  Demotest:46 - Destroying the driver
+2020-07-10 21:03:23 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:03:23 INFO  Demotest:117 - Starting the After class of 'Base Test'
+2020-07-10 21:03:48 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:03:48 WARN  CustomListener:24 - 'baseBeforeTest' method is failed, saving screenshot
+2020-07-10 21:03:48 WARN  Demotest:62 - WebDriver is null, unable to save screenshot
+2020-07-10 21:03:53 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:03:53 INFO  Demotest:50 - Starting the Before class of 'Base Test'
+2020-07-10 21:03:53 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:03:53 INFO  Demotest:32 - Start initializing the driver
+2020-07-10 21:03:55 INFO  Demotest:39 - Finish initializing the driver
+2020-07-10 21:03:55 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:03:55 INFO  Demotest:122 -  =============================================== Starting test method [testRest] ===================================
+2020-07-10 21:03:55 WARN  CustomListener:24 - 'logStartMethod' method is failed, saving screenshot
+2020-07-10 21:03:55 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:03:55 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:03:55 INFO  Demotest:128 - =============================================== Ending test method [testRest] ===================================
+2020-07-10 21:03:55 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:03:55 INFO  Demotest:46 - Destroying the driver
+2020-07-10 21:03:55 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:03:55 INFO  Demotest:117 - Starting the After class of 'Base Test'
+2020-07-10 21:04:59 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:04:59 WARN  CustomListener:24 - 'baseBeforeTest' method is failed, saving screenshot
+2020-07-10 21:04:59 WARN  Demotest:62 - WebDriver is null, unable to save screenshot
+2020-07-10 21:05:04 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:05:04 INFO  Demotest:50 - Starting the Before class of 'Base Test'
+2020-07-10 21:05:04 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:05:04 INFO  Demotest:32 - Start initializing the driver
+2020-07-10 21:05:06 INFO  Demotest:39 - Finish initializing the driver
+2020-07-10 21:05:06 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:05:06 INFO  Demotest:120 -  =============================================== Starting test method [testRest] ===================================
+2020-07-10 21:05:06 WARN  CustomListener:24 - 'logStartMethod' method is failed, saving screenshot
+2020-07-10 21:05:06 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:05:06 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:05:06 INFO  Demotest:126 - =============================================== Ending test method [testRest] ===================================
+2020-07-10 21:05:06 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:05:06 INFO  Demotest:46 - Destroying the driver
+2020-07-10 21:05:06 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:05:06 INFO  Demotest:115 - Starting the After class of 'Base Test'
+2020-07-10 21:06:28 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:06:28 WARN  CustomListener:24 - 'baseBeforeTest' method is failed, saving screenshot
+2020-07-10 21:06:28 WARN  Demotest:62 - WebDriver is null, unable to save screenshot
+2020-07-10 21:06:34 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:06:34 INFO  Demotest:44 - Starting the Before class of 'Base Test'
+2020-07-10 21:06:34 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:06:34 INFO  Demotest:32 - Start initializing the driver
+2020-07-10 21:06:36 INFO  Demotest:39 - Finish initializing the driver
+2020-07-10 21:06:36 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:06:36 INFO  Demotest:98 -  =============================================== Starting test method [testRest] ===================================
+2020-07-10 21:06:36 WARN  CustomListener:24 - 'logStartMethod' method is failed, saving screenshot
+2020-07-10 21:06:36 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:06:36 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:06:36 INFO  Demotest:104 - =============================================== Ending test method [testRest] ===================================
+2020-07-10 21:06:36 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:06:36 INFO  Demotest:46 - Destroying the driver
+2020-07-10 21:06:36 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:06:36 INFO  Demotest:93 - Starting the After class of 'Base Test'
+2020-07-10 21:06:52 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:06:52 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:06:52 INFO  Demotest:44 - Starting the Before class of 'Base Test'
+2020-07-10 21:06:52 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:06:52 INFO  Demotest:32 - Start initializing the driver
+2020-07-10 21:06:54 INFO  Demotest:39 - Finish initializing the driver
+2020-07-10 21:06:54 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:06:54 INFO  Demotest:94 -  =============================================== Starting test method [testRest] ===================================
+2020-07-10 21:07:00 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:07:04 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:07:04 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:07:04 INFO  Demotest:100 - =============================================== Ending test method [testRest] ===================================
+2020-07-10 21:07:04 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:07:04 INFO  Demotest:46 - Destroying the driver
+2020-07-10 21:07:04 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:07:04 INFO  Demotest:89 - Starting the After class of 'Base Test'
+2020-07-10 21:07:04 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:12:55 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:12:55 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:12:55 INFO  Demotest:44 - Starting the Before class of 'Base Test'
+2020-07-10 21:12:55 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:12:55 INFO  Demotest:33 - Start initializing the driver
+2020-07-10 21:12:58 INFO  Demotest:40 - Finish initializing the driver
+2020-07-10 21:12:58 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:12:58 INFO  Demotest:94 -  =============================================== Starting test method [sampleTest] ===================================
+2020-07-10 21:13:03 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:13:03 WARN  CustomListener:24 - 'sampleTest' method is failed, saving screenshot
+2020-07-10 21:13:04 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:13:04 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:13:04 INFO  Demotest:100 - =============================================== Ending test method [sampleTest] ===================================
+2020-07-10 21:13:04 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:13:04 INFO  Demotest:94 -  =============================================== Starting test method [testRest] ===================================
+2020-07-10 21:13:04 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:13:07 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:13:07 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:13:07 INFO  Demotest:100 - =============================================== Ending test method [testRest] ===================================
+2020-07-10 21:13:07 INFO  Demotest:110 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'username'
+2020-07-10 21:13:07 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:13:07 INFO  Demotest:94 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:13:07 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:13:07 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:13:08 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:13:13 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:13:13 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:13:13 INFO  Demotest:100 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:13:13 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:13:13 INFO  Demotest:94 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:13:18 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:13:18 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:13:18 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:13:20 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:13:20 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:13:20 INFO  Demotest:100 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:13:20 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:13:20 INFO  Demotest:94 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:13:20 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:13:20 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:13:20 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:13:30 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:13:30 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:13:30 INFO  Demotest:100 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:13:30 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:13:30 INFO  Demotest:94 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:13:35 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:13:35 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:13:36 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:13:41 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:13:41 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:13:41 INFO  Demotest:100 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:13:41 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:13:41 INFO  Demotest:47 - Destroying the driver
+2020-07-10 21:13:41 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:13:41 INFO  Demotest:89 - Starting the After class of 'Base Test'
+2020-07-10 21:13:41 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:15:04 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:15:04 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:15:04 INFO  Demotest:44 - Starting the Before class of 'Base Test'
+2020-07-10 21:15:04 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:15:04 INFO  Demotest:33 - Start initializing the driver
+2020-07-10 21:15:07 INFO  Demotest:40 - Finish initializing the driver
+2020-07-10 21:15:07 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:15:07 INFO  Demotest:94 -  =============================================== Starting test method [sampleTest] ===================================
+2020-07-10 21:15:12 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:15:13 WARN  CustomListener:24 - 'sampleTest' method is failed, saving screenshot
+2020-07-10 21:15:15 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:15:15 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:15:15 INFO  Demotest:100 - =============================================== Ending test method [sampleTest] ===================================
+2020-07-10 21:15:15 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:15:15 INFO  Demotest:94 -  =============================================== Starting test method [testRest] ===================================
+2020-07-10 21:15:15 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:15:17 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:15:17 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:15:17 INFO  Demotest:100 - =============================================== Ending test method [testRest] ===================================
+2020-07-10 21:15:18 INFO  Demotest:110 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'username'
+2020-07-10 21:15:18 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:15:18 INFO  Demotest:94 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:15:23 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:15:23 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:15:23 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:15:28 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:15:28 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:15:28 INFO  Demotest:100 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:15:28 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:15:28 INFO  Demotest:94 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:15:33 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:15:33 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:15:34 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:15:39 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:15:39 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:15:39 INFO  Demotest:100 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:15:39 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:15:39 INFO  Demotest:94 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:15:44 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:15:44 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:15:44 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:17:11 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:17:11 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:17:11 INFO  Demotest:44 - Starting the Before class of 'Base Test'
+2020-07-10 21:17:11 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:17:11 INFO  Demotest:33 - Start initializing the driver
+2020-07-10 21:17:13 INFO  Demotest:40 - Finish initializing the driver
+2020-07-10 21:17:13 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:17:13 INFO  Demotest:94 -  =============================================== Starting test method [sampleTest] ===================================
+2020-07-10 21:17:25 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:17:26 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:17:26 INFO  Demotest:44 - Starting the Before class of 'Base Test'
+2020-07-10 21:17:26 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:17:26 INFO  Demotest:33 - Start initializing the driver
+2020-07-10 21:17:28 INFO  Demotest:40 - Finish initializing the driver
+2020-07-10 21:17:28 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:17:28 INFO  Demotest:94 -  =============================================== Starting test method [sampleTest] ===================================
+2020-07-10 21:17:33 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:17:33 WARN  CustomListener:24 - 'sampleTest' method is failed, saving screenshot
+2020-07-10 21:17:35 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:17:35 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:17:35 INFO  Demotest:100 - =============================================== Ending test method [sampleTest] ===================================
+2020-07-10 21:17:35 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:17:35 INFO  Demotest:94 -  =============================================== Starting test method [testRest] ===================================
+2020-07-10 21:17:35 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:17:38 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:17:38 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:17:38 INFO  Demotest:100 - =============================================== Ending test method [testRest] ===================================
+2020-07-10 21:17:38 INFO  Demotest:110 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'username'
+2020-07-10 21:17:38 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:17:38 INFO  Demotest:94 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:17:43 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:17:43 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:17:44 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:17:49 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:17:49 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:17:49 INFO  Demotest:100 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:17:49 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:17:49 INFO  Demotest:94 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:17:54 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:17:54 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:17:54 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:18:00 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:18:00 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:18:00 INFO  Demotest:100 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:18:00 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:18:00 INFO  Demotest:94 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:18:05 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:18:05 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:18:05 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:18:48 WARN  CustomListener:24 - 'testWeb' method is failed, saving screenshot
+2020-07-10 21:18:49 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:18:49 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:18:49 INFO  Demotest:100 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:18:49 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:18:49 INFO  Demotest:94 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:18:54 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:18:54 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:18:54 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:18:55 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:18:55 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:18:55 INFO  Demotest:100 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:18:55 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:18:55 INFO  Demotest:47 - Destroying the driver
+2020-07-10 21:18:55 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:18:55 INFO  Demotest:89 - Starting the After class of 'Base Test'
+2020-07-10 21:18:55 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:22:14 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:22:15 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:22:15 INFO  Demotest:44 - Starting the Before class of 'Base Test'
+2020-07-10 21:22:15 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:22:15 INFO  Demotest:33 - Start initializing the driver
+2020-07-10 21:22:17 INFO  Demotest:40 - Finish initializing the driver
+2020-07-10 21:22:17 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:22:17 INFO  Demotest:95 -  =============================================== Starting test method [sampleTest] ===================================
+2020-07-10 21:22:23 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:22:23 WARN  CustomListener:24 - 'sampleTest' method is failed, saving screenshot
+2020-07-10 21:22:24 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:22:24 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:22:24 INFO  Demotest:101 - =============================================== Ending test method [sampleTest] ===================================
+2020-07-10 21:22:24 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:22:24 INFO  Demotest:95 -  =============================================== Starting test method [testRest] ===================================
+2020-07-10 21:22:24 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:22:26 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:22:26 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:22:26 INFO  Demotest:101 - =============================================== Ending test method [testRest] ===================================
+2020-07-10 21:22:26 INFO  Demotest:111 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'username'
+2020-07-10 21:22:26 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:22:26 INFO  Demotest:95 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:22:26 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:22:27 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:22:27 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:22:27 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:22:27 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:22:27 INFO  Demotest:101 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:22:27 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:22:27 INFO  Demotest:95 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:22:27 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:22:27 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:22:27 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:22:28 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:22:28 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:22:28 INFO  Demotest:101 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:22:28 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:22:28 INFO  Demotest:95 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:22:33 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:22:33 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:22:33 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:23:14 WARN  CustomListener:24 - 'testWeb' method is failed, saving screenshot
+2020-07-10 21:23:15 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:23:15 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:23:15 INFO  Demotest:101 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:23:15 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:23:15 INFO  Demotest:95 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:23:20 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:23:20 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:23:20 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:23:21 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:23:21 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:23:21 INFO  Demotest:101 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:23:21 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:23:21 INFO  Demotest:47 - Destroying the driver
+2020-07-10 21:23:21 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:23:21 INFO  Demotest:90 - Starting the After class of 'Base Test'
+2020-07-10 21:23:21 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:24:35 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:24:35 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:24:35 INFO  Demotest:44 - Starting the Before class of 'Base Test'
+2020-07-10 21:24:35 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:24:35 INFO  Demotest:33 - Start initializing the driver
+2020-07-10 21:24:37 INFO  Demotest:40 - Finish initializing the driver
+2020-07-10 21:24:37 INFO  Demotest:111 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'username'
+2020-07-10 21:24:37 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:24:37 INFO  Demotest:95 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:24:43 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:24:43 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:24:43 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:24:49 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:24:49 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:24:49 INFO  Demotest:101 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:24:49 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:24:49 INFO  Demotest:95 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:24:54 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:24:54 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:24:54 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:25:00 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:25:00 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:25:00 INFO  Demotest:101 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:25:00 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:25:00 INFO  Demotest:95 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:25:05 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:25:05 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:25:05 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:25:51 WARN  CustomListener:24 - 'testWeb' method is failed, saving screenshot
+2020-07-10 21:25:52 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:25:52 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:25:52 INFO  Demotest:101 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:25:52 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:25:52 INFO  Demotest:95 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:25:57 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:25:57 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:25:57 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:26:03 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:26:03 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:26:03 INFO  Demotest:101 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:26:03 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:26:03 INFO  Demotest:47 - Destroying the driver
+2020-07-10 21:26:03 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:26:03 INFO  Demotest:90 - Starting the After class of 'Base Test'
+2020-07-10 21:26:03 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:28:11 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:28:21 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:28:21 INFO  Demotest:44 - Starting the Before class of 'Base Test'
+2020-07-10 21:28:21 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:28:21 INFO  Demotest:33 - Start initializing the driver
+2020-07-10 21:28:24 INFO  Demotest:40 - Finish initializing the driver
+2020-07-10 21:28:24 INFO  Demotest:111 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'username'
+2020-07-10 21:28:24 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:28:24 INFO  Demotest:95 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:28:29 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:28:29 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:28:29 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:28:35 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:28:41 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:28:41 INFO  Demotest:101 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:28:41 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:28:41 INFO  Demotest:95 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:28:46 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:28:46 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:28:46 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:28:46 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:28:46 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:28:46 INFO  Demotest:101 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:28:46 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:28:46 INFO  Demotest:95 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:28:46 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:28:46 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:28:47 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:29:28 WARN  CustomListener:24 - 'testWeb' method is failed, saving screenshot
+2020-07-10 21:30:25 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:30:25 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:30:25 INFO  Demotest:101 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:30:25 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:30:25 INFO  Demotest:95 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:30:30 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:30:31 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:30:31 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:30:36 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:30:36 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:30:36 INFO  Demotest:101 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:30:36 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:30:36 INFO  Demotest:47 - Destroying the driver
+2020-07-10 21:30:36 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:30:36 INFO  Demotest:90 - Starting the After class of 'Base Test'
+2020-07-10 21:30:36 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:32:58 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:32:59 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:32:59 INFO  Demotest:48 - Starting the Before class of 'Base Test'
+2020-07-10 21:32:59 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:32:59 INFO  Demotest:33 - Start initializing the driver
+2020-07-10 21:33:01 INFO  Demotest:40 - Finish initializing the driver
+2020-07-10 21:33:01 INFO  Demotest:126 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'username'
+2020-07-10 21:33:01 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:33:01 INFO  Demotest:109 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:33:06 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:33:07 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:33:07 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:33:13 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:33:13 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:33:13 INFO  Demotest:116 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:33:13 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:33:13 INFO  Demotest:109 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:33:18 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:33:18 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:33:18 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:33:23 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:33:23 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:33:23 INFO  Demotest:116 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:33:23 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:33:23 INFO  Demotest:109 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:33:28 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:33:28 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:33:28 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:34:14 WARN  CustomListener:24 - 'testWeb' method is failed, saving screenshot
+2020-07-10 21:34:15 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:34:37 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:34:37 INFO  Demotest:116 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:34:37 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:34:37 INFO  Demotest:109 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:34:42 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:34:42 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:34:42 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:34:47 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:34:47 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:34:47 INFO  Demotest:116 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:34:47 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:34:47 INFO  Demotest:47 - Destroying the driver
+2020-07-10 21:34:47 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:34:47 INFO  Demotest:104 - Starting the After class of 'Base Test'
+2020-07-10 21:34:47 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:40:40 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:40:40 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:40:40 INFO  Demotest:48 - Starting the Before class of 'Base Test'
+2020-07-10 21:40:40 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:40:40 INFO  Demotest:33 - Start initializing the driver
+2020-07-10 21:40:42 INFO  Demotest:40 - Finish initializing the driver
+2020-07-10 21:40:42 INFO  Demotest:124 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'username'
+2020-07-10 21:40:42 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:40:42 INFO  Demotest:107 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:40:48 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:40:49 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:40:49 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:40:55 WARN  CustomListener:24 - 'testWeb' method is failed, saving screenshot
+2020-07-10 21:40:56 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:40:56 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:40:56 INFO  Demotest:114 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:40:56 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:40:56 INFO  Demotest:107 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:41:01 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:41:01 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:41:02 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:41:07 WARN  CustomListener:24 - 'testWeb' method is failed, saving screenshot
+2020-07-10 21:41:09 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:41:09 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:41:09 INFO  Demotest:114 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:41:09 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:41:09 INFO  Demotest:107 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:41:14 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:41:14 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:41:14 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:41:50 WARN  CustomListener:24 - 'testWeb' method is failed, saving screenshot
+2020-07-10 21:42:04 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:42:04 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:42:04 INFO  Demotest:48 - Starting the Before class of 'Base Test'
+2020-07-10 21:42:04 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:42:04 INFO  Demotest:33 - Start initializing the driver
+2020-07-10 21:42:06 INFO  Demotest:40 - Finish initializing the driver
+2020-07-10 21:42:06 INFO  Demotest:124 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'username'
+2020-07-10 21:42:06 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:42:06 INFO  Demotest:107 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:42:12 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:42:12 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:42:12 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:42:18 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:42:18 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:42:18 INFO  Demotest:114 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:42:18 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:42:18 INFO  Demotest:107 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:42:23 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:42:23 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:42:23 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:42:28 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:42:28 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:42:28 INFO  Demotest:114 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:42:28 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:42:28 INFO  Demotest:107 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:42:33 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:42:34 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:42:34 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:43:19 WARN  CustomListener:24 - 'testWeb' method is failed, saving screenshot
+2020-07-10 21:43:21 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:43:21 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:43:21 INFO  Demotest:114 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:43:21 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:43:21 INFO  Demotest:107 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:43:26 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:43:26 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:43:26 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:43:32 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:43:32 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:43:32 INFO  Demotest:114 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:43:32 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:43:32 INFO  Demotest:47 - Destroying the driver
+2020-07-10 21:43:32 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:43:32 INFO  Demotest:102 - Starting the After class of 'Base Test'
+2020-07-10 21:43:32 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:51:27 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:51:27 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:51:27 INFO  Demotest:48 - Starting the Before class of 'Base Test'
+2020-07-10 21:51:27 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:51:27 INFO  Demotest:33 - Start initializing the driver
+2020-07-10 21:51:30 INFO  Demotest:40 - Finish initializing the driver
+2020-07-10 21:51:30 INFO  Demotest:115 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'username'
+2020-07-10 21:51:31 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:51:31 INFO  Demotest:98 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:51:36 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:51:36 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:51:36 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:51:40 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:51:40 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:51:40 INFO  Demotest:105 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:51:40 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:51:40 INFO  Demotest:98 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:51:40 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:51:40 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:51:40 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:51:40 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:51:40 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:51:40 INFO  Demotest:105 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:51:40 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:51:40 INFO  Demotest:98 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:51:40 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:51:40 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:51:40 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:52:21 WARN  CustomListener:24 - 'testWeb' method is failed, saving screenshot
+2020-07-10 21:52:22 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:52:22 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:52:22 INFO  Demotest:105 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:52:22 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:52:22 INFO  Demotest:98 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 21:52:27 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:52:27 INFO  HomePage:38 - Fill Github username
+2020-07-10 21:52:27 INFO  HomePage:42 - Click on Go button
+2020-07-10 21:52:33 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:52:33 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:52:33 INFO  Demotest:105 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 21:52:33 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:52:33 INFO  Demotest:47 - Destroying the driver
+2020-07-10 21:52:33 INFO  CustomListener:13 - Listener is activated
+2020-07-10 21:52:33 INFO  Demotest:93 - Starting the After class of 'Base Test'
+2020-07-10 21:52:33 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:08:41 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:08:41 WARN  CustomListener:24 - 'baseBeforeTest' method is failed, saving screenshot
+2020-07-10 22:08:41 WARN  Demotest:63 - WebDriver is null, unable to save screenshot
+2020-07-10 22:08:46 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:08:46 INFO  Demotest:51 - Starting the Before class of 'Base Test'
+2020-07-10 22:08:46 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:08:46 INFO  Demotest:33 - Start initializing the driver
+2020-07-10 22:08:49 INFO  Demotest:40 - Finish initializing the driver
+2020-07-10 22:08:49 INFO  Demotest:132 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'username'
+2020-07-10 22:08:49 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:08:49 INFO  Demotest:115 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 22:08:49 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:08:49 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:08:49 INFO  Demotest:122 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 22:08:49 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:08:49 INFO  Demotest:115 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 22:08:49 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:08:49 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:08:49 INFO  Demotest:122 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 22:08:49 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:08:49 INFO  Demotest:115 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 22:08:49 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:08:49 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:08:49 INFO  Demotest:122 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 22:08:49 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:08:49 INFO  Demotest:115 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 22:08:49 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:08:49 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:08:49 INFO  Demotest:122 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 22:08:49 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:08:49 INFO  Demotest:47 - Destroying the driver
+2020-07-10 22:08:49 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:08:49 INFO  Demotest:110 - Starting the After class of 'Base Test'
+2020-07-10 22:09:18 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:09:18 WARN  CustomListener:24 - 'baseBeforeTest' method is failed, saving screenshot
+2020-07-10 22:09:18 WARN  Demotest:63 - WebDriver is null, unable to save screenshot
+2020-07-10 22:09:23 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:09:23 INFO  Demotest:51 - Starting the Before class of 'Base Test'
+2020-07-10 22:09:23 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:09:23 INFO  Demotest:33 - Start initializing the driver
+2020-07-10 22:09:25 INFO  Demotest:40 - Finish initializing the driver
+2020-07-10 22:09:25 INFO  Demotest:132 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'username'
+2020-07-10 22:09:26 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:09:26 INFO  Demotest:115 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 22:09:26 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:09:26 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:09:26 INFO  Demotest:122 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 22:09:26 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:09:26 INFO  Demotest:115 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 22:09:26 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:09:26 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:09:26 INFO  Demotest:122 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 22:09:26 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:09:26 INFO  Demotest:115 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 22:09:26 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:09:26 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:09:26 INFO  Demotest:122 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 22:09:26 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:09:26 INFO  Demotest:115 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 22:09:26 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:09:26 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:09:26 INFO  Demotest:122 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 22:09:26 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:09:26 INFO  Demotest:47 - Destroying the driver
+2020-07-10 22:09:26 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:09:26 INFO  Demotest:110 - Starting the After class of 'Base Test'
+2020-07-10 22:11:40 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:11:40 WARN  CustomListener:24 - 'baseBeforeTest' method is failed, saving screenshot
+2020-07-10 22:11:40 WARN  Demotest:63 - WebDriver is null, unable to save screenshot
+2020-07-10 22:11:45 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:11:45 INFO  Demotest:51 - Starting the Before class of 'Base Test'
+2020-07-10 22:11:45 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:11:45 INFO  Demotest:33 - Start initializing the driver
+2020-07-10 22:11:47 INFO  Demotest:40 - Finish initializing the driver
+2020-07-10 22:11:47 INFO  Demotest:132 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'username'
+2020-07-10 22:16:12 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:16:12 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:16:12 INFO  Demotest:51 - Starting the Before class of 'Base Test'
+2020-07-10 22:16:12 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:16:12 INFO  Demotest:33 - Start initializing the driver
+2020-07-10 22:16:15 INFO  Demotest:40 - Finish initializing the driver
+2020-07-10 22:16:15 INFO  Demotest:121 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'username'
+2020-07-10 22:16:15 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:16:15 INFO  Demotest:104 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 22:16:20 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:16:20 INFO  HomePage:38 - Fill Github username
+2020-07-10 22:16:20 INFO  HomePage:42 - Click on Go button
+2020-07-10 22:16:21 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:16:21 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:16:21 INFO  Demotest:111 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 22:16:21 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:16:21 INFO  Demotest:104 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 22:16:21 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:16:22 INFO  HomePage:38 - Fill Github username
+2020-07-10 22:16:22 INFO  HomePage:42 - Click on Go button
+2020-07-10 22:16:22 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:16:22 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:16:22 INFO  Demotest:111 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 22:16:22 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:16:22 INFO  Demotest:104 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 22:16:22 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:16:22 INFO  HomePage:38 - Fill Github username
+2020-07-10 22:16:22 INFO  HomePage:42 - Click on Go button
+2020-07-10 22:17:03 WARN  CustomListener:24 - 'testWeb' method is failed, saving screenshot
+2020-07-10 22:17:04 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:17:04 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:17:04 INFO  Demotest:111 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 22:17:04 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:17:04 INFO  Demotest:104 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 22:17:09 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:17:09 INFO  HomePage:38 - Fill Github username
+2020-07-10 22:17:09 INFO  HomePage:42 - Click on Go button
+2020-07-10 22:17:15 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:17:15 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:17:15 INFO  Demotest:111 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 22:17:15 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:17:15 INFO  Demotest:47 - Destroying the driver
+2020-07-10 22:17:15 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:17:15 INFO  Demotest:99 - Starting the After class of 'Base Test'
+2020-07-10 22:17:15 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:18:16 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:18:16 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:18:16 INFO  Demotest:43 - Starting the Before class of 'Base Test'
+2020-07-10 22:18:16 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:18:16 INFO  Demotest:33 - Start initializing the driver
+2020-07-10 22:18:19 INFO  Demotest:40 - Finish initializing the driver
+2020-07-10 22:18:19 INFO  Demotest:113 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'username'
+2020-07-10 22:18:19 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:18:19 INFO  Demotest:96 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 22:18:24 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:18:25 INFO  HomePage:38 - Fill Github username
+2020-07-10 22:18:25 INFO  HomePage:42 - Click on Go button
+2020-07-10 22:18:31 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:18:31 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:18:31 INFO  Demotest:103 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 22:18:31 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:18:31 INFO  Demotest:96 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 22:18:36 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:18:36 INFO  HomePage:38 - Fill Github username
+2020-07-10 22:18:37 INFO  HomePage:42 - Click on Go button
+2020-07-10 22:18:42 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:18:42 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:18:42 INFO  Demotest:103 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 22:18:42 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:18:42 INFO  Demotest:96 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 22:18:47 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:18:47 INFO  HomePage:38 - Fill Github username
+2020-07-10 22:18:47 INFO  HomePage:42 - Click on Go button
+2020-07-10 22:18:48 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:18:48 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:18:48 INFO  Demotest:43 - Starting the Before class of 'Base Test'
+2020-07-10 22:18:48 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:18:48 INFO  Demotest:33 - Start initializing the driver
+2020-07-10 22:18:50 INFO  Demotest:40 - Finish initializing the driver
+2020-07-10 22:18:51 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:18:51 INFO  Demotest:96 -  =============================================== Starting test method [sampleTest] ===================================
+2020-07-10 22:18:56 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:18:56 WARN  CustomListener:24 - 'sampleTest' method is failed, saving screenshot
+2020-07-10 22:18:57 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:18:57 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:18:57 INFO  Demotest:103 - =============================================== Ending test method [sampleTest] ===================================
+2020-07-10 22:18:57 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:18:57 INFO  Demotest:96 -  =============================================== Starting test method [testRest] ===================================
+2020-07-10 22:18:57 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:19:00 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:19:00 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:19:00 INFO  Demotest:103 - =============================================== Ending test method [testRest] ===================================
+2020-07-10 22:19:00 INFO  Demotest:113 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'username'
+2020-07-10 22:19:01 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:19:01 INFO  Demotest:96 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 22:19:01 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:19:01 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:19:01 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:19:01 INFO  Demotest:103 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 22:19:01 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:19:01 INFO  Demotest:96 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 22:19:01 INFO  HomePage:38 - Fill Github username
+2020-07-10 22:19:01 INFO  HomePage:42 - Click on Go button
+2020-07-10 22:19:06 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:19:06 INFO  HomePage:38 - Fill Github username
+2020-07-10 22:19:06 INFO  HomePage:42 - Click on Go button
+2020-07-10 22:19:07 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:19:07 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:19:07 INFO  Demotest:103 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 22:19:07 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:19:07 INFO  Demotest:96 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 22:19:12 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:19:12 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:19:12 INFO  Demotest:103 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 22:19:12 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:19:12 INFO  Demotest:47 - Destroying the driver
+2020-07-10 22:19:12 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:19:12 INFO  Demotest:91 - Starting the After class of 'Base Test'
+2020-07-10 22:19:12 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:19:12 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:19:12 INFO  HomePage:38 - Fill Github username
+2020-07-10 22:19:12 INFO  HomePage:42 - Click on Go button
+2020-07-10 22:19:18 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:19:18 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:19:18 INFO  Demotest:103 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 22:19:18 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:19:18 INFO  Demotest:96 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 22:19:23 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:19:23 INFO  HomePage:38 - Fill Github username
+2020-07-10 22:19:23 INFO  HomePage:42 - Click on Go button
+2020-07-10 22:19:34 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:19:34 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:19:34 INFO  Demotest:103 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 22:19:34 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:19:34 INFO  Demotest:96 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 22:19:39 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:19:39 INFO  HomePage:38 - Fill Github username
+2020-07-10 22:19:39 INFO  HomePage:42 - Click on Go button
+2020-07-10 22:19:41 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:19:41 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:19:41 INFO  Demotest:103 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 22:19:41 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:19:41 INFO  Demotest:47 - Destroying the driver
+2020-07-10 22:19:41 INFO  CustomListener:13 - Listener is activated
+2020-07-10 22:19:41 INFO  Demotest:91 - Starting the After class of 'Base Test'
+2020-07-10 22:19:41 INFO  CustomListener:13 - Listener is activated

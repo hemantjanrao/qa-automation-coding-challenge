@@ -1,6 +1,8 @@
 package org.projecta.framework.base.test;
 
 
+import com.aventstack.extentreports.MediaEntityBuilder;
+import com.aventstack.extentreports.Status;
 import io.qameta.allure.Attachment;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.OutputType;
@@ -62,6 +64,7 @@ public class BaseWebTest extends BaseTest {
             return null;
         }
         try {
+
             TakesScreenshot shot = (TakesScreenshot) driver;
             File file = shot.getScreenshotAs(OutputType.FILE);
             byte[] scrnShot = shot.getScreenshotAs(OutputType.BYTES);
@@ -69,6 +72,10 @@ public class BaseWebTest extends BaseTest {
             Path path = Paths.get("target/screenshot", testName, fileName);
             Files.createDirectories(path.getParent());
             Files.copy(file.toPath(), path, StandardCopyOption.REPLACE_EXISTING);
+
+            test.log(Status.FAIL,test.addScreenCaptureFromBase64String(path.toAbsolutePath().toString())+ "Test Failed");
+
+
             return scrnShot;
         } catch (IOException e) {
             log.error("Screenshot saving failed", e);

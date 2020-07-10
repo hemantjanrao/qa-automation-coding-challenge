@@ -36,17 +36,17 @@ public class HomePage extends BasePage<HomePage> {
     @Step("Search user:  [{0}] .")
     public void findRepositories(final String user) {
         log.info("Fill Github username");
-        WebUtils.waitForElementToBeDisplayed(driver, userName, 60);
+        WebUtils.waitForElementToBeDisplayed(driver, userName, 20);
         userName.sendKeys(user);
 
         log.info("Click on Go button");
-        WebUtils.clickWithWaitForElement(driver, btnGo, 60);
+        WebUtils.clickWithWaitForElement(driver, btnGo, 20);
     }
 
     public boolean isUserRepositoriesPresent(boolean isPresent) {
 
         if (isPresent)
-            WebUtils.waitForElementToBeDisplayed(driver, tblUserRepository, 60);
+            WebUtils.waitForElementToBeDisplayed(driver, tblUserRepository, 20);
 
         return WebUtils.isElementPresent(tblUserRepository);
     }
