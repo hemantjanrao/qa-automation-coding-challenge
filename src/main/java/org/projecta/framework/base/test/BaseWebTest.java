@@ -53,10 +53,10 @@ public class BaseWebTest extends BaseTest {
      * Method to take screen shot, save as file. Also attach it to allure report
      *
      * @param testName name of the test running
-     * @throws IOException
+     * @throws IOException Exception
      */
     @Attachment(value = "Web Page Screenshot", type = "image/png")
-    public byte[] takeScreenShot(String testName) {
+    public byte[] takeScreenShot(final String testName) {
         if (Objects.isNull(driver)) {
             log.warn("WebDriver is null, unable to save screenshot");
             return null;
