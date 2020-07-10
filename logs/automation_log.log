@@ -1,0 +1,16 @@
+2020-07-10 18:09:37 INFO  CustomListener:12 - Listener is activated
+2020-07-10 18:09:37 INFO  Demotest:19 - Starting the Before class of 'Base Test'
+2020-07-10 18:09:37 INFO  CustomListener:12 - Listener is activated
+2020-07-10 18:09:37 INFO  Demotest:17 - Start initializing the driver
+2020-07-10 18:09:40 INFO  Demotest:24 - Finish initializing the driver
+2020-07-10 18:09:40 INFO  CustomListener:12 - Listener is activated
+2020-07-10 18:09:40 INFO  Demotest:29 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-10 18:09:50 INFO  CustomListener:12 - Listener is activated
+2020-07-10 18:09:50 INFO  HomePage:36 - Fill Github username
+2020-07-10 18:09:50 INFO  HomePage:39 - Click on Go button
+2020-07-10 18:09:50 INFO  CustomListener:12 - Listener is activated
+2020-07-10 18:09:50 INFO  Demotest:34 - =============================================== Ending test method [testWeb] ===================================
+2020-07-10 18:09:50 INFO  CustomListener:12 - Listener is activated
+2020-07-10 18:09:50 INFO  Demotest:31 - Destroying the driver
+2020-07-10 18:09:50 INFO  CustomListener:12 - Listener is activated
+2020-07-10 18:09:50 INFO  Demotest:24 - Starting the After class of 'Base Test'
