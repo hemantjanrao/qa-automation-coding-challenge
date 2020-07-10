@@ -11,6 +11,12 @@ import java.util.List;
 
 public class TestHelper {
 
+    /**
+     * Method to de-serialize the Rest response object to specific POJO object
+     *
+     * @param res Rest response object
+     * @return List<RepositoryResponse>
+     */
     public static List<RepositoryResponse> deserializeJson(Response res) {
         Gson gson = new GsonBuilder().excludeFieldsWithoutExposeAnnotation().setPrettyPrinting().create();
         JSONArray obj = (JSONArray) JSONValue.parse(res.body().asString());
