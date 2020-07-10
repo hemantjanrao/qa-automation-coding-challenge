@@ -10,7 +10,7 @@
 
     <properties>
         <selenium.version>3.141.59</selenium.version>
-        <testng.version>7.1.0</testng.version>
+        <testng.version>6.14.3</testng.version>
         <webdrivermanager.version>3.4.0</webdrivermanager.version>
         <log4j.version>1.2.17</log4j.version>
         <allure.version>2.13.1</allure.version>
@@ -53,6 +53,31 @@
         </dependency>
 
     </dependencies>
+
+    <build>
+        <finalName>all-tests</finalName>
+        <testResources>
+            <testResource>
+                <directory>src/test/java</directory>
+                <excludes>
+                    <exclude>**/*.java</exclude>
+                </excludes>
+            </testResource>
+            <testResource>
+                <directory>src/test/resources</directory>
+            </testResource>
+        </testResources>
+        <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <configuration>
+                <source>1.8</source>
+                <target>1.8</target>
+            </configuration>
+        </plugin>
+        </plugins>
+    </build>
 
 
 </project>
