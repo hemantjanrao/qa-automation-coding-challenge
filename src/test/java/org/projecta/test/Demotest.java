@@ -2,8 +2,12 @@ package org.projecta.test;
 
 import io.restassured.response.Response;
 import org.projecta.framework.base.test.BaseWebTest;
+import org.projecta.framework.restservice.RepositoryResponse;
 import org.projecta.framework.restservice.RestService;
+import org.projecta.framework.restservice.TestHelper;
 import org.testng.annotations.Test;
+
+import java.util.List;
 
 public class Demotest extends BaseWebTest {
 
@@ -14,8 +18,10 @@ public class Demotest extends BaseWebTest {
 
     @Test
     public void testRest(){
-        Response hemantjanrao = RestService.getRepositoryList("hemantjanrao");
+        Response response = RestService.getRepositoryList("hemantjanrao");
 
-        System.out.println(hemantjanrao.);
+        List<RepositoryResponse> repositoryResponses = TestHelper.deserializeJson(response);
+
+        System.out.println(repositoryResponses.size());
     }
 }

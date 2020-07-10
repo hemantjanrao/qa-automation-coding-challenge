@@ -7,7 +7,13 @@ import org.projecta.framework.util.PropertyUtils;
 
 public class RestService {
 
-    public static Response getRepositoryList(final String userName){
+    /**
+     * Method to get the list of public github repositories of the given username
+     *
+     * @param userName Github User Name
+     * @return Rest response
+     */
+    public static Response getRepositoryList(final String userName) {
         return RestAssured
                 .given()
                 .baseUri(PropertyUtils.get(Environment.GITHUB_URL))
