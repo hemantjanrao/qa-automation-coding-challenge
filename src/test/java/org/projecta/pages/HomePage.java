@@ -10,7 +10,7 @@ public class HomePage extends BasePage<HomePage> {
 
     private Logger log = Logger.getLogger(getClass());
 
-    private String homePageUrl = "";
+    private String homePageUrl = "/";
 
     public HomePage(WebDriver driver) {
         super(driver);
@@ -24,7 +24,7 @@ public class HomePage extends BasePage<HomePage> {
     @FindBy(id = "username")
     WebElement userName;
 
-    @FindBy(xpath = "//button[text()='Go']")
+    @FindBy(xpath = "//button[@type='submit' and text()='Go']")
     WebElement btnGo;
 
     /**
@@ -32,7 +32,7 @@ public class HomePage extends BasePage<HomePage> {
      *
      * @param user GitHub username repositories to fetch
      */
-    public void findRepositories(String user){
+    public void findRepositories(String user) {
         log.info("Fill Github username");
         userName.sendKeys(user);
 
