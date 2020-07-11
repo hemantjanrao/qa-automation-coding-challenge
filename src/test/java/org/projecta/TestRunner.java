@@ -9,20 +9,23 @@ import org.projecta.framework.webdriver.DriverManager;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 
-
-@CucumberOptions(
-        plugin = {"pretty", "html:target/cucumber.html",
-                "json:target/cucumber.json",
-                "junit:target/cucumber.xml"},
-        glue = {"org/projecta/stepdefs"},
-        features = "src/test/resources/features",
-        monochrome = true
+@CucumberOptions(plugin = {"org.projecta.cucumberHooks.customReportListener"},
+        monochrome = true,
+        glue = {"org/projecta/stepdefs", "org/projecta/cucumberHooks"},
+        features = {"src/test/resources/features"}
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 
     protected static WebDriver driver;
     protected Logger log = Logger.getLogger(getClass());
+
+    @DataProvider(parallel = true)
+    @Override
+    public Object[][] scenarios() {
+        return super.scenarios();
+    }
 
     @BeforeMethod
     public void setUp() {

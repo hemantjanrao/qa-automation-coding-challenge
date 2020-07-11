@@ -4,6 +4,7 @@ import io.qameta.allure.Step;
 import org.apache.http.HttpStatus;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -60,16 +61,25 @@ public class HomePage extends BasePage<HomePage> {
     @FindBy(xpath = "//p[@class='message-failure']/strong")
     WebElement lblFailureMsg;
 
+    @FindBy(xpath = "//p[@class='message-success']/strong")
+    WebElement lblSuccessMsg;
+
     @Step("Search user:  [{0}] .")
-    public void findRepositories(final String user) {
+    public void enterUserNameToBeSearched(final String user) {
         log.info("Fill Github username");
         WebUtils.waitForElementToBeDisplayed(driver, userName, 20);
         userName.sendKeys(user);
+    }
 
+    public void clickOnButtonGo(){
         log.info("Click on Go button");
         WebUtils.clickWithWaitForElement(driver, btnGo, 20);
     }
 
+    public void hitEnter(){
+        log.info("Click on Go button");
+        userName.sendKeys(Keys.ENTER);
+    }
 
     /**
      * @param headerText Expected header text
@@ -187,5 +197,11 @@ public class HomePage extends BasePage<HomePage> {
         WebUtils.waitForElementToBeDisplayed(driver, lblFailureMsg, 20);
 
         return WebUtils.getTextValue(lblFailureMsg);
+    }
+
+    public String getSuccessMessage(){
+        WebUtils.waitForElementToBeDisplayed(driver, lblSuccessMsg, 20);
+
+        return WebUtils.getTextValue(lblSuccessMsg);
     }
 }

@@ -30,7 +30,9 @@ public class GithubRepoTest extends BaseWebTest {
 
         Assert.assertTrue(homePage.isHeaderPresentWithText("Get Github Repos"));
 
-        homePage.findRepositories(userData);
+        homePage.enterUserNameToBeSearched(userData);
+        homePage.clickOnButtonGo();
+        Assert.assertTrue(homePage.getSuccessMessage().equalsIgnoreCase("!Success"));
 
         if (!status.trim().equals("Y")) {
             Assert.assertFalse(homePage.isUserRepositoriesPresent(false));
@@ -72,7 +74,8 @@ public class GithubRepoTest extends BaseWebTest {
 
         Assert.assertTrue(homePage.isHeaderPresentWithText("Get Github Repos"));
 
-        homePage.findRepositories(userData);
+        homePage.enterUserNameToBeSearched(userData);
+        homePage.hitEnter();
 
         Assert.assertTrue(homePage.getFailureMessage().trim().equalsIgnoreCase(errorMessage.trim()));
     }
