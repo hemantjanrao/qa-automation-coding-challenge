@@ -3710,3 +3710,147 @@
 2020-07-11 17:51:15 INFO  CustomListener:13 - Listener is activated
 2020-07-11 17:51:15 INFO  GithubRepoTest:91 - Starting the After class of 'Base Test'
 2020-07-11 17:51:15 INFO  CustomListener:13 - Listener is activated
+2020-07-11 18:01:43 INFO  TestRunner:32 - Start initializing the driver
+2020-07-11 18:01:43 INFO  TestRunner:32 - Start initializing the driver
+2020-07-11 18:01:46 INFO  TestRunner:38 - Finish initializing the driver
+2020-07-11 18:01:46 INFO  TestRunner:38 - Finish initializing the driver
+2020-07-11 18:01:52 INFO  homePageStepDefs:26 - User navigate to the home page
+2020-07-11 18:01:52 INFO  homePageStepDefs:26 - User navigate to the home page
+2020-07-11 18:01:52 INFO  homePageStepDefs:32 - Page header with text: Get Github Repos present
+2020-07-11 18:01:52 INFO  homePageStepDefs:32 - Page header with text: Get Github Repos present
+2020-07-11 18:01:52 INFO  HomePage:69 - Fill Github username
+2020-07-11 18:01:52 INFO  HomePage:69 - Fill Github username
+2020-07-11 18:01:52 INFO  HomePage:75 - Click on Go button
+2020-07-11 18:01:52 INFO  HomePage:75 - Click on Go button
+2020-07-11 18:01:52 INFO  TestRunner:44 - Destroying the driver
+2020-07-11 18:01:52 INFO  TestRunner:44 - Destroying the driver
+2020-07-11 18:02:09 INFO  TestRunner:32 - Start initializing the driver
+2020-07-11 18:02:09 INFO  TestRunner:32 - Start initializing the driver
+2020-07-11 18:02:11 INFO  TestRunner:38 - Finish initializing the driver
+2020-07-11 18:02:11 INFO  TestRunner:38 - Finish initializing the driver
+2020-07-11 18:02:16 INFO  homePageStepDefs:26 - User navigate to the home page
+2020-07-11 18:02:16 INFO  homePageStepDefs:26 - User navigate to the home page
+2020-07-11 18:02:17 INFO  homePageStepDefs:32 - Page header with text: Get Github Repos present
+2020-07-11 18:02:17 INFO  homePageStepDefs:32 - Page header with text: Get Github Repos present
+2020-07-11 18:02:17 INFO  HomePage:69 - Fill Github username
+2020-07-11 18:02:17 INFO  HomePage:69 - Fill Github username
+2020-07-11 18:02:17 INFO  HomePage:75 - Click on Go button
+2020-07-11 18:02:17 INFO  HomePage:75 - Click on Go button
+2020-07-11 18:02:17 INFO  TestRunner:44 - Destroying the driver
+2020-07-11 18:02:17 INFO  TestRunner:44 - Destroying the driver
+2020-07-11 18:17:11 INFO  TestRunner:32 - Start initializing the driver
+2020-07-11 18:17:13 INFO  TestRunner:38 - Finish initializing the driver
+2020-07-11 18:17:19 INFO  homePageStepDefs:30 - User navigate to the home page
+2020-07-11 18:17:19 INFO  homePageStepDefs:36 - Page header with text: Get Github Repos present
+2020-07-11 18:17:19 INFO  HomePage:69 - Fill Github username
+2020-07-11 18:17:19 INFO  HomePage:75 - Click on Go button
+2020-07-11 18:17:20 INFO  TestRunner:44 - Destroying the driver
+2020-07-11 18:18:05 INFO  TestRunner:32 - Start initializing the driver
+2020-07-11 18:18:07 INFO  TestRunner:38 - Finish initializing the driver
+2020-07-11 18:18:13 INFO  homePageStepDefs:30 - User navigate to the home page
+2020-07-11 18:18:13 INFO  homePageStepDefs:36 - Page header with text: Get Github Repos present
+2020-07-11 18:18:13 INFO  HomePage:69 - Fill Github username
+2020-07-11 18:18:13 INFO  HomePage:75 - Click on Go button
+2020-07-11 18:18:14 INFO  TestRunner:44 - Destroying the driver
+2020-07-11 18:18:50 INFO  TestRunner:32 - Start initializing the driver
+2020-07-11 18:18:52 INFO  TestRunner:38 - Finish initializing the driver
+2020-07-11 18:19:06 INFO  homePageStepDefs:30 - User navigate to the home page
+2020-07-11 18:19:06 INFO  homePageStepDefs:36 - Page header with text: Get Github Repos present
+2020-07-11 18:19:06 INFO  HomePage:69 - Fill Github username
+2020-07-11 18:19:06 INFO  HomePage:75 - Click on Go button
+2020-07-11 18:19:59 INFO  TestRunner:32 - Start initializing the driver
+2020-07-11 18:20:00 INFO  TestRunner:38 - Finish initializing the driver
+2020-07-11 18:20:06 INFO  homePageStepDefs:30 - User navigate to the home page
+2020-07-11 18:20:06 INFO  homePageStepDefs:36 - Page header with text: Get Github Repos present
+2020-07-11 18:20:06 INFO  HomePage:69 - Fill Github username
+2020-07-11 18:20:06 INFO  HomePage:75 - Click on Go button
+2020-07-11 18:20:09 INFO  TestRunner:44 - Destroying the driver
+2020-07-11 18:20:27 INFO  CustomListener:13 - Listener is activated
+2020-07-11 18:20:28 INFO  CustomListener:13 - Listener is activated
+2020-07-11 18:20:28 INFO  GithubRepoTest:43 - Starting the Before class of 'Base Test'
+2020-07-11 18:20:28 INFO  CustomListener:13 - Listener is activated
+2020-07-11 18:20:28 INFO  GithubRepoTest:35 - Start initializing the driver
+2020-07-11 18:20:29 INFO  GithubRepoTest:42 - Finish initializing the driver
+2020-07-11 18:20:29 INFO  GithubRepoTest:113 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'error'
+2020-07-11 18:20:29 INFO  CustomListener:13 - Listener is activated
+2020-07-11 18:20:29 INFO  GithubRepoTest:96 -  =============================================== Starting test method [testErrorMessages] ===================================
+2020-07-11 18:20:35 INFO  CustomListener:13 - Listener is activated
+2020-07-11 18:20:35 INFO  HomePage:69 - Fill Github username
+2020-07-11 18:20:35 INFO  HomePage:80 - Click on Go button
+2020-07-11 18:20:35 INFO  CustomListener:13 - Listener is activated
+2020-07-11 18:20:35 INFO  CustomListener:13 - Listener is activated
+2020-07-11 18:20:35 INFO  GithubRepoTest:103 - =============================================== Ending test method [testErrorMessages] ===================================
+2020-07-11 18:20:35 INFO  CustomListener:13 - Listener is activated
+2020-07-11 18:20:35 INFO  GithubRepoTest:96 -  =============================================== Starting test method [testErrorMessages] ===================================
+2020-07-11 18:20:35 INFO  CustomListener:13 - Listener is activated
+2020-07-11 18:20:36 INFO  HomePage:69 - Fill Github username
+2020-07-11 18:20:36 INFO  HomePage:80 - Click on Go button
+2020-07-11 18:20:36 INFO  CustomListener:13 - Listener is activated
+2020-07-11 18:20:36 INFO  CustomListener:13 - Listener is activated
+2020-07-11 18:20:36 INFO  GithubRepoTest:103 - =============================================== Ending test method [testErrorMessages] ===================================
+2020-07-11 18:20:36 INFO  GithubRepoTest:113 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'username'
+2020-07-11 18:20:36 INFO  CustomListener:13 - Listener is activated
+2020-07-11 18:20:36 INFO  GithubRepoTest:96 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-11 18:20:36 INFO  CustomListener:13 - Listener is activated
+2020-07-11 18:20:36 INFO  HomePage:69 - Fill Github username
+2020-07-11 18:20:36 INFO  HomePage:75 - Click on Go button
+2020-07-11 18:20:40 INFO  CustomListener:13 - Listener is activated
+2020-07-11 18:20:40 INFO  CustomListener:13 - Listener is activated
+2020-07-11 18:20:40 INFO  GithubRepoTest:103 - =============================================== Ending test method [testWeb] ===================================
+2020-07-11 18:20:40 INFO  CustomListener:13 - Listener is activated
+2020-07-11 18:20:40 INFO  GithubRepoTest:96 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-11 18:20:45 INFO  CustomListener:13 - Listener is activated
+2020-07-11 18:20:45 INFO  HomePage:69 - Fill Github username
+2020-07-11 18:20:45 INFO  HomePage:75 - Click on Go button
+2020-07-11 18:20:47 INFO  CustomListener:13 - Listener is activated
+2020-07-11 18:20:47 INFO  CustomListener:13 - Listener is activated
+2020-07-11 18:20:47 INFO  GithubRepoTest:103 - =============================================== Ending test method [testWeb] ===================================
+2020-07-11 18:20:47 INFO  CustomListener:13 - Listener is activated
+2020-07-11 18:20:47 INFO  GithubRepoTest:96 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-11 18:20:47 INFO  CustomListener:13 - Listener is activated
+2020-07-11 18:20:47 INFO  HomePage:69 - Fill Github username
+2020-07-11 18:20:47 INFO  HomePage:75 - Click on Go button
+2020-07-11 18:20:57 INFO  CustomListener:13 - Listener is activated
+2020-07-11 18:20:57 INFO  CustomListener:13 - Listener is activated
+2020-07-11 18:20:57 INFO  GithubRepoTest:103 - =============================================== Ending test method [testWeb] ===================================
+2020-07-11 18:20:57 INFO  CustomListener:13 - Listener is activated
+2020-07-11 18:20:57 INFO  GithubRepoTest:96 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-11 18:21:03 INFO  CustomListener:13 - Listener is activated
+2020-07-11 18:21:03 INFO  HomePage:69 - Fill Github username
+2020-07-11 18:21:03 INFO  HomePage:75 - Click on Go button
+2020-07-11 18:21:15 INFO  CustomListener:13 - Listener is activated
+2020-07-11 18:21:15 INFO  CustomListener:13 - Listener is activated
+2020-07-11 18:21:15 INFO  GithubRepoTest:103 - =============================================== Ending test method [testWeb] ===================================
+2020-07-11 18:21:15 INFO  CustomListener:13 - Listener is activated
+2020-07-11 18:21:15 INFO  GithubRepoTest:49 - Destroying the driver
+2020-07-11 18:21:15 INFO  CustomListener:13 - Listener is activated
+2020-07-11 18:21:15 INFO  GithubRepoTest:91 - Starting the After class of 'Base Test'
+2020-07-11 18:21:15 INFO  CustomListener:13 - Listener is activated
+2020-07-11 18:27:09 INFO  TestRunner:32 - Start initializing the driver
+2020-07-11 18:27:11 INFO  TestRunner:38 - Finish initializing the driver
+2020-07-11 18:27:16 INFO  homePageStepDefs:33 - User navigate to the home page
+2020-07-11 18:27:16 INFO  homePageStepDefs:39 - Page header with text: Get Github Repos present
+2020-07-11 18:27:16 INFO  HomePage:69 - Fill Github username
+2020-07-11 18:27:17 INFO  HomePage:75 - Click on Go button
+2020-07-11 18:27:21 INFO  TestRunner:44 - Destroying the driver
+2020-07-11 18:34:41 INFO  TestRunner:32 - Start initializing the driver
+2020-07-11 18:34:41 INFO  TestRunner:32 - Start initializing the driver
+2020-07-11 18:34:44 INFO  TestRunner:38 - Finish initializing the driver
+2020-07-11 18:34:44 INFO  TestRunner:38 - Finish initializing the driver
+2020-07-11 18:34:50 INFO  homePageStepDefs:33 - User navigate to the home page
+2020-07-11 18:34:50 INFO  homePageStepDefs:33 - User navigate to the home page
+2020-07-11 18:34:50 INFO  homePageStepDefs:39 - Page header with text: Get Github Repos present
+2020-07-11 18:34:50 INFO  homePageStepDefs:39 - Page header with text: Get Github Repos present
+2020-07-11 18:34:50 INFO  HomePage:69 - Fill Github username
+2020-07-11 18:34:50 INFO  HomePage:69 - Fill Github username
+2020-07-11 18:34:50 INFO  HomePage:80 - Click on Go button
+2020-07-11 18:34:50 INFO  HomePage:80 - Click on Go button
+2020-07-11 18:34:50 INFO  TestRunner:44 - Destroying the driver
+2020-07-11 18:34:50 INFO  TestRunner:44 - Destroying the driver
+2020-07-11 18:35:03 INFO  TestRunner:32 - Start initializing the driver
+2020-07-11 18:35:05 INFO  TestRunner:38 - Finish initializing the driver
+2020-07-11 18:35:10 INFO  homePageStepDefs:33 - User navigate to the home page
+2020-07-11 18:35:10 INFO  homePageStepDefs:39 - Page header with text: Get Github Repos present
+2020-07-11 18:35:10 INFO  HomePage:69 - Fill Github username
+2020-07-11 18:35:11 INFO  HomePage:80 - Click on Go button
+2020-07-11 18:35:11 INFO  TestRunner:44 - Destroying the driver

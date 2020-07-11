@@ -32,7 +32,7 @@ public class GithubRepoTest extends BaseWebTest {
 
         homePage.enterUserNameToBeSearched(userData);
         homePage.clickOnButtonGo();
-        Assert.assertTrue(homePage.getSuccessMessage().equalsIgnoreCase("!Success"));
+        Assert.assertTrue(homePage.getSuccessMessage().equalsIgnoreCase("Success!"));
 
         if (!status.trim().equals("Y")) {
             Assert.assertFalse(homePage.isUserRepositoriesPresent(false));
@@ -57,7 +57,7 @@ public class GithubRepoTest extends BaseWebTest {
             Assert.assertTrue(actualGitHubURL.contains(linkToBeOpened));
 
             /**
-             * Below line of code verifies whether there is any broken link by accessing seach and every link but due to
+             * Below line of code verifies whether there is any broken link by accessing search and every link but due to
              * API limit it app starts getting API limit error so commenting as of now
              * **/
             //Assert.assertTrue(homePage.checkBrokenLinks(searchedRepositoriesResult));
