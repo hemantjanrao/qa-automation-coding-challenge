@@ -3854,3 +3854,101 @@
 2020-07-11 18:35:10 INFO  HomePage:69 - Fill Github username
 2020-07-11 18:35:11 INFO  HomePage:80 - Click on Go button
 2020-07-11 18:35:11 INFO  TestRunner:44 - Destroying the driver
+2020-07-11 18:39:54 INFO  TestRunner:32 - Start initializing the driver
+2020-07-11 18:39:54 INFO  TestRunner:32 - Start initializing the driver
+2020-07-11 18:39:54 INFO  TestRunner:32 - Start initializing the driver
+2020-07-11 18:39:54 INFO  TestRunner:32 - Start initializing the driver
+2020-07-11 18:39:56 INFO  TestRunner:38 - Finish initializing the driver
+2020-07-11 18:39:57 INFO  TestRunner:38 - Finish initializing the driver
+2020-07-11 18:39:57 INFO  TestRunner:38 - Finish initializing the driver
+2020-07-11 18:39:57 INFO  TestRunner:38 - Finish initializing the driver
+2020-07-11 18:40:02 INFO  homePageStepDefs:33 - User navigate to the home page
+2020-07-11 18:40:02 INFO  homePageStepDefs:33 - User navigate to the home page
+2020-07-11 18:40:02 INFO  homePageStepDefs:33 - User navigate to the home page
+2020-07-11 18:40:02 INFO  homePageStepDefs:33 - User navigate to the home page
+2020-07-11 18:40:02 INFO  TestRunner:44 - Destroying the driver
+2020-07-11 18:40:02 INFO  TestRunner:44 - Destroying the driver
+2020-07-11 18:40:02 INFO  TestRunner:44 - Destroying the driver
+2020-07-11 18:40:02 INFO  TestRunner:44 - Destroying the driver
+2020-07-11 18:40:59 INFO  TestRunner:32 - Start initializing the driver
+2020-07-11 18:40:59 INFO  TestRunner:32 - Start initializing the driver
+2020-07-11 18:40:59 INFO  TestRunner:32 - Start initializing the driver
+2020-07-11 18:40:59 INFO  TestRunner:32 - Start initializing the driver
+2020-07-11 18:41:02 INFO  TestRunner:38 - Finish initializing the driver
+2020-07-11 18:41:02 INFO  TestRunner:38 - Finish initializing the driver
+2020-07-11 18:41:02 INFO  TestRunner:38 - Finish initializing the driver
+2020-07-11 18:41:02 INFO  TestRunner:38 - Finish initializing the driver
+2020-07-11 18:41:08 INFO  homePageStepDefs:33 - User navigate to the home page
+2020-07-11 18:41:08 INFO  homePageStepDefs:33 - User navigate to the home page
+2020-07-11 18:41:08 INFO  homePageStepDefs:33 - User navigate to the home page
+2020-07-11 18:41:08 INFO  homePageStepDefs:33 - User navigate to the home page
+2020-07-11 18:41:08 INFO  homePageStepDefs:39 - Page header with text: Get Github Repos present
+2020-07-11 18:41:08 INFO  homePageStepDefs:39 - Page header with text: Get Github Repos present
+2020-07-11 18:41:08 INFO  homePageStepDefs:39 - Page header with text: Get Github Repos present
+2020-07-11 18:41:08 INFO  homePageStepDefs:39 - Page header with text: Get Github Repos present
+2020-07-11 18:41:08 INFO  HomePage:69 - Fill Github username
+2020-07-11 18:41:08 INFO  HomePage:69 - Fill Github username
+2020-07-11 18:41:08 INFO  HomePage:69 - Fill Github username
+2020-07-11 18:41:08 INFO  HomePage:69 - Fill Github username
+2020-07-11 18:41:08 INFO  HomePage:80 - Click on Go button
+2020-07-11 18:41:08 INFO  HomePage:80 - Click on Go button
+2020-07-11 18:41:08 INFO  HomePage:75 - Click on Go button
+2020-07-11 18:41:09 INFO  HomePage:75 - Click on Go button
+2020-07-11 18:41:39 INFO  TestRunner:44 - Destroying the driver
+2020-07-11 18:41:39 INFO  TestRunner:44 - Destroying the driver
+2020-07-11 18:44:14 INFO  TestRunner:34 - Start initializing the driver
+2020-07-11 18:44:16 INFO  TestRunner:40 - Finish initializing the driver
+2020-07-11 18:44:22 INFO  homePageStepDefs:33 - User navigate to the home page
+2020-07-11 18:44:22 INFO  homePageStepDefs:39 - Page header with text: Get Github Repos present
+2020-07-11 18:44:22 INFO  HomePage:69 - Fill Github username
+2020-07-11 18:44:22 INFO  HomePage:75 - Click on Go button
+2020-07-11 18:44:26 INFO  TestRunner:46 - Destroying the driver
+2020-07-11 18:44:26 INFO  TestRunner:34 - Start initializing the driver
+2020-07-11 18:44:27 INFO  TestRunner:40 - Finish initializing the driver
+2020-07-11 18:44:32 INFO  homePageStepDefs:33 - User navigate to the home page
+2020-07-11 18:44:32 INFO  homePageStepDefs:39 - Page header with text: Get Github Repos present
+2020-07-11 18:44:32 INFO  HomePage:69 - Fill Github username
+2020-07-11 18:44:33 INFO  HomePage:75 - Click on Go button
+2020-07-11 18:44:34 INFO  TestRunner:46 - Destroying the driver
+2020-07-11 18:44:35 INFO  TestRunner:34 - Start initializing the driver
+2020-07-11 18:44:35 INFO  TestRunner:40 - Finish initializing the driver
+2020-07-11 18:44:36 INFO  homePageStepDefs:33 - User navigate to the home page
+2020-07-11 18:44:36 INFO  homePageStepDefs:39 - Page header with text: Get Github Repos present
+2020-07-11 18:44:36 INFO  HomePage:69 - Fill Github username
+2020-07-11 18:44:36 INFO  HomePage:80 - Click on Go button
+2020-07-11 18:44:36 INFO  TestRunner:46 - Destroying the driver
+2020-07-11 18:44:36 INFO  TestRunner:34 - Start initializing the driver
+2020-07-11 18:44:37 INFO  TestRunner:40 - Finish initializing the driver
+2020-07-11 18:44:37 INFO  homePageStepDefs:33 - User navigate to the home page
+2020-07-11 18:44:37 INFO  homePageStepDefs:39 - Page header with text: Get Github Repos present
+2020-07-11 18:44:37 INFO  HomePage:69 - Fill Github username
+2020-07-11 18:44:37 INFO  HomePage:80 - Click on Go button
+2020-07-11 18:44:38 INFO  TestRunner:46 - Destroying the driver
+2020-07-11 18:48:42 INFO  TestRunner:28 - Start initializing the driver
+2020-07-11 18:48:44 INFO  TestRunner:34 - Finish initializing the driver
+2020-07-11 18:48:49 INFO  homePageStepDefs:33 - User navigate to the home page
+2020-07-11 18:48:49 INFO  homePageStepDefs:39 - Page header with text: Get Github Repos present
+2020-07-11 18:48:49 INFO  HomePage:69 - Fill Github username
+2020-07-11 18:48:50 INFO  HomePage:75 - Click on Go button
+2020-07-11 18:48:54 INFO  TestRunner:40 - Destroying the driver
+2020-07-11 18:48:54 INFO  TestRunner:28 - Start initializing the driver
+2020-07-11 18:48:55 INFO  TestRunner:34 - Finish initializing the driver
+2020-07-11 18:49:00 INFO  homePageStepDefs:33 - User navigate to the home page
+2020-07-11 18:49:00 INFO  homePageStepDefs:39 - Page header with text: Get Github Repos present
+2020-07-11 18:49:00 INFO  HomePage:69 - Fill Github username
+2020-07-11 18:49:00 INFO  HomePage:75 - Click on Go button
+2020-07-11 18:49:02 INFO  TestRunner:40 - Destroying the driver
+2020-07-11 18:49:02 INFO  TestRunner:28 - Start initializing the driver
+2020-07-11 18:49:03 INFO  TestRunner:34 - Finish initializing the driver
+2020-07-11 18:49:03 INFO  homePageStepDefs:33 - User navigate to the home page
+2020-07-11 18:49:03 INFO  homePageStepDefs:39 - Page header with text: Get Github Repos present
+2020-07-11 18:49:03 INFO  HomePage:69 - Fill Github username
+2020-07-11 18:49:03 INFO  HomePage:80 - Click on Go button
+2020-07-11 18:49:03 INFO  TestRunner:40 - Destroying the driver
+2020-07-11 18:49:03 INFO  TestRunner:28 - Start initializing the driver
+2020-07-11 18:49:04 INFO  TestRunner:34 - Finish initializing the driver
+2020-07-11 18:49:04 INFO  homePageStepDefs:33 - User navigate to the home page
+2020-07-11 18:49:04 INFO  homePageStepDefs:39 - Page header with text: Get Github Repos present
+2020-07-11 18:49:04 INFO  HomePage:69 - Fill Github username
+2020-07-11 18:49:05 INFO  HomePage:80 - Click on Go button
+2020-07-11 18:49:05 INFO  TestRunner:40 - Destroying the driver

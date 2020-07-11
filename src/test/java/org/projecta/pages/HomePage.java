@@ -86,6 +86,7 @@ public class HomePage extends BasePage<HomePage> {
      * @return Boolean
      */
     public boolean isHeaderPresentWithText(String headerText) {
+        WebUtils.waitForElementToBeDisplayed(driver, lblHeader, 20);
         return WebUtils.getTextValue(lblHeader).equalsIgnoreCase(headerText);
     }
 

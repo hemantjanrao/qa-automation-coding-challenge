@@ -20,7 +20,7 @@ public class homePageStepDefs extends TestRunner {
     private final Logger log = Logger.getLogger(getClass());
     private HomePage homePage;
     private List<RepositoryResponse> searchedRepositoriesResult;
-    private Random rand = new Random();
+    private final Random rand = new Random();
 
     @Before
     public void setUp() {
