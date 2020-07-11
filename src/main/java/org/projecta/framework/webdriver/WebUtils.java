@@ -46,4 +46,17 @@ public class WebUtils {
 
         }
     }
+
+    /**
+     * Method to get the text value from element
+     *
+     * @param elem WebElement
+     * @return String
+     */
+    public static String getTextValue(WebElement elem) {
+        if (isElementPresent(elem)) {
+            return elem.getText();
+        }
+        return null;
+    }
 }

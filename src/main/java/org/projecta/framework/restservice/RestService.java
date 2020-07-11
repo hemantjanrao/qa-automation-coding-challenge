@@ -26,11 +26,29 @@ public class RestService {
                 .extract().response();
     }
 
-    public static List<RepositoryResponse> getRepos(final String userName){
+    /**
+     * @param userName String
+     * @return List<RepositoryResponse>
+     */
+    public static List<RepositoryResponse> getRepos(final String userName) {
         Response repositoryList = getRepositoryList(userName);
 
         Assert.assertEquals(repositoryList.statusCode(), HttpStatus.SC_OK);
 
         return TestHelper.deserializeJson(repositoryList);
+    }
+
+    /**
+     * @param URL URL to be checked
+     * @return HTTP Status code
+     */
+    public static int isLinkAvailable(String URL) {
+        return RestAssured
+                .given()
+                .baseUri(URL)
+                .get("/")
+                .then()
+                .extract()
+                .statusCode();
     }
 }

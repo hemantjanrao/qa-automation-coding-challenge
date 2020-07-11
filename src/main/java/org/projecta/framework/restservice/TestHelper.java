@@ -23,7 +23,7 @@ public class TestHelper {
         List<RepositoryResponse> responseList = new ArrayList();
 
         for (int i = 0; i <= obj.size() - 1; i++) {
-            RepositoryResponse rp = gson.fromJson(obj.get(0).toString(), RepositoryResponse.class);
+            RepositoryResponse rp = gson.fromJson(obj.get(i).toString(), RepositoryResponse.class);
             responseList.add(rp);
         }
 

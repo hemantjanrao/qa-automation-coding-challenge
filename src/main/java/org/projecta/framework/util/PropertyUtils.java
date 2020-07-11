@@ -16,6 +16,7 @@ public class PropertyUtils {
 
     /**
      * This method provides Properties object
+     *
      * @return Properties
      */
     private static synchronized Properties getProperties() {
@@ -32,6 +33,7 @@ public class PropertyUtils {
 
     /**
      * This method return value of provided key from the properties file
+     *
      * @param param Environment
      * @return String
      */

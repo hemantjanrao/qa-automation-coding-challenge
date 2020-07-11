@@ -45,7 +45,7 @@ java.lang.RuntimeException: bad non-abstract method with no code: void org.codeh
 	at io.restassured.config.RestAssuredConfig.<init>(RestAssuredConfig.java:41)
 	at io.restassured.RestAssured.<clinit>(RestAssured.java:421)
 	at org.projecta.framework.restservice.RestService.getRepositoryList(RestService.java:18)
-	at org.projecta.test.Demotest.testRest(Demotest.java:30)
+	at org.projecta.test.GithubRepoTest.testRest(Demotest.java:30)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

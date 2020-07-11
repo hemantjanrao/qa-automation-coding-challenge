@@ -1,7 +1,6 @@
 package org.projecta.framework.base.test;
 
 
-import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import io.qameta.allure.Attachment;
 import org.apache.commons.lang3.RandomStringUtils;
@@ -24,9 +23,12 @@ import java.nio.file.StandardCopyOption;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Objects;
+import java.util.Random;
 
 @Listeners({CustomListener.class})
 public class BaseWebTest extends BaseTest {
+
+    protected Random rand = new Random();
 
     @BeforeClass(alwaysRun = true)
     public void initializeDriver() {
@@ -73,7 +75,7 @@ public class BaseWebTest extends BaseTest {
             Files.createDirectories(path.getParent());
             Files.copy(file.toPath(), path, StandardCopyOption.REPLACE_EXISTING);
 
-            test.log(Status.FAIL,test.addScreenCaptureFromBase64String(path.toAbsolutePath().toString())+ "Test Failed");
+            test.log(Status.FAIL, test.addScreenCaptureFromBase64String(path.toAbsolutePath().toString()) + "Test Failed");
 
 
             return scrnShot;

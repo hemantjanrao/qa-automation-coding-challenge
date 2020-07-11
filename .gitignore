@@ -25,6 +25,7 @@ yarn-error.log*
 *.iml
 *.idea
 logs/*
+*.txt
 target/*
 allure-results/*
 .allure/*

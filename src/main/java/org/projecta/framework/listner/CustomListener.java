@@ -18,8 +18,7 @@ public class CustomListener implements IInvokedMethodListener {
         Reporter.setCurrentTestResult(result);
         BaseWebTest baseTest = (BaseWebTest) result.getInstance();
         ITestNGMethod testNgMethod = method.getTestMethod();
-        if(result.getStatus()==ITestResult.FAILURE)
-        {
+        if (result.getStatus() == ITestResult.FAILURE) {
             String methodName = testNgMethod.getMethodName();
             log.warn(String.format("'%s' method is failed, saving screenshot", methodName));
             baseTest.takeScreenShot(methodName);
