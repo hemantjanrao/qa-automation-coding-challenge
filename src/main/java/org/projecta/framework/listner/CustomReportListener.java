@@ -1,4 +1,4 @@
-package org.projecta.framework.cucumberHooks;
+package org.projecta.framework.listner;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -20,7 +20,7 @@ import io.cucumber.plugin.event.HookTestStep;
 import java.util.HashMap;
 import java.util.Map;
 
-public class customReportListener implements EventListener {
+public class CustomReportListener implements EventListener {
     private ExtentSparkReporter spark;
     private ExtentReports extent;
     Map<String, ExtentTest> feature = new HashMap<String, ExtentTest>();

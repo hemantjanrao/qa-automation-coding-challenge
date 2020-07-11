@@ -46,4 +46,20 @@ public class PropertyUtils {
         }
     }
 
+    /**
+     * @param param Environment
+     * @return int
+     */
+    public static int getInt(Environment param) {
+        return Integer.parseInt(get(param).trim());
+    }
+
+    /**
+     * @param param Environment
+     * @return Boolean
+     */
+    public static boolean getBoolean(Environment param) {
+        return Boolean.parseBoolean(get(param).trim());
+    }
+
 }

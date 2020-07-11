@@ -11,12 +11,16 @@ import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.internal.ElementScrollBehavior;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.LocalFileDetector;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.projecta.framework.constants.ManagedBrowsers;
 import org.projecta.framework.util.Environment;
 import org.projecta.framework.util.PropertyUtils;
 import org.testng.Assert;
 
 import java.io.File;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
@@ -54,6 +58,7 @@ public class DriverManager {
      * @return WebDriver| null
      */
     public static WebDriver getWebdriver(ManagedBrowsers browser) {
+        boolean isSeleniumGridEnabled = PropertyUtils.getBoolean(Environment.WEB_IS_GRID_ENABLED);
         DesiredCapabilities cap = null;
 
         switch (browser) {
@@ -65,8 +70,12 @@ public class DriverManager {
                 cap.setCapability(FirefoxDriver.MARIONETTE, true);
 
                 try {
-
-                    return new FirefoxDriver(cap);
+                    if (isSeleniumGridEnabled) {
+                        log.info(String.format("Grid is enabled [%s]", getSeleniumGridHubUrl()));
+                        return getRemoteDriver(cap);
+                    } else {
+                        return new FirefoxDriver(cap);
+                    }
                 } catch (Exception e) {
                     log.warn("Error creating driver", e);
                     throw new RuntimeException("Failed to get the driver", e);
@@ -76,7 +85,12 @@ public class DriverManager {
                 WebDriverManager.chromedriver().setup();
                 cap = getChromeCapabilities();
                 try {
-                    return new ChromeDriver(cap);
+                    if (isSeleniumGridEnabled) {
+                        log.info(String.format("Grid is enabled [%s]", getSeleniumGridHubUrl()));
+                        return getRemoteDriver(cap);
+                    } else {
+                        return new ChromeDriver(cap);
+                    }
 
                 } catch (Exception e) {
                     log.warn("Error creating driver", e);
@@ -134,6 +148,39 @@ public class DriverManager {
      */
     public static String getDownloadDirectory() {
         return System.getProperty("user.dir") + File.separator + "target";
+    }
+
+    /**
+     * Method to get the selenium grid hub url based on configuration file.
+     *
+     * @return URL selenium grid url.
+     * @throws RuntimeException
+     */
+    private static URL getSeleniumGridHubUrl() {
+        try {
+            return new URL("http://" + PropertyUtils.get(Environment.WEB_SELENIUM_GRID) + "/wd/hub");
+        } catch (MalformedURLException e) {
+            throw new RuntimeException("Selenium grid hub URL is not valid", e);
+        }
+    }
+
+    /**
+     * Function to get the remote Webdriver in case of running automation using
+     * selenium grid.
+     *
+     * @param cap Desired capabilities to be set for the browser driver
+     * @return RemoteWebDriver
+     * @throws RuntimeException
+     */
+    private static RemoteWebDriver getRemoteDriver(DesiredCapabilities cap) {
+        try {
+            RemoteWebDriver remoteWebDriver = new RemoteWebDriver(getSeleniumGridHubUrl(), cap);
+            remoteWebDriver.setFileDetector(new LocalFileDetector());
+            return remoteWebDriver;
+        } catch (Exception e) {
+            throw new RuntimeException("Error creating Remote webriver");
+        }
+
     }
 
 }

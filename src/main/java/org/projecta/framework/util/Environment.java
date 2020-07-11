@@ -6,7 +6,8 @@ public enum Environment {
     WEB_DEFAULT_TIMEOUT("web.defaultTimeout"),
     GITHUB_URL("github.base.url"),
     REPOSITORY_ENDPOINT("repos.endpoint"),
-    WEB_DATA_DIR("web.dataDir");
+    WEB_IS_GRID_ENABLED("web.isGridEnabled"),
+    WEB_SELENIUM_GRID("web.seleniumGrid");
 
     private final String key;
 

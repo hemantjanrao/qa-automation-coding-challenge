@@ -15,7 +15,7 @@ import org.testng.Assert;
 import java.util.List;
 import java.util.Random;
 
-public class homePageStepDefs extends TestRunner {
+public class HomePageStepDefs extends TestRunner {
 
     private final Logger log = Logger.getLogger(getClass());
     private HomePage homePage;

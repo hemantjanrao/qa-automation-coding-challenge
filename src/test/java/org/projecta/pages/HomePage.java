@@ -10,6 +10,8 @@ import org.openqa.selenium.support.FindBy;
 import org.projecta.framework.base.page.BasePage;
 import org.projecta.framework.restservice.RepositoryResponse;
 import org.projecta.framework.restservice.RestService;
+import org.projecta.framework.util.Environment;
+import org.projecta.framework.util.PropertyUtils;
 import org.projecta.framework.webdriver.WebUtils;
 import org.testng.Assert;
 
@@ -23,8 +25,8 @@ import java.util.stream.Collectors;
 public class HomePage extends BasePage<HomePage> {
 
     private final Logger log = Logger.getLogger(getClass());
-
     private final String homePageUrl = "/";
+    private int defaultTimeOut = PropertyUtils.getInt(Environment.WEB_DEFAULT_TIMEOUT);
 
     public HomePage(WebDriver driver) {
         super(driver);
@@ -70,7 +72,7 @@ public class HomePage extends BasePage<HomePage> {
      */
     public void enterUserNameToBeSearched(final String user) {
         log.info("Fill Github username");
-        WebUtils.waitForElementToBeDisplayed(driver, userName, 20);
+        WebUtils.waitForElementToBeDisplayed(driver, userName, defaultTimeOut);
         userName.sendKeys(user);
     }
 
@@ -79,7 +81,7 @@ public class HomePage extends BasePage<HomePage> {
      */
     public void clickOnButtonGo() {
         log.info("Click on Go button");
-        WebUtils.clickWithWaitForElement(driver, btnGo, 20);
+        WebUtils.clickWithWaitForElement(driver, btnGo, defaultTimeOut);
     }
 
     /**
@@ -95,7 +97,7 @@ public class HomePage extends BasePage<HomePage> {
      * @return Boolean
      */
     public boolean isHeaderPresentWithText(String headerText) {
-        WebUtils.waitForElementToBeDisplayed(driver, lblHeader, 20);
+        WebUtils.waitForElementToBeDisplayed(driver, lblHeader, defaultTimeOut);
         return WebUtils.getTextValue(lblHeader).equalsIgnoreCase(headerText);
     }
 
@@ -103,7 +105,7 @@ public class HomePage extends BasePage<HomePage> {
      * @return boolean
      */
     public boolean repositoriesPresent() {
-        WebUtils.waitForElementToBeDisplayed(driver, tblUserRepository, 20);
+        WebUtils.waitForElementToBeDisplayed(driver, tblUserRepository, defaultTimeOut);
 
         return WebUtils.isElementPresent(tblUserRepository);
     }
@@ -115,7 +117,7 @@ public class HomePage extends BasePage<HomePage> {
      */
     public int getSearchedResultCount() {
 
-        WebUtils.waitForElementToBeDisplayed(driver, lblSearchedResult, 20);
+        WebUtils.waitForElementToBeDisplayed(driver, lblSearchedResult, defaultTimeOut);
 
         Matcher matcher = Pattern.compile("\\d+").matcher(lblSearchedResult.getText().trim());
 
@@ -131,7 +133,7 @@ public class HomePage extends BasePage<HomePage> {
      * @return Map<String, String>
      */
     public List<RepositoryResponse> getSearchedRepositoriesResult() {
-        WebUtils.waitForElementToBeDisplayed(driver, tblRepositories, 20);
+        WebUtils.waitForElementToBeDisplayed(driver, tblRepositories, defaultTimeOut);
 
         return listRepositories
                 .stream()
@@ -179,7 +181,7 @@ public class HomePage extends BasePage<HomePage> {
      */
     public String openGithubRepo(final String repoName) {
         String parentWindow = driver.getWindowHandle();
-        WebUtils.clickWithWaitForElement(driver, driver.findElement(By.linkText(repoName)), 20);
+        WebUtils.clickWithWaitForElement(driver, driver.findElement(By.linkText(repoName)), defaultTimeOut);
 
         ArrayList tabs = new ArrayList(driver.getWindowHandles());
 
@@ -215,7 +217,7 @@ public class HomePage extends BasePage<HomePage> {
      * @return String Failure message text
      */
     public String getFailureMessage() {
-        WebUtils.waitForElementToBeDisplayed(driver, lblFailureMsg, 20);
+        WebUtils.waitForElementToBeDisplayed(driver, lblFailureMsg, defaultTimeOut);
 
         return WebUtils.getTextValue(lblFailureMsg);
     }
@@ -226,7 +228,7 @@ public class HomePage extends BasePage<HomePage> {
      * @return String Success message text
      */
     public String getSuccessMessage() {
-        WebUtils.waitForElementToBeDisplayed(driver, lblSuccessMsg, 20);
+        WebUtils.waitForElementToBeDisplayed(driver, lblSuccessMsg, defaultTimeOut);
 
         return WebUtils.getTextValue(lblSuccessMsg);
     }

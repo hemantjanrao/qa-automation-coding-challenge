@@ -10,7 +10,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
-@CucumberOptions(plugin = {"org.projecta.framework.cucumberHooks.customReportListener"},
+@CucumberOptions(plugin = {"org.projecta.framework.listner.CustomReportListener"},
         monochrome = true,
         glue = {"org/projecta/stepdefs", "org/projecta/framework/cucumberHooks"},
         features = {"src/test/resources/features"}

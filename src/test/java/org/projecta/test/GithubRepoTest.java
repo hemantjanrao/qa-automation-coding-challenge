@@ -54,7 +54,9 @@ public class GithubRepoTest extends BaseWebTest {
         Assert.assertTrue(homePage.compareData(searchedRepositoriesResult, repos));
 
         // And, Open any random repository link
-        String linkToBeOpened = searchedRepositoriesResult.get(rand.nextInt(searchedRepositoriesResult.size())).name;
+        String linkToBeOpened = searchedRepositoriesResult
+                .get(rand.nextInt(searchedRepositoriesResult.size()))
+                .name;
         String actualGitHubURL = homePage.openGithubRepo(linkToBeOpened);
 
         // And, Verify user navigate to the correct repository into github
