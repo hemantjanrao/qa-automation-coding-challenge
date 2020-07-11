@@ -75,7 +75,6 @@ public class BaseWebTest extends BaseTest {
 
             test.log(Status.FAIL, test.addScreenCaptureFromBase64String(path.toAbsolutePath().toString()) + "Test Failed");
 
-
             return scrnShot;
         } catch (IOException e) {
             log.error("Screenshot saving failed", e);

@@ -17,7 +17,7 @@ public class RestService {
      * @param userName Github User Name
      * @return Rest response
      */
-    public static Response getRepositoryList(final String userName) {
+    private static Response getRepositoryList(final String userName) {
         return RestAssured
                 .given()
                 .baseUri(PropertyUtils.get(Environment.GITHUB_URL))

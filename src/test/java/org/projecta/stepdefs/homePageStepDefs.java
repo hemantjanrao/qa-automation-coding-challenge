@@ -6,7 +6,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.apache.log4j.Logger;
-import org.projecta.TestRunner;
+import org.projecta.acceptance.cucumber.TestRunner;
 import org.projecta.framework.restservice.RepositoryResponse;
 import org.projecta.framework.restservice.RestService;
 import org.projecta.pages.HomePage;
@@ -64,7 +64,7 @@ public class homePageStepDefs extends TestRunner {
 
     @And("Get all the public github repositories for the {string} user")
     public void get_all_the_public_github_repositories_for_the_user(String userName) {
-        Assert.assertTrue(homePage.isUserRepositoriesPresent(true));
+        Assert.assertTrue(homePage.repositoriesPresent());
 
         List<RepositoryResponse> repos = RestService.getRepos(userName);
 

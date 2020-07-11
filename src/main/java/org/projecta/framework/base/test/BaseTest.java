@@ -76,6 +76,7 @@ public class BaseTest {
         if (result.getStatus() == ITestResult.FAILURE) {
             test.log(Status.FAIL, MarkupHelper.createLabel(result.getName() + " FAILED ", ExtentColor.RED));
             test.fail(result.getThrowable());
+
             test.fail("details", MediaEntityBuilder.createScreenCaptureFromPath("1.png").build());
 
         } else if (result.getStatus() == ITestResult.SUCCESS) {

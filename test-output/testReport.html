@@ -43,8 +43,7 @@
 		<!-- slideout menu -->
 		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
 			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
-						<li class='waves-effect'><a href='#!' view='exception-view' onclick="configureView(2)"><i class='material-icons'>bug_report</i></a></li>
-			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
+						<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
 		</ul>
 		<!-- report name -->
 		<span class='report-name'>Test Report</span>
@@ -53,7 +52,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Saturday, July 11, 2020, 07:17 PM (CEST)</span>
+			<span class='label blue darken-3 suite-start-time'>Saturday, July 11, 2020, 08:52 PM (CEST)</span>
 			</a>
 		</ul>
 	</div>
@@ -68,7 +67,7 @@
 				<i class='material-icons'>warning</i> Status
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
-										<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
+										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -111,10 +110,10 @@
                     <canvas id='parent-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> test(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>5</span> test(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='100%'>6</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> skipped
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> skipped
                 </div>
             </div>
         </div>
@@ -132,17 +131,17 @@
 </div>	<div class='subview-left left'>
 		<div class='view-summary'>
 			<ul id='test-collection' class='test-collection'>
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='1'>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>testErrorMessages</span>
-						<span class='test-time'>Saturday, July 11, 2020, 07:17 PM (CEST)</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-name'>testErrorMessageInCaseIssueWithInput</span>
+						<span class='test-time'>Saturday, July 11, 2020, 08:52 PM (CEST)</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Saturday, July 11, 2020, 07:17 PM (CEST)</span>
-	<span class='label end-time'>Saturday, July 11, 2020, 07:17 PM (CEST)</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 5s+938ms</span>
+	<span class='label start-time'>Saturday, July 11, 2020, 08:52 PM (CEST)</span>
+	<span class='label end-time'>Saturday, July 11, 2020, 08:52 PM (CEST)</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 5s+997ms</span>
 </div>
 <div class='test-desc'>Extent test </div>
 <div class='test-steps'>
@@ -155,52 +154,12 @@
 			</tr>
 		</thead>
 		<tbody>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>19:17:59</td>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>20:52:16</td>
 				<td class='step-details'>
-						com.aventstack.extentreports.ExtentTest@4ed2692dTest Failed
+						<span class='badge white-text green'>testErrorMessageInCaseIssueWithInput PASSED </span>
 					
-				</td>
-			</tr>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>19:17:59</td>
-				<td class='step-details'>
-						<span class='badge white-text red'>testErrorMessages FAILED </span>
-					
-				</td>
-			</tr>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>19:17:59</td>
-				<td class='step-details'>
-						<textarea disabled class="code-block">java.lang.NullPointerException
-	at org.projecta.framework.base.page.BasePage.navigateTo(BasePage.java:46)
-	at org.projecta.test.GithubRepoTest.testErrorMessages(GithubRepoTest.java:78)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-</textarea>
-					
-				</td>
-			</tr>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>19:17:59</td>
-				<td class='step-details'>
-						details
-					<img class='r-img' onerror='this.style.display="none"' data-featherlight='1.png' src='1.png'>
 				</td>
 			</tr>
 		</tbody>
@@ -208,17 +167,17 @@
 </div>
 					</div>
 				</li>
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='2'>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='2'>
 					<div class='test-heading'>
-						<span class='test-name'>testErrorMessages</span>
-						<span class='test-time'>Saturday, July 11, 2020, 07:17 PM (CEST)</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-name'>testErrorMessageInCaseIssueWithInput</span>
+						<span class='test-time'>Saturday, July 11, 2020, 08:52 PM (CEST)</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Saturday, July 11, 2020, 07:17 PM (CEST)</span>
-	<span class='label end-time'>Saturday, July 11, 2020, 07:18 PM (CEST)</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+759ms</span>
+	<span class='label start-time'>Saturday, July 11, 2020, 08:52 PM (CEST)</span>
+	<span class='label end-time'>Saturday, July 11, 2020, 08:52 PM (CEST)</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+508ms</span>
 </div>
 <div class='test-desc'>Extent test </div>
 <div class='test-steps'>
@@ -231,52 +190,12 @@
 			</tr>
 		</thead>
 		<tbody>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>19:18:00</td>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>20:52:16</td>
 				<td class='step-details'>
-						com.aventstack.extentreports.ExtentTest@7e7335aaTest Failed
+						<span class='badge white-text green'>testErrorMessageInCaseIssueWithInput PASSED </span>
 					
-				</td>
-			</tr>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>19:18:00</td>
-				<td class='step-details'>
-						<span class='badge white-text red'>testErrorMessages FAILED </span>
-					
-				</td>
-			</tr>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>19:18:00</td>
-				<td class='step-details'>
-						<textarea disabled class="code-block">java.lang.NullPointerException
-	at org.projecta.framework.base.page.BasePage.navigateTo(BasePage.java:46)
-	at org.projecta.test.GithubRepoTest.testErrorMessages(GithubRepoTest.java:78)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-</textarea>
-					
-				</td>
-			</tr>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>19:18:00</td>
-				<td class='step-details'>
-						details
-					<img class='r-img' onerror='this.style.display="none"' data-featherlight='1.png' src='1.png'>
 				</td>
 			</tr>
 		</tbody>
@@ -284,17 +203,17 @@
 </div>
 					</div>
 				</li>
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='3'>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
 					<div class='test-heading'>
-						<span class='test-name'>testWeb</span>
-						<span class='test-time'>Saturday, July 11, 2020, 07:18 PM (CEST)</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-name'>testSearchPublicGithubRepositoriesForGivenUsername</span>
+						<span class='test-time'>Saturday, July 11, 2020, 08:52 PM (CEST)</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Saturday, July 11, 2020, 07:18 PM (CEST)</span>
-	<span class='label end-time'>Saturday, July 11, 2020, 07:18 PM (CEST)</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+745ms</span>
+	<span class='label start-time'>Saturday, July 11, 2020, 08:52 PM (CEST)</span>
+	<span class='label end-time'>Saturday, July 11, 2020, 08:52 PM (CEST)</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 4s+133ms</span>
 </div>
 <div class='test-desc'>Extent test </div>
 <div class='test-steps'>
@@ -307,52 +226,12 @@
 			</tr>
 		</thead>
 		<tbody>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>19:18:01</td>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>20:52:20</td>
 				<td class='step-details'>
-						com.aventstack.extentreports.ExtentTest@54b6f358Test Failed
+						<span class='badge white-text green'>testSearchPublicGithubRepositoriesForGivenUsername PASSED </span>
 					
-				</td>
-			</tr>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>19:18:01</td>
-				<td class='step-details'>
-						<span class='badge white-text red'>testWeb FAILED </span>
-					
-				</td>
-			</tr>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>19:18:01</td>
-				<td class='step-details'>
-						<textarea disabled class="code-block">java.lang.NullPointerException
-	at org.projecta.framework.base.page.BasePage.navigateTo(BasePage.java:46)
-	at org.projecta.test.GithubRepoTest.testWeb(GithubRepoTest.java:36)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-</textarea>
-					
-				</td>
-			</tr>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>19:18:01</td>
-				<td class='step-details'>
-						details
-					<img class='r-img' onerror='this.style.display="none"' data-featherlight='1.png' src='1.png'>
 				</td>
 			</tr>
 		</tbody>
@@ -360,17 +239,17 @@
 </div>
 					</div>
 				</li>
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='4'>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='4'>
 					<div class='test-heading'>
-						<span class='test-name'>testWeb</span>
-						<span class='test-time'>Saturday, July 11, 2020, 07:18 PM (CEST)</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-name'>testSearchPublicGithubRepositoriesForGivenUsername</span>
+						<span class='test-time'>Saturday, July 11, 2020, 08:52 PM (CEST)</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Saturday, July 11, 2020, 07:18 PM (CEST)</span>
-	<span class='label end-time'>Saturday, July 11, 2020, 07:18 PM (CEST)</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+750ms</span>
+	<span class='label start-time'>Saturday, July 11, 2020, 08:52 PM (CEST)</span>
+	<span class='label end-time'>Saturday, July 11, 2020, 08:52 PM (CEST)</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 12s+485ms</span>
 </div>
 <div class='test-desc'>Extent test </div>
 <div class='test-steps'>
@@ -383,52 +262,12 @@
 			</tr>
 		</thead>
 		<tbody>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>19:18:01</td>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>20:52:33</td>
 				<td class='step-details'>
-						com.aventstack.extentreports.ExtentTest@5e58d718Test Failed
+						<span class='badge white-text green'>testSearchPublicGithubRepositoriesForGivenUsername PASSED </span>
 					
-				</td>
-			</tr>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>19:18:01</td>
-				<td class='step-details'>
-						<span class='badge white-text red'>testWeb FAILED </span>
-					
-				</td>
-			</tr>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>19:18:01</td>
-				<td class='step-details'>
-						<textarea disabled class="code-block">java.lang.NullPointerException
-	at org.projecta.framework.base.page.BasePage.navigateTo(BasePage.java:46)
-	at org.projecta.test.GithubRepoTest.testWeb(GithubRepoTest.java:36)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-</textarea>
-					
-				</td>
-			</tr>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>19:18:01</td>
-				<td class='step-details'>
-						details
-					<img class='r-img' onerror='this.style.display="none"' data-featherlight='1.png' src='1.png'>
 				</td>
 			</tr>
 		</tbody>
@@ -436,17 +275,17 @@
 </div>
 					</div>
 				</li>
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='5'>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='5'>
 					<div class='test-heading'>
-						<span class='test-name'>testWeb</span>
-						<span class='test-time'>Saturday, July 11, 2020, 07:18 PM (CEST)</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-name'>testSearchPublicGithubRepositoriesForGivenUsername</span>
+						<span class='test-time'>Saturday, July 11, 2020, 08:52 PM (CEST)</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Saturday, July 11, 2020, 07:18 PM (CEST)</span>
-	<span class='label end-time'>Saturday, July 11, 2020, 07:18 PM (CEST)</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+752ms</span>
+	<span class='label start-time'>Saturday, July 11, 2020, 08:52 PM (CEST)</span>
+	<span class='label end-time'>Saturday, July 11, 2020, 08:52 PM (CEST)</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 17s+568ms</span>
 </div>
 <div class='test-desc'>Extent test </div>
 <div class='test-steps'>
@@ -459,128 +298,12 @@
 			</tr>
 		</thead>
 		<tbody>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>19:18:02</td>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>20:52:50</td>
 				<td class='step-details'>
-						com.aventstack.extentreports.ExtentTest@7c67a6a7Test Failed
+						<span class='badge white-text green'>testSearchPublicGithubRepositoriesForGivenUsername PASSED </span>
 					
-				</td>
-			</tr>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>19:18:02</td>
-				<td class='step-details'>
-						<span class='badge white-text red'>testWeb FAILED </span>
-					
-				</td>
-			</tr>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>19:18:02</td>
-				<td class='step-details'>
-						<textarea disabled class="code-block">java.lang.NullPointerException
-	at org.projecta.framework.base.page.BasePage.navigateTo(BasePage.java:46)
-	at org.projecta.test.GithubRepoTest.testWeb(GithubRepoTest.java:36)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-</textarea>
-					
-				</td>
-			</tr>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>19:18:02</td>
-				<td class='step-details'>
-						details
-					<img class='r-img' onerror='this.style.display="none"' data-featherlight='1.png' src='1.png'>
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='6'>
-					<div class='test-heading'>
-						<span class='test-name'>testWeb</span>
-						<span class='test-time'>Saturday, July 11, 2020, 07:18 PM (CEST)</span>
-						<span class='test-status right fail'>fail</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Saturday, July 11, 2020, 07:18 PM (CEST)</span>
-	<span class='label end-time'>Saturday, July 11, 2020, 07:18 PM (CEST)</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+773ms</span>
-</div>
-<div class='test-desc'>Extent test </div>
-<div class='test-steps'>
-	<table class='bordered table-results'>
-		<thead>
-			<tr>
-				<th>Status</th>
-				<th>Timestamp</th>
-				<th>Details</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>19:18:03</td>
-				<td class='step-details'>
-						com.aventstack.extentreports.ExtentTest@66171fbcTest Failed
-					
-				</td>
-			</tr>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>19:18:03</td>
-				<td class='step-details'>
-						<span class='badge white-text red'>testWeb FAILED </span>
-					
-				</td>
-			</tr>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>19:18:03</td>
-				<td class='step-details'>
-						<textarea disabled class="code-block">java.lang.NullPointerException
-	at org.projecta.framework.base.page.BasePage.navigateTo(BasePage.java:46)
-	at org.projecta.test.GithubRepoTest.testWeb(GithubRepoTest.java:36)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-</textarea>
-					
-				</td>
-			</tr>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>19:18:03</td>
-				<td class='step-details'>
-						details
-					<img class='r-img' onerror='this.style.display="none"' data-featherlight='1.png' src='1.png'>
 				</td>
 			</tr>
 		</tbody>
@@ -608,193 +331,7 @@
 	</div>
 	<!-- subview right -->
 </div>
-<!-- test view --><!-- category view --><div id='exception-view' class='view hide'>
-	<section id='controls'>
-		<div class='controls grey lighten-4'>
-			<!-- search -->
-			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
-				<a href="#" class='search-div'>
-				<i class='material-icons'>search</i> Search
-				</a>
-				<div class='input-field left hide'>
-					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
-				</div>
-			</div>
-			<!-- search -->
-		</div>
-	</section>
-	<div class='subview-left left'>
-		<div class='view-summary'>
-			<ul id='exception-collection' class='exception-collection'>
-				<li class='exception displayed active'>
-					<div class='exception-heading'>
-						<span class='exception-name'>java.lang.NullPointerException</span>
-						<span class='exception-count right'><span class='label red lighten-1 white-text'>6</span></span>
-					</div>
-					<div class='exception-content hide'>
-						<div class='exception-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Saturday, July 11, 2020, 07:17 PM (CEST)</td>
-										<td class='linked' test-id='1'>testErrorMessages</td>
-										<td>
-											<textarea disabled class="code-block">java.lang.NullPointerException
-	at org.projecta.framework.base.page.BasePage.navigateTo(BasePage.java:46)
-	at org.projecta.test.GithubRepoTest.testErrorMessages(GithubRepoTest.java:78)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-</textarea>
-										</td>
-									</tr>
-									<tr>
-										<td>Saturday, July 11, 2020, 07:17 PM (CEST)</td>
-										<td class='linked' test-id='2'>testErrorMessages</td>
-										<td>
-											<textarea disabled class="code-block">java.lang.NullPointerException
-	at org.projecta.framework.base.page.BasePage.navigateTo(BasePage.java:46)
-	at org.projecta.test.GithubRepoTest.testErrorMessages(GithubRepoTest.java:78)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-</textarea>
-										</td>
-									</tr>
-									<tr>
-										<td>Saturday, July 11, 2020, 07:18 PM (CEST)</td>
-										<td class='linked' test-id='3'>testWeb</td>
-										<td>
-											<textarea disabled class="code-block">java.lang.NullPointerException
-	at org.projecta.framework.base.page.BasePage.navigateTo(BasePage.java:46)
-	at org.projecta.test.GithubRepoTest.testWeb(GithubRepoTest.java:36)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-</textarea>
-										</td>
-									</tr>
-									<tr>
-										<td>Saturday, July 11, 2020, 07:18 PM (CEST)</td>
-										<td class='linked' test-id='4'>testWeb</td>
-										<td>
-											<textarea disabled class="code-block">java.lang.NullPointerException
-	at org.projecta.framework.base.page.BasePage.navigateTo(BasePage.java:46)
-	at org.projecta.test.GithubRepoTest.testWeb(GithubRepoTest.java:36)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-</textarea>
-										</td>
-									</tr>
-									<tr>
-										<td>Saturday, July 11, 2020, 07:18 PM (CEST)</td>
-										<td class='linked' test-id='5'>testWeb</td>
-										<td>
-											<textarea disabled class="code-block">java.lang.NullPointerException
-	at org.projecta.framework.base.page.BasePage.navigateTo(BasePage.java:46)
-	at org.projecta.test.GithubRepoTest.testWeb(GithubRepoTest.java:36)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-</textarea>
-										</td>
-									</tr>
-									<tr>
-										<td>Saturday, July 11, 2020, 07:18 PM (CEST)</td>
-										<td class='linked' test-id='6'>testWeb</td>
-										<td>
-											<textarea disabled class="code-block">java.lang.NullPointerException
-	at org.projecta.framework.base.page.BasePage.navigateTo(BasePage.java:46)
-	at org.projecta.test.GithubRepoTest.testWeb(GithubRepoTest.java:36)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-</textarea>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-			</ul>
-		</div>
-	</div>
-	<div class='subview-right left'>
-		<div class='view-summary'>
-			<h5 class='exception-name'></h5>
-		</div>
-	</div>
-</div>
-<!-- exception view --><div id='dashboard-view' class='view hide'>
+<!-- test view --><!-- category view --><!-- exception view --><div id='dashboard-view' class='view hide'>
 	<div class='card-panel transparent np-v'>
 		<h5>Dashboard</h5>
 
@@ -802,7 +339,7 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Tests
-					<div class='panel-lead'>6</div>
+					<div class='panel-lead'>5</div>
 				</div>
 			</div>
 			<div class='col s2'>
@@ -814,19 +351,19 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Saturday, July 11, 2020, 07:17 PM (CEST)</div>
+					<div class='panel-lead'>Saturday, July 11, 2020, 08:52 PM (CEST)</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Saturday, July 11, 2020, 07:18 PM (CEST)</div>
+			 		<div class='panel-lead'>Saturday, July 11, 2020, 08:52 PM (CEST)</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 12s+245ms</div>
+					<div class='panel-lead'>0h 0m 43s+398ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -853,14 +390,14 @@
 		<!-- container -->
 		<script>
 			var statusGroup = {
-                parentCount: 6,
-				passParent: 0,
-				failParent: 6,
+                parentCount: 5,
+				passParent: 5,
+				failParent: 0,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 6,
+				exceptionsParent: 0,
 				childCount: 0,
 				passChild: 0,
 				failChild: 0,
@@ -885,7 +422,7 @@
 		</script>
 		<script>
 			var timeline = {
-			        "testErrorMessages":5.938,"testErrorMessages":0.759,"testWeb":0.745,"testWeb":0.75,"testWeb":0.752,"testWeb":0.773
+			        "testErrorMessageInCaseIssueWithInput":5.997,"testErrorMessageInCaseIssueWithInput":0.508,"testSearchPublicGithubRepositoriesForGivenUsername":4.133,"testSearchPublicGithubRepositoriesForGivenUsername":12.485,"testSearchPublicGithubRepositoriesForGivenUsername":17.568
 			};
 		</script>
 	

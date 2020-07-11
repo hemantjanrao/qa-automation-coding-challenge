@@ -3,7 +3,6 @@ Functional Flow
 1. User search with existing GitHub username and get all the public GitHub repositories for the same users 
 2. After getting a successful search result if user click on the repository name link, should open actual github 
    repository in a separate tab
-
 3. User search with existing github username having no public repository should not get any result 
 4. On a successful search, the user should get a public repository name and its description or '-' if the description 
    is not available in the result
@@ -30,7 +29,6 @@ Non-Functional Flow
 Suggestions
 -------------
 1. The searched result can be displayed in the tabular format with table headers having 'Repository name' and 'Description'
-
 2. No need to display 'No repos' text by default, it can be displayed when there are no public repositories fetched for 
     the given user 
 3. Success/Failure message can stay on the page until the user take the correct action, currently, it disappears after 

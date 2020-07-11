@@ -1,4 +1,4 @@
-package org.projecta.cucumberHooks;
+package org.projecta.framework.cucumberHooks;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;

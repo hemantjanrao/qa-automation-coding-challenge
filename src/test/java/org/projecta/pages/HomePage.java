@@ -14,7 +14,6 @@ import org.projecta.framework.webdriver.WebUtils;
 import org.testng.Assert;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -101,13 +100,10 @@ public class HomePage extends BasePage<HomePage> {
     }
 
     /**
-     * @param isPresent boolean
      * @return boolean
      */
-    public boolean isUserRepositoriesPresent(boolean isPresent) {
-
-        if (isPresent)
-            WebUtils.waitForElementToBeDisplayed(driver, tblUserRepository, 20);
+    public boolean repositoriesPresent() {
+        WebUtils.waitForElementToBeDisplayed(driver, tblUserRepository, 20);
 
         return WebUtils.isElementPresent(tblUserRepository);
     }
@@ -159,21 +155,20 @@ public class HomePage extends BasePage<HomePage> {
      * @return Boolean
      */
     public boolean compareData(List<RepositoryResponse> webResult, List<RepositoryResponse> apiResult) {
-        assert webResult.size() == apiResult.size();
 
-        Iterator<RepositoryResponse> it1 = webResult.iterator();
-        Iterator<RepositoryResponse> it2 = apiResult.iterator();
+        for (int i=0 ; i<= webResult.size()-1; i++){
+            for (int j=0 ; j<= apiResult.size()-1; j++){
+                RepositoryResponse rs1 = webResult.get(i);
+                RepositoryResponse rs2 = apiResult.get(j);
 
-        while (it1.hasNext() && it2.hasNext()) {
-            RepositoryResponse web = it1.next();
-            RepositoryResponse api = it2.next();
+                if(rs1.getName().equalsIgnoreCase(rs2.getName())){
+                    if (rs2.getDescription() == null)
+                        rs2.setDescription("–");
 
-            if (api.getDescription() == null)
-                api.setDescription("–");
-
-            assert web.getName().equalsIgnoreCase(api.getName()) &&
-                    String.valueOf(web.getDescription()).equalsIgnoreCase(String.valueOf(api.getDescription())) &&
-                    web.getHtml_url().equalsIgnoreCase(api.getHtml_url());
+                    Assert.assertTrue(rs1.getDescription().equalsIgnoreCase(rs2.getDescription()));
+                    Assert.assertTrue(rs1.getHtml_url().equalsIgnoreCase(rs2.getHtml_url()), "");
+                }
+            }
         }
         return true;
     }

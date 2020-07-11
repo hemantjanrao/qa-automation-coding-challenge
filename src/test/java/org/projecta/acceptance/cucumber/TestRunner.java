@@ -1,7 +1,5 @@
-package org.projecta;
+package org.projecta.acceptance.cucumber;
 
-import io.cucumber.java.After;
-import io.cucumber.java.Before;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 import org.apache.log4j.Logger;
@@ -12,9 +10,9 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
-@CucumberOptions(plugin = {"org.projecta.cucumberHooks.customReportListener"},
+@CucumberOptions(plugin = {"org.projecta.framework.cucumberHooks.customReportListener"},
         monochrome = true,
-        glue = {"org/projecta/stepdefs", "org/projecta/cucumberHooks"},
+        glue = {"org/projecta/stepdefs", "org/projecta/framework/cucumberHooks"},
         features = {"src/test/resources/features"}
 )
 public class TestRunner extends AbstractTestNGCucumberTests {

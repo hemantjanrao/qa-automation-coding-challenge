@@ -3,7 +3,7 @@
 <suite name="Web Automation Tests using Cucumber" parallel="classes" thread-count="2">
     <test name="User RepositoryTests">
         <classes>
-            <class name="org.projecta.TestRunner"/>
+            <class name="TestRunner"/>
         </classes>
     </test>
 </suite>
