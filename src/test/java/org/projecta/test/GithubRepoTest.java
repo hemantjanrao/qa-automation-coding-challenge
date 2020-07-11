@@ -21,26 +21,27 @@ import java.util.List;
 public class GithubRepoTest extends BaseWebTest {
 
     @Test(dataProvider = "username")
-    @Story("User search with existing GitHub username and get all the public GitHub repositories for the same users")
+    @Story("User search with existing GitHub repositories of the given username ")
     @Description("User search with existing GitHub username and get all the public GitHub repositories for the same users")
-    public void testWeb(String userData, String status) {
+    public void searchPublicGithubRepositoriesForGivenUsername(String userData, String status) {
 
+        // Given, User navigate to the homepage
         HomePage homePage = new HomePage(driver);
         homePage.navigateTo();
-
         Assert.assertTrue(homePage.isHeaderPresentWithText("Get Github Repos"));
 
+        // When, User enter username to be searched
         homePage.enterUserNameToBeSearched(userData);
         homePage.clickOnButtonGo();
         Assert.assertTrue(homePage.getSuccessMessage().equalsIgnoreCase("Success!"));
 
+        // Then, User see the list of given username public github repositories
         if (!status.trim().equals("Y")) {
             Assert.assertFalse(homePage.isUserRepositoriesPresent(false));
         } else {
             Assert.assertTrue(homePage.isUserRepositoriesPresent(true));
 
             List<RepositoryResponse> repos = RestService.getRepos(userData);
-
             List<RepositoryResponse> searchedRepositoriesResult = homePage.getSearchedRepositoriesResult();
 
             Assert.assertEquals(homePage.getSearchedResultCount(), repos.size());
@@ -55,28 +56,24 @@ public class GithubRepoTest extends BaseWebTest {
             String actualGitHubURL = homePage.openGithubRepo(linkToBeOpened);
 
             Assert.assertTrue(actualGitHubURL.contains(linkToBeOpened));
-
-            /**
-             * Below line of code verifies whether there is any broken link by accessing search and every link but due to
-             * API limit it app starts getting API limit error so commenting as of now
-             * **/
-            //Assert.assertTrue(homePage.checkBrokenLinks(searchedRepositoriesResult));
         }
     }
 
     @Test(dataProvider = "errors")
-    @Story("User search with existing GitHub username and get all the public GitHub repositories for the same users")
-    @Description("Test fail messages")
+    @Story("User search username and see correct error message")
+    @Description("Test to verify error message for given non existing usernames which result into error message")
     public void testErrorMessages(String userData, String errorMessage) {
 
+        // Given, User navigate to the homepage
         HomePage homePage = new HomePage(driver);
         homePage.navigateTo();
-
         Assert.assertTrue(homePage.isHeaderPresentWithText("Get Github Repos"));
 
+        // When, User enter username to be searched
         homePage.enterUserNameToBeSearched(userData);
         homePage.hitEnter();
 
+        // Then, User see the appropriate error message
         Assert.assertTrue(homePage.getFailureMessage().trim().equalsIgnoreCase(errorMessage.trim()));
     }
 

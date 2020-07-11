@@ -3952,3 +3952,167 @@
 2020-07-11 18:49:04 INFO  HomePage:69 - Fill Github username
 2020-07-11 18:49:05 INFO  HomePage:80 - Click on Go button
 2020-07-11 18:49:05 INFO  TestRunner:40 - Destroying the driver
+2020-07-11 19:10:46 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:10:46 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:10:46 INFO  GithubRepoTest:43 - Starting the Before class of 'Base Test'
+2020-07-11 19:10:46 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:10:46 INFO  GithubRepoTest:35 - Start initializing the driver
+2020-07-11 19:10:49 INFO  GithubRepoTest:42 - Finish initializing the driver
+2020-07-11 19:10:49 INFO  GithubRepoTest:113 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'error'
+2020-07-11 19:10:49 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:10:49 INFO  GithubRepoTest:96 -  =============================================== Starting test method [testErrorMessages] ===================================
+2020-07-11 19:10:55 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:10:55 INFO  HomePage:73 - Fill Github username
+2020-07-11 19:10:56 INFO  HomePage:90 - Click on Go button
+2020-07-11 19:10:56 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:10:56 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:10:56 INFO  GithubRepoTest:103 - =============================================== Ending test method [testErrorMessages] ===================================
+2020-07-11 19:10:56 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:10:56 INFO  GithubRepoTest:96 -  =============================================== Starting test method [testErrorMessages] ===================================
+2020-07-11 19:10:56 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:10:56 INFO  HomePage:73 - Fill Github username
+2020-07-11 19:10:57 INFO  HomePage:90 - Click on Go button
+2020-07-11 19:10:57 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:10:57 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:10:57 INFO  GithubRepoTest:103 - =============================================== Ending test method [testErrorMessages] ===================================
+2020-07-11 19:10:57 INFO  GithubRepoTest:113 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'username'
+2020-07-11 19:10:57 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:10:57 INFO  GithubRepoTest:96 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-11 19:10:57 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:10:57 INFO  HomePage:73 - Fill Github username
+2020-07-11 19:10:57 INFO  HomePage:82 - Click on Go button
+2020-07-11 19:11:02 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:11:02 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:11:02 INFO  GithubRepoTest:103 - =============================================== Ending test method [testWeb] ===================================
+2020-07-11 19:11:02 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:11:02 INFO  GithubRepoTest:96 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-11 19:11:07 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:11:07 INFO  HomePage:73 - Fill Github username
+2020-07-11 19:11:07 INFO  HomePage:82 - Click on Go button
+2020-07-11 19:11:09 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:11:09 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:11:09 INFO  GithubRepoTest:103 - =============================================== Ending test method [testWeb] ===================================
+2020-07-11 19:11:09 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:11:09 INFO  GithubRepoTest:96 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-11 19:11:09 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:11:09 INFO  HomePage:73 - Fill Github username
+2020-07-11 19:11:09 INFO  HomePage:82 - Click on Go button
+2020-07-11 19:11:19 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:11:19 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:11:19 INFO  GithubRepoTest:103 - =============================================== Ending test method [testWeb] ===================================
+2020-07-11 19:11:19 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:11:19 INFO  GithubRepoTest:96 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-11 19:11:24 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:11:24 INFO  HomePage:73 - Fill Github username
+2020-07-11 19:11:24 INFO  HomePage:82 - Click on Go button
+2020-07-11 19:11:26 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:11:26 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:11:26 INFO  GithubRepoTest:103 - =============================================== Ending test method [testWeb] ===================================
+2020-07-11 19:11:26 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:11:26 INFO  GithubRepoTest:49 - Destroying the driver
+2020-07-11 19:11:26 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:11:26 INFO  GithubRepoTest:91 - Starting the After class of 'Base Test'
+2020-07-11 19:11:26 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:13:44 INFO  TestRunner:28 - Start initializing the driver
+2020-07-11 19:13:46 INFO  TestRunner:34 - Finish initializing the driver
+2020-07-11 19:13:51 INFO  homePageStepDefs:33 - User navigate to the home page
+2020-07-11 19:13:52 INFO  homePageStepDefs:39 - Page header with text: Get Github Repos present
+2020-07-11 19:13:52 INFO  HomePage:73 - Fill Github username
+2020-07-11 19:13:52 INFO  HomePage:82 - Click on Go button
+2020-07-11 19:13:56 INFO  TestRunner:40 - Destroying the driver
+2020-07-11 19:13:56 INFO  TestRunner:28 - Start initializing the driver
+2020-07-11 19:13:57 INFO  TestRunner:34 - Finish initializing the driver
+2020-07-11 19:14:02 INFO  homePageStepDefs:33 - User navigate to the home page
+2020-07-11 19:14:02 INFO  homePageStepDefs:39 - Page header with text: Get Github Repos present
+2020-07-11 19:14:02 INFO  HomePage:73 - Fill Github username
+2020-07-11 19:14:02 INFO  HomePage:82 - Click on Go button
+2020-07-11 19:14:04 INFO  TestRunner:40 - Destroying the driver
+2020-07-11 19:14:04 INFO  TestRunner:28 - Start initializing the driver
+2020-07-11 19:14:05 INFO  TestRunner:34 - Finish initializing the driver
+2020-07-11 19:14:05 INFO  homePageStepDefs:33 - User navigate to the home page
+2020-07-11 19:14:05 INFO  homePageStepDefs:39 - Page header with text: Get Github Repos present
+2020-07-11 19:14:05 INFO  HomePage:73 - Fill Github username
+2020-07-11 19:14:05 INFO  HomePage:90 - Click on Go button
+2020-07-11 19:14:05 INFO  TestRunner:40 - Destroying the driver
+2020-07-11 19:14:06 INFO  TestRunner:28 - Start initializing the driver
+2020-07-11 19:14:06 INFO  TestRunner:34 - Finish initializing the driver
+2020-07-11 19:14:07 INFO  homePageStepDefs:33 - User navigate to the home page
+2020-07-11 19:14:07 INFO  homePageStepDefs:39 - Page header with text: Get Github Repos present
+2020-07-11 19:14:07 INFO  HomePage:73 - Fill Github username
+2020-07-11 19:14:07 INFO  HomePage:90 - Click on Go button
+2020-07-11 19:14:07 INFO  TestRunner:40 - Destroying the driver
+2020-07-11 19:17:51 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:17:51 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:17:51 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:17:51 INFO  GithubRepoTest:43 - Starting the Before class of 'Base Test'
+2020-07-11 19:17:51 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:17:51 INFO  GithubRepoTest:34 - Start initializing the driver
+2020-07-11 19:17:53 INFO  GithubRepoTest:41 - Finish initializing the driver
+2020-07-11 19:17:53 INFO  GithubRepoTest:113 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'error'
+2020-07-11 19:17:53 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:17:53 INFO  GithubRepoTest:96 -  =============================================== Starting test method [testErrorMessages] ===================================
+2020-07-11 19:17:58 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:17:58 WARN  CustomListener:23 - 'testErrorMessages' method is failed, saving screenshot
+2020-07-11 19:17:59 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:17:59 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:17:59 INFO  GithubRepoTest:103 - =============================================== Ending test method [testErrorMessages] ===================================
+2020-07-11 19:17:59 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:17:59 INFO  GithubRepoTest:96 -  =============================================== Starting test method [testErrorMessages] ===================================
+2020-07-11 19:17:59 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:17:59 WARN  CustomListener:23 - 'testErrorMessages' method is failed, saving screenshot
+2020-07-11 19:18:00 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:18:00 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:18:00 INFO  GithubRepoTest:103 - =============================================== Ending test method [testErrorMessages] ===================================
+2020-07-11 19:18:00 INFO  GithubRepoTest:113 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'username'
+2020-07-11 19:18:00 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:18:00 INFO  GithubRepoTest:96 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-11 19:18:00 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:18:00 WARN  CustomListener:23 - 'testWeb' method is failed, saving screenshot
+2020-07-11 19:18:01 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:18:01 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:18:01 INFO  GithubRepoTest:103 - =============================================== Ending test method [testWeb] ===================================
+2020-07-11 19:18:01 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:18:01 INFO  GithubRepoTest:96 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-11 19:18:01 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:18:01 WARN  CustomListener:23 - 'testWeb' method is failed, saving screenshot
+2020-07-11 19:18:01 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:18:01 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:18:01 INFO  GithubRepoTest:103 - =============================================== Ending test method [testWeb] ===================================
+2020-07-11 19:18:02 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:18:02 INFO  GithubRepoTest:96 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-11 19:18:02 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:18:02 WARN  CustomListener:23 - 'testWeb' method is failed, saving screenshot
+2020-07-11 19:18:02 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:18:02 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:18:02 INFO  GithubRepoTest:103 - =============================================== Ending test method [testWeb] ===================================
+2020-07-11 19:18:02 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:18:02 INFO  GithubRepoTest:96 -  =============================================== Starting test method [testWeb] ===================================
+2020-07-11 19:18:02 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:18:02 WARN  CustomListener:23 - 'testWeb' method is failed, saving screenshot
+2020-07-11 19:18:03 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:18:03 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:18:03 INFO  GithubRepoTest:103 - =============================================== Ending test method [testWeb] ===================================
+2020-07-11 19:18:03 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:18:03 INFO  GithubRepoTest:48 - Destroying the driver
+2020-07-11 19:18:03 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:18:03 INFO  GithubRepoTest:91 - Starting the After class of 'Base Test'
+2020-07-11 19:18:03 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:18:56 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:18:56 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:18:56 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:18:56 INFO  GithubRepoTest:43 - Starting the Before class of 'Base Test'
+2020-07-11 19:18:56 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:18:56 INFO  GithubRepoTest:34 - Start initializing the driver
+2020-07-11 19:18:58 INFO  GithubRepoTest:41 - Finish initializing the driver
+2020-07-11 19:18:58 INFO  GithubRepoTest:113 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'error'
+2020-07-11 19:18:58 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:18:58 INFO  GithubRepoTest:96 -  =============================================== Starting test method [testErrorMessages] ===================================
+2020-07-11 19:19:03 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:19:03 WARN  CustomListener:23 - 'testErrorMessages' method is failed, saving screenshot
+2020-07-11 19:19:04 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:19:04 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:19:04 INFO  GithubRepoTest:103 - =============================================== Ending test method [testErrorMessages] ===================================
+2020-07-11 19:19:04 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:19:04 INFO  GithubRepoTest:96 -  =============================================== Starting test method [testErrorMessages] ===================================
+2020-07-11 19:19:04 INFO  CustomListener:13 - Listener is activated
+2020-07-11 19:19:04 WARN  CustomListener:23 - 'testErrorMessages' method is failed, saving screenshot

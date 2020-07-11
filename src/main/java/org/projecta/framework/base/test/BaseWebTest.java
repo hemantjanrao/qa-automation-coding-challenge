@@ -2,7 +2,6 @@ package org.projecta.framework.base.test;
 
 
 import com.aventstack.extentreports.Status;
-import io.qameta.allure.Attachment;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -59,7 +58,6 @@ public class BaseWebTest extends BaseTest {
      * @param testName name of the test running
      * @throws IOException Exception
      */
-    @Attachment(value = "Web Page Screenshot", type = "image/png")
     public byte[] takeScreenShot(final String testName) {
         if (Objects.isNull(driver)) {
             log.warn("WebDriver is null, unable to save screenshot");

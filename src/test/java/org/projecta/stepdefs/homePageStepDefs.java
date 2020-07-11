@@ -28,19 +28,19 @@ public class homePageStepDefs extends TestRunner {
     }
 
     @Given("User navigate to the application page")
-    public void userIsOnTheApplicationPage() {
+    public void user_is_on_the_application_page() {
         homePage.navigateTo();
         log.info("User navigate to the home page");
     }
 
     @And("See {string} page header")
-    public void userSeePagePageHeader(String pageHeader) {
+    public void user_see_page_header(String pageHeader) {
         Assert.assertTrue(homePage.isHeaderPresentWithText(pageHeader));
         log.info(String.format("Page header with text: %s present", pageHeader));
     }
 
     @When("User enter {string} into search box")
-    public void userEnterIntoSearchBox(String githubUserName) {
+    public void user_enter_into_searchBox(String githubUserName) {
         homePage.enterUserNameToBeSearched(githubUserName);
     }
 
@@ -63,7 +63,7 @@ public class homePageStepDefs extends TestRunner {
     }
 
     @And("Get all the public github repositories for the {string} user")
-    public void getAllThePublicGithubRepositoriesForTheUser(String userName) {
+    public void get_all_the_public_github_repositories_for_the_user(String userName) {
         Assert.assertTrue(homePage.isUserRepositoriesPresent(true));
 
         List<RepositoryResponse> repos = RestService.getRepos(userName);
@@ -76,7 +76,7 @@ public class homePageStepDefs extends TestRunner {
     }
 
     @And("On clicking any repository name link navigate user to actual github repository")
-    public void onClickAnyRepositoryNameLinkNavigateUserToActualGithubRepository() {
+    public void on_click_any_repository_name_link_navigate_user_to_actual_github_repository() {
         String linkToBeOpened = searchedRepositoriesResult.get(rand.nextInt(searchedRepositoriesResult.size())).name;
         String actualGitHubURL = homePage.openGithubRepo(linkToBeOpened);
 
@@ -84,7 +84,7 @@ public class homePageStepDefs extends TestRunner {
     }
 
     @And("See correct error message with text {string}")
-    public void seeCorrectErrorMessageWithText(String errorMessageText) {
+    public void see_correct_error_message_with_text(String errorMessageText) {
         Assert.assertTrue(homePage.getFailureMessage().trim().equalsIgnoreCase(errorMessageText.trim()));
     }
 }

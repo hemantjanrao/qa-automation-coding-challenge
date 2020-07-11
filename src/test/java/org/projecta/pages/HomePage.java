@@ -1,6 +1,5 @@
 package org.projecta.pages;
 
-import io.qameta.allure.Step;
 import org.apache.http.HttpStatus;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
@@ -38,45 +37,56 @@ public class HomePage extends BasePage<HomePage> {
     }
 
     @FindBy(id = "username")
-    WebElement userName;
+    private WebElement userName;
 
     @FindBy(xpath = "//button[@type='submit' and text()='Go']")
-    WebElement btnGo;
+    private WebElement btnGo;
 
     @FindBy(xpath = "//div[@class='repo-list-container']")
-    WebElement tblUserRepository;
+    private WebElement tblUserRepository;
 
     @FindBy(xpath = "//section[@class='output-area']//p[@class='repo-amount']")
-    WebElement lblSearchedResult;
+    private WebElement lblSearchedResult;
 
     @FindBy(xpath = "//div[@class='repo-list-container']")
-    WebElement tblRepositories;
+    private WebElement tblRepositories;
 
     @FindBy(xpath = "//div[@class='repo-list-container']//ul//li")
-    List<WebElement> listRepositories;
+    private List<WebElement> listRepositories;
 
     @FindBy(css = "header>h1")
-    WebElement lblHeader;
+    private WebElement lblHeader;
 
     @FindBy(xpath = "//p[@class='message-failure']/strong")
-    WebElement lblFailureMsg;
+    private WebElement lblFailureMsg;
 
     @FindBy(xpath = "//p[@class='message-success']/strong")
-    WebElement lblSuccessMsg;
+    private WebElement lblSuccessMsg;
 
-    @Step("Search user:  [{0}] .")
+
+    /**
+     * Method to enter user name to be searched
+     *
+     * @param user UserName
+     */
     public void enterUserNameToBeSearched(final String user) {
         log.info("Fill Github username");
         WebUtils.waitForElementToBeDisplayed(driver, userName, 20);
         userName.sendKeys(user);
     }
 
-    public void clickOnButtonGo(){
+    /**
+     *  Method to search by hitting 'Go' button
+     */
+    public void clickOnButtonGo() {
         log.info("Click on Go button");
         WebUtils.clickWithWaitForElement(driver, btnGo, 20);
     }
 
-    public void hitEnter(){
+    /**
+     *  Method to search by hitting 'Enter' key
+     */
+    public void hitEnter() {
         log.info("Click on Go button");
         userName.sendKeys(Keys.ENTER);
     }
@@ -168,6 +178,10 @@ public class HomePage extends BasePage<HomePage> {
         return true;
     }
 
+    /**
+     * @param repoName Repository name
+     * @return String repository URL
+     */
     public String openGithubRepo(final String repoName) {
         String parentWindow = driver.getWindowHandle();
         WebUtils.clickWithWaitForElement(driver, driver.findElement(By.linkText(repoName)), 20);
@@ -184,6 +198,12 @@ public class HomePage extends BasePage<HomePage> {
         return actualGithubURL;
     }
 
+    /**
+     * Method to check all the repositories accessible and not broken
+     *
+     * @param searchedRepositoriesResult List<RepositoryResponse>
+     * @return Boolean
+     */
     public boolean checkBrokenLinks(List<RepositoryResponse> searchedRepositoriesResult) {
         boolean status = false;
         for (RepositoryResponse repository : searchedRepositoriesResult) {
@@ -194,13 +214,23 @@ public class HomePage extends BasePage<HomePage> {
         return status;
     }
 
-    public String getFailureMessage(){
+    /**
+     * Method to return failure message text
+     *
+     * @return String Failure message text
+     */
+    public String getFailureMessage() {
         WebUtils.waitForElementToBeDisplayed(driver, lblFailureMsg, 20);
 
         return WebUtils.getTextValue(lblFailureMsg);
     }
 
-    public String getSuccessMessage(){
+    /**
+     * Method to return success message text
+     *
+     * @return String Success message text
+     */
+    public String getSuccessMessage() {
         WebUtils.waitForElementToBeDisplayed(driver, lblSuccessMsg, 20);
 
         return WebUtils.getTextValue(lblSuccessMsg);

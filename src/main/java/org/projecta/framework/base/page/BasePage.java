@@ -6,6 +6,7 @@ import org.projecta.framework.util.Environment;
 import org.projecta.framework.util.PropertyUtils;
 
 public abstract class BasePage<T extends BasePage> {
+
     protected WebDriver driver;
 
     /**
