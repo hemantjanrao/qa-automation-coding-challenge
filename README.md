@@ -18,13 +18,13 @@ Framework is build using the stack
 
 ### Table of Contents
 
-* **[Summary](#Summary)**<br>
-* **[Setting Development Environment](#Setting-up-Developement-Environment)**<br>
-* **[Running the Tests](#Running-the-Tests )**<br>
-* **[Test Report Generation](#Test-Report-Generation)**<br>
+* **[Project Pre-Installation](#Project-Pre-Installation)**<br>
+* **[Steps to run TesNG tests](#Steps-to-run-TesNG-tests)**<br>
+* **[Steps to run Cucumber tests](#Steps-to-run-Cucumber-tests )**<br>
+* **[Selenium Grid](#Selenium-Grid)**<br>
 <br>
 
-### Project Pre-Installation
+## Project Pre-Installation
 
 #### Dependency handling
 All Dependencies handled by Maven
@@ -45,7 +45,7 @@ Install *Required software to run tests from IDE*
 2. Go to ***qa-automation-coding-challenge*** folder.
 3. Import the project as maven project.
 
-## Running the Tests 
+### Running the Tests 
 
 #### Available test suites
 - TestNG tests configured to run via file - ***run_test_cucumber.xml***
@@ -68,25 +68,25 @@ It is possible to configure test run via **config.properties**
 #### Command line way
 It is also possible to trigger tests from command line.
 
-##### Steps to run TesNG tests
+## Steps to run TesNG tests
 1. Go to ***qa-automation-coding-challenge*** folder.
 2. Use the below command to run the TestNG tests
      
         mvn clean test -Dsurefire.suiteXmlFiles=run_test_testng.xml -Dweb.browser=chrome
         
-### TestNG test Report Generation
+#### TestNG test Report Generation
 
-#### Using Allure to generate allure test report
+##### Using Allure to generate allure test report
 1. Run the command as shown in example below after running as test as above.
     
        
         mvn allure:report           # Generate the report
         mvn allure:serve            # Open the report on browser        
         
-#### Extent report
+##### Extent report
 1. You can find generated extent report for tests under "/test-output/testReporter.html        
         
-##### Steps to run Cucumber tests
+## Steps to run Cucumber tests
 1. Go to ***qa-automation-coding-challenge*** folder.    
 2. Use the below command to run the Cucumber tests        
         
@@ -96,7 +96,7 @@ It is also possible to trigger tests from command line.
 #### Extent report 
 1. You can find generated extent report for tests under "/test-output/testReporter.html
     
-###### On Linux
+## Selenium Grid
 
 Since mostly linux box doesn't have browsers configured. We prefer to run using ***selenium grid***.
 
