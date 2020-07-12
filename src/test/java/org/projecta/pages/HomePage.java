@@ -71,7 +71,7 @@ public class HomePage extends BasePage<HomePage> {
      * @param user UserName
      */
     public void enterUserName(final String user) {
-        log.info("Fill Github username");
+        log.info(String.format("Enter username %s", user));
         WebUtils.waitForElementToBeDisplayed(driver, userName, defaultTimeOut);
         userName.sendKeys(user);
     }
@@ -88,7 +88,7 @@ public class HomePage extends BasePage<HomePage> {
      *  Method to search by hitting 'Enter' key
      */
     public void hitEnter() {
-        log.info("Click on Go button");
+        log.info("Hit enter key");
         userName.sendKeys(Keys.ENTER);
     }
 
@@ -198,12 +198,12 @@ public class HomePage extends BasePage<HomePage> {
     /**
      * Method to check all the repositories accessible and not broken
      *
-     * @param searchedRepositoriesResult List<RepositoryResponse>
+     * @param webRepositoriesResult List<RepositoryResponse>
      * @return Boolean
      */
-    public boolean checkBrokenLinks(List<RepositoryResponse> searchedRepositoriesResult) {
+    public boolean checkBrokenLinks(List<RepositoryResponse> webRepositoriesResult) {
         boolean status = false;
-        for (RepositoryResponse repository : searchedRepositoriesResult) {
+        for (RepositoryResponse repository : webRepositoriesResult) {
             Assert.assertEquals(RestService.isLinkAvailable(repository.html_url), HttpStatus.SC_OK);
             status = true;
         }

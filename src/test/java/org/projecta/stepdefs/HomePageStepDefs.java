@@ -45,7 +45,7 @@ public class HomePageStepDefs extends TestRunner {
     public void user_enter_into_searchBox(String githubUserName) {
         userName = githubUserName;
         homePage.enterUserName(githubUserName);
-        log.info(String.format("fill %s username to be search", githubUserName));
+        log.info(String.format("enter %s username to be search", githubUserName));
     }
 
     @And("Search by {string}")

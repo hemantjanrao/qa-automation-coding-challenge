@@ -5088,3 +5088,445 @@ java.lang.RuntimeException: Error creating Remote webriver
 2020-07-12 11:10:28 INFO  HomePageStepDefs:48 - fill non existing username to be search
 2020-07-12 11:10:28 INFO  HomePage:91 - Click on Go button
 2020-07-12 11:10:29 INFO  TestRunner:38 - Destroying the driver
+2020-07-12 11:23:57 INFO  TestRunner:26 - Start initializing the driver
+2020-07-12 11:24:01 INFO  TestRunner:32 - Finish initializing the driver
+2020-07-12 11:24:07 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 11:24:08 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 11:24:08 INFO  HomePage:74 - Fill Github username
+2020-07-12 11:24:08 INFO  HomePageStepDefs:48 - fill hemantjanrao username to be search
+2020-07-12 11:24:08 INFO  HomePage:83 - Click on Go button
+2020-07-12 11:24:09 INFO  HomePageStepDefs:73 - Get all the public repositories for the given user hemantjanrao
+2020-07-12 11:24:13 INFO  TestRunner:38 - Destroying the driver
+2020-07-12 11:24:13 INFO  TestRunner:26 - Start initializing the driver
+2020-07-12 11:24:14 INFO  TestRunner:32 - Finish initializing the driver
+2020-07-12 11:24:19 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 11:24:19 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 11:24:19 INFO  HomePage:74 - Fill Github username
+2020-07-12 11:24:19 INFO  HomePageStepDefs:48 - fill manojsharma username to be search
+2020-07-12 11:24:19 INFO  HomePage:83 - Click on Go button
+2020-07-12 11:24:19 INFO  HomePageStepDefs:73 - Get all the public repositories for the given user manojsharma
+2020-07-12 11:24:21 INFO  TestRunner:38 - Destroying the driver
+2020-07-12 11:24:21 INFO  TestRunner:26 - Start initializing the driver
+2020-07-12 11:24:22 INFO  TestRunner:32 - Finish initializing the driver
+2020-07-12 11:24:22 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 11:24:22 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 11:24:22 INFO  HomePage:74 - Fill Github username
+2020-07-12 11:24:22 INFO  HomePageStepDefs:48 - fill  username to be search
+2020-07-12 11:24:22 INFO  HomePage:91 - Click on Go button
+2020-07-12 11:24:23 INFO  TestRunner:38 - Destroying the driver
+2020-07-12 11:24:23 INFO  TestRunner:26 - Start initializing the driver
+2020-07-12 11:24:24 INFO  TestRunner:32 - Finish initializing the driver
+2020-07-12 11:24:24 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 11:24:24 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 11:24:24 INFO  HomePage:74 - Fill Github username
+2020-07-12 11:24:24 INFO  HomePageStepDefs:48 - fill non existing username to be search
+2020-07-12 11:24:24 INFO  HomePage:91 - Click on Go button
+2020-07-12 11:24:24 INFO  TestRunner:38 - Destroying the driver
+2020-07-12 11:28:24 INFO  TestRunner:26 - Start initializing the driver
+2020-07-12 11:28:27 INFO  TestRunner:32 - Finish initializing the driver
+2020-07-12 11:28:32 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 11:28:32 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 11:28:32 INFO  HomePage:74 - Fill username hemantjanrao
+2020-07-12 11:28:32 INFO  HomePageStepDefs:48 - fill hemantjanrao username to be search
+2020-07-12 11:28:32 INFO  HomePage:83 - Click on Go button
+2020-07-12 11:28:33 INFO  HomePageStepDefs:73 - Get all the public repositories for the given user hemantjanrao
+2020-07-12 11:28:36 INFO  TestRunner:38 - Destroying the driver
+2020-07-12 11:28:36 INFO  TestRunner:26 - Start initializing the driver
+2020-07-12 11:28:37 INFO  TestRunner:32 - Finish initializing the driver
+2020-07-12 11:28:43 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 11:28:43 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 11:28:43 INFO  HomePage:74 - Fill username manojsharma
+2020-07-12 11:28:43 INFO  HomePageStepDefs:48 - fill manojsharma username to be search
+2020-07-12 11:28:43 INFO  HomePage:83 - Click on Go button
+2020-07-12 11:28:43 INFO  HomePageStepDefs:73 - Get all the public repositories for the given user manojsharma
+2020-07-12 11:28:44 INFO  TestRunner:38 - Destroying the driver
+2020-07-12 11:28:45 INFO  TestRunner:26 - Start initializing the driver
+2020-07-12 11:28:46 INFO  TestRunner:32 - Finish initializing the driver
+2020-07-12 11:28:46 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 11:28:46 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 11:28:46 INFO  HomePage:74 - Fill username 
+2020-07-12 11:28:46 INFO  HomePageStepDefs:48 - fill  username to be search
+2020-07-12 11:28:46 INFO  HomePage:91 - Hit enter key
+2020-07-12 11:28:46 INFO  TestRunner:38 - Destroying the driver
+2020-07-12 11:28:46 INFO  TestRunner:26 - Start initializing the driver
+2020-07-12 11:28:47 INFO  TestRunner:32 - Finish initializing the driver
+2020-07-12 11:28:52 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 11:28:53 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 11:28:53 INFO  HomePage:74 - Fill username non existing
+2020-07-12 11:28:53 INFO  HomePageStepDefs:48 - fill non existing username to be search
+2020-07-12 11:28:53 INFO  HomePage:91 - Hit enter key
+2020-07-12 11:28:53 INFO  TestRunner:38 - Destroying the driver
+2020-07-12 11:36:25 INFO  TestRunner:26 - Start initializing the driver
+2020-07-12 11:36:28 INFO  TestRunner:32 - Finish initializing the driver
+2020-07-12 11:36:34 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 11:36:34 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 11:36:34 INFO  HomePage:74 - Fill username hemantjanrao
+2020-07-12 11:36:34 INFO  HomePageStepDefs:48 - fill hemantjanrao username to be search
+2020-07-12 11:36:34 INFO  HomePage:83 - Click on Go button
+2020-07-12 11:36:34 INFO  HomePageStepDefs:73 - Get all the public repositories for the given user hemantjanrao
+2020-07-12 11:36:38 INFO  TestRunner:38 - Destroying the driver
+2020-07-12 11:36:38 INFO  TestRunner:26 - Start initializing the driver
+2020-07-12 11:36:39 INFO  TestRunner:32 - Finish initializing the driver
+2020-07-12 11:36:44 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 11:36:44 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 11:36:44 INFO  HomePage:74 - Fill username manojsharma
+2020-07-12 11:36:44 INFO  HomePageStepDefs:48 - fill manojsharma username to be search
+2020-07-12 11:36:44 INFO  HomePage:83 - Click on Go button
+2020-07-12 11:36:45 INFO  HomePageStepDefs:73 - Get all the public repositories for the given user manojsharma
+2020-07-12 11:36:46 INFO  TestRunner:38 - Destroying the driver
+2020-07-12 11:36:46 INFO  TestRunner:26 - Start initializing the driver
+2020-07-12 11:36:47 INFO  TestRunner:32 - Finish initializing the driver
+2020-07-12 11:36:47 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 11:36:47 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 11:36:47 INFO  HomePage:74 - Fill username 
+2020-07-12 11:36:48 INFO  HomePageStepDefs:48 - fill  username to be search
+2020-07-12 11:36:48 INFO  HomePage:91 - Hit enter key
+2020-07-12 11:36:48 INFO  TestRunner:38 - Destroying the driver
+2020-07-12 11:36:48 INFO  TestRunner:26 - Start initializing the driver
+2020-07-12 11:36:49 INFO  TestRunner:32 - Finish initializing the driver
+2020-07-12 11:36:49 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 11:36:49 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 11:36:49 INFO  HomePage:74 - Fill username non existing
+2020-07-12 11:36:49 INFO  HomePageStepDefs:48 - fill non existing username to be search
+2020-07-12 11:36:49 INFO  HomePage:91 - Hit enter key
+2020-07-12 11:36:50 INFO  TestRunner:38 - Destroying the driver
+2020-07-12 11:43:08 INFO  TestRunner:27 - Start initializing the driver
+2020-07-12 11:43:10 INFO  TestRunner:33 - Finish initializing the driver
+2020-07-12 11:43:16 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 11:43:16 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 11:43:16 INFO  HomePage:74 - Fill username hemantjanrao
+2020-07-12 11:43:17 INFO  HomePageStepDefs:48 - fill hemantjanrao username to be search
+2020-07-12 11:43:17 INFO  HomePage:83 - Click on Go button
+2020-07-12 11:43:18 INFO  HomePageStepDefs:73 - Get all the public repositories for the given user hemantjanrao
+2020-07-12 11:43:21 INFO  TestRunner:39 - Destroying the driver
+2020-07-12 11:43:21 INFO  TestRunner:27 - Start initializing the driver
+2020-07-12 11:43:22 INFO  TestRunner:33 - Finish initializing the driver
+2020-07-12 11:53:39 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:53:39 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:53:39 INFO  GithubRepoTest:43 - Starting the Before class of 'Base Test'
+2020-07-12 11:53:39 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:53:39 INFO  GithubRepoTest:34 - Start initializing the driver
+2020-07-12 11:53:42 INFO  GithubRepoTest:41 - Finish initializing the driver
+2020-07-12 11:53:42 INFO  GithubRepoTest:114 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'error'
+2020-07-12 11:53:42 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:53:42 INFO  GithubRepoTest:97 -  =============================================== Starting test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 11:53:48 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:53:48 INFO  HomePage:74 - Fill username 
+2020-07-12 11:53:48 INFO  HomePage:91 - Hit enter key
+2020-07-12 11:53:48 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:53:48 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:53:48 INFO  GithubRepoTest:104 - =============================================== Ending test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 11:53:49 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:53:49 INFO  GithubRepoTest:97 -  =============================================== Starting test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 11:53:49 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:53:49 INFO  HomePage:74 - Fill username non existing
+2020-07-12 11:53:49 INFO  HomePage:91 - Hit enter key
+2020-07-12 11:53:49 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:53:49 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:53:49 INFO  GithubRepoTest:104 - =============================================== Ending test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 11:53:49 INFO  GithubRepoTest:114 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'username'
+2020-07-12 11:53:49 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:53:49 INFO  GithubRepoTest:97 -  =============================================== Starting test method [testSearchPublicGithubRepositoriesForGivenUsername] ===================================
+2020-07-12 11:53:49 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:53:49 INFO  HomePage:74 - Fill username hemantjanrao
+2020-07-12 11:53:49 INFO  HomePage:83 - Click on Go button
+2020-07-12 11:53:53 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:53:53 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:53:53 INFO  GithubRepoTest:104 - =============================================== Ending test method [testSearchPublicGithubRepositoriesForGivenUsername] ===================================
+2020-07-12 11:53:53 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:53:53 INFO  GithubRepoTest:97 -  =============================================== Starting test method [testSearchPublicGithubRepositoriesForGivenUsername] ===================================
+2020-07-12 11:53:58 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:53:58 INFO  HomePage:74 - Fill username xyzs
+2020-07-12 11:53:59 INFO  HomePage:83 - Click on Go button
+2020-07-12 11:54:00 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:54:00 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:54:00 INFO  GithubRepoTest:104 - =============================================== Ending test method [testSearchPublicGithubRepositoriesForGivenUsername] ===================================
+2020-07-12 11:54:00 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:54:00 INFO  GithubRepoTest:48 - Destroying the driver
+2020-07-12 11:54:00 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:54:00 INFO  GithubRepoTest:92 - Starting the After class of 'Base Test'
+2020-07-12 11:54:00 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:56:03 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:56:03 INFO  GithubRepoTest:43 - Starting the Before class of 'Base Test'
+2020-07-12 11:56:03 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:56:03 INFO  GithubRepoTest:34 - Start initializing the driver
+2020-07-12 11:56:06 INFO  GithubRepoTest:41 - Finish initializing the driver
+2020-07-12 11:56:06 INFO  GithubRepoTest:114 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'error'
+2020-07-12 11:56:06 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:56:06 INFO  GithubRepoTest:97 -  =============================================== Starting test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 11:56:06 WARN  CustomListener:23 - 'logStartMethod' method is failed, saving screenshot
+2020-07-12 11:56:12 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:56:12 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:56:12 INFO  GithubRepoTest:104 - =============================================== Ending test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 11:56:12 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:56:12 INFO  GithubRepoTest:97 -  =============================================== Starting test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 11:56:12 WARN  CustomListener:23 - 'logStartMethod' method is failed, saving screenshot
+2020-07-12 11:56:13 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:56:13 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:56:13 INFO  GithubRepoTest:104 - =============================================== Ending test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 11:56:13 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:56:13 INFO  GithubRepoTest:48 - Destroying the driver
+2020-07-12 11:56:13 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:56:13 INFO  GithubRepoTest:92 - Starting the After class of 'Base Test'
+2020-07-12 11:57:30 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:57:30 INFO  GithubRepoTest:43 - Starting the Before class of 'Base Test'
+2020-07-12 11:57:30 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:57:30 INFO  GithubRepoTest:34 - Start initializing the driver
+2020-07-12 11:57:32 INFO  GithubRepoTest:41 - Finish initializing the driver
+2020-07-12 11:57:32 INFO  GithubRepoTest:114 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'error'
+2020-07-12 11:57:32 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:57:32 INFO  GithubRepoTest:97 -  =============================================== Starting test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 11:57:32 WARN  CustomListener:23 - 'logStartMethod' method is failed, saving screenshot
+2020-07-12 11:57:38 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:57:38 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:57:38 INFO  GithubRepoTest:104 - =============================================== Ending test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 11:57:38 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:57:38 INFO  GithubRepoTest:97 -  =============================================== Starting test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 11:57:38 WARN  CustomListener:23 - 'logStartMethod' method is failed, saving screenshot
+2020-07-12 11:57:39 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:57:39 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:57:39 INFO  GithubRepoTest:104 - =============================================== Ending test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 11:57:39 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:57:39 INFO  GithubRepoTest:48 - Destroying the driver
+2020-07-12 11:57:39 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:57:39 INFO  GithubRepoTest:92 - Starting the After class of 'Base Test'
+2020-07-12 11:58:29 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:58:29 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:58:29 INFO  GithubRepoTest:43 - Starting the Before class of 'Base Test'
+2020-07-12 11:58:29 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:58:29 INFO  GithubRepoTest:34 - Start initializing the driver
+2020-07-12 11:58:31 INFO  GithubRepoTest:41 - Finish initializing the driver
+2020-07-12 11:58:31 INFO  GithubRepoTest:114 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'error'
+2020-07-12 11:58:31 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:58:31 INFO  GithubRepoTest:97 -  =============================================== Starting test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 11:58:37 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:58:37 INFO  HomePage:74 - Fill username 
+2020-07-12 11:58:38 INFO  HomePage:91 - Hit enter key
+2020-07-12 11:58:38 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:58:38 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:58:38 INFO  GithubRepoTest:104 - =============================================== Ending test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 11:58:38 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:58:38 INFO  GithubRepoTest:97 -  =============================================== Starting test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 11:58:38 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:58:38 INFO  HomePage:74 - Fill username non existing
+2020-07-12 11:58:38 INFO  HomePage:91 - Hit enter key
+2020-07-12 11:58:39 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:58:39 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:58:39 INFO  GithubRepoTest:104 - =============================================== Ending test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 11:58:39 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:58:39 INFO  GithubRepoTest:48 - Destroying the driver
+2020-07-12 11:58:39 INFO  CustomListener:13 - Listener is activated
+2020-07-12 11:58:39 INFO  GithubRepoTest:92 - Starting the After class of 'Base Test'
+2020-07-12 11:58:39 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:00:50 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:00:50 INFO  GithubRepoTest:43 - Starting the Before class of 'Base Test'
+2020-07-12 12:00:50 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:00:50 INFO  GithubRepoTest:34 - Start initializing the driver
+2020-07-12 12:00:53 INFO  GithubRepoTest:41 - Finish initializing the driver
+2020-07-12 12:00:53 INFO  GithubRepoTest:114 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'error'
+2020-07-12 12:00:54 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:00:54 INFO  GithubRepoTest:97 -  =============================================== Starting test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 12:00:54 WARN  CustomListener:23 - 'logStartMethod' method is failed, saving screenshot
+2020-07-12 12:01:00 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:01:00 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:01:00 INFO  GithubRepoTest:104 - =============================================== Ending test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 12:01:00 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:01:00 INFO  GithubRepoTest:97 -  =============================================== Starting test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 12:01:00 WARN  CustomListener:23 - 'logStartMethod' method is failed, saving screenshot
+2020-07-12 12:01:01 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:01:01 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:01:01 INFO  GithubRepoTest:104 - =============================================== Ending test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 12:01:01 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:01:01 INFO  GithubRepoTest:48 - Destroying the driver
+2020-07-12 12:01:01 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:01:01 INFO  GithubRepoTest:92 - Starting the After class of 'Base Test'
+2020-07-12 12:02:18 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:02:18 INFO  GithubRepoTest:43 - Starting the Before class of 'Base Test'
+2020-07-12 12:02:18 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:02:18 INFO  GithubRepoTest:34 - Start initializing the driver
+2020-07-12 12:02:21 INFO  GithubRepoTest:41 - Finish initializing the driver
+2020-07-12 12:02:21 INFO  GithubRepoTest:114 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'error'
+2020-07-12 12:02:21 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:02:21 INFO  GithubRepoTest:97 -  =============================================== Starting test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 12:02:21 WARN  CustomListener:23 - 'logStartMethod' method is failed, saving screenshot
+2020-07-12 12:02:27 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:02:27 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:02:27 INFO  GithubRepoTest:104 - =============================================== Ending test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 12:02:27 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:02:27 INFO  GithubRepoTest:97 -  =============================================== Starting test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 12:02:27 WARN  CustomListener:23 - 'logStartMethod' method is failed, saving screenshot
+2020-07-12 12:02:28 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:02:28 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:02:28 INFO  GithubRepoTest:104 - =============================================== Ending test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 12:02:28 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:02:28 INFO  GithubRepoTest:48 - Destroying the driver
+2020-07-12 12:02:28 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:02:28 INFO  GithubRepoTest:92 - Starting the After class of 'Base Test'
+2020-07-12 12:15:08 INFO  TestRunner:28 - Start initializing the driver
+2020-07-12 12:15:11 INFO  TestRunner:34 - Finish initializing the driver
+2020-07-12 12:15:17 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 12:15:17 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 12:15:17 INFO  HomePage:74 - Fill username 
+2020-07-12 12:15:17 INFO  HomePageStepDefs:48 - fill  username to be search
+2020-07-12 12:15:17 INFO  HomePage:91 - Hit enter key
+2020-07-12 12:15:18 INFO  TestRunner:40 - Destroying the driver
+2020-07-12 12:15:18 INFO  TestRunner:28 - Start initializing the driver
+2020-07-12 12:15:20 INFO  TestRunner:34 - Finish initializing the driver
+2020-07-12 12:15:20 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 12:15:20 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 12:15:20 INFO  HomePage:74 - Fill username non existing
+2020-07-12 12:15:20 INFO  HomePageStepDefs:48 - fill non existing username to be search
+2020-07-12 12:15:20 INFO  HomePage:91 - Hit enter key
+2020-07-12 12:15:21 INFO  TestRunner:40 - Destroying the driver
+2020-07-12 12:15:52 INFO  TestRunner:28 - Start initializing the driver
+2020-07-12 12:15:55 INFO  TestRunner:34 - Finish initializing the driver
+2020-07-12 12:16:00 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 12:16:00 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 12:16:00 INFO  HomePage:74 - Fill username 
+2020-07-12 12:16:01 INFO  HomePageStepDefs:48 - fill  username to be search
+2020-07-12 12:16:01 INFO  HomePage:91 - Hit enter key
+2020-07-12 12:16:01 INFO  TestRunner:40 - Destroying the driver
+2020-07-12 12:16:01 INFO  TestRunner:28 - Start initializing the driver
+2020-07-12 12:16:02 INFO  TestRunner:34 - Finish initializing the driver
+2020-07-12 12:16:02 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 12:16:02 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 12:16:02 INFO  HomePage:74 - Fill username non existing
+2020-07-12 12:16:02 INFO  HomePageStepDefs:48 - fill non existing username to be search
+2020-07-12 12:16:02 INFO  HomePage:91 - Hit enter key
+2020-07-12 12:16:03 INFO  TestRunner:40 - Destroying the driver
+2020-07-12 12:17:20 INFO  TestRunner:28 - Start initializing the driver
+2020-07-12 12:17:22 INFO  TestRunner:34 - Finish initializing the driver
+2020-07-12 12:17:27 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 12:17:27 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 12:17:27 INFO  HomePage:74 - Fill username hemantjanrao
+2020-07-12 12:17:27 INFO  HomePageStepDefs:48 - fill hemantjanrao username to be search
+2020-07-12 12:17:27 INFO  HomePage:83 - Click on Go button
+2020-07-12 12:17:28 INFO  HomePageStepDefs:73 - Get all the public repositories for the given user hemantjanrao
+2020-07-12 12:17:33 INFO  TestRunner:40 - Destroying the driver
+2020-07-12 12:17:33 INFO  TestRunner:28 - Start initializing the driver
+2020-07-12 12:17:34 INFO  TestRunner:34 - Finish initializing the driver
+2020-07-12 12:17:39 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 12:17:39 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 12:17:39 INFO  HomePage:74 - Fill username manojsharma
+2020-07-12 12:17:40 INFO  HomePageStepDefs:48 - fill manojsharma username to be search
+2020-07-12 12:17:40 INFO  HomePage:83 - Click on Go button
+2020-07-12 12:17:40 INFO  HomePageStepDefs:73 - Get all the public repositories for the given user manojsharma
+2020-07-12 12:17:41 INFO  TestRunner:40 - Destroying the driver
+2020-07-12 12:17:41 INFO  TestRunner:28 - Start initializing the driver
+2020-07-12 12:17:42 INFO  TestRunner:34 - Finish initializing the driver
+2020-07-12 12:17:43 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 12:17:43 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 12:17:43 INFO  HomePage:74 - Fill username 
+2020-07-12 12:17:43 INFO  HomePageStepDefs:48 - fill  username to be search
+2020-07-12 12:17:43 INFO  HomePage:91 - Hit enter key
+2020-07-12 12:17:43 INFO  TestRunner:40 - Destroying the driver
+2020-07-12 12:17:44 INFO  TestRunner:28 - Start initializing the driver
+2020-07-12 12:17:44 INFO  TestRunner:34 - Finish initializing the driver
+2020-07-12 12:17:49 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 12:17:50 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 12:17:50 INFO  HomePage:74 - Fill username non existing
+2020-07-12 12:17:50 INFO  HomePageStepDefs:48 - fill non existing username to be search
+2020-07-12 12:17:50 INFO  HomePage:91 - Hit enter key
+2020-07-12 12:17:50 INFO  TestRunner:40 - Destroying the driver
+2020-07-12 12:18:25 INFO  TestRunner:28 - Start initializing the driver
+2020-07-12 12:18:28 INFO  TestRunner:34 - Finish initializing the driver
+2020-07-12 12:18:34 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 12:18:34 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 12:18:34 INFO  HomePage:74 - Fill username hemantjanrao
+2020-07-12 12:18:34 INFO  HomePageStepDefs:48 - fill hemantjanrao username to be search
+2020-07-12 12:18:34 INFO  HomePage:83 - Click on Go button
+2020-07-12 12:18:34 INFO  HomePageStepDefs:73 - Get all the public repositories for the given user hemantjanrao
+2020-07-12 12:18:38 INFO  TestRunner:40 - Destroying the driver
+2020-07-12 12:18:38 INFO  TestRunner:28 - Start initializing the driver
+2020-07-12 12:18:39 INFO  TestRunner:34 - Finish initializing the driver
+2020-07-12 12:18:44 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 12:18:44 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 12:18:44 INFO  HomePage:74 - Fill username manojsharma
+2020-07-12 12:18:44 INFO  HomePageStepDefs:48 - fill manojsharma username to be search
+2020-07-12 12:18:44 INFO  HomePage:83 - Click on Go button
+2020-07-12 12:18:45 INFO  HomePageStepDefs:73 - Get all the public repositories for the given user manojsharma
+2020-07-12 12:18:46 INFO  TestRunner:40 - Destroying the driver
+2020-07-12 12:18:46 INFO  TestRunner:28 - Start initializing the driver
+2020-07-12 12:18:47 INFO  TestRunner:34 - Finish initializing the driver
+2020-07-12 12:18:47 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 12:18:47 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 12:18:47 INFO  HomePage:74 - Fill username 
+2020-07-12 12:18:47 INFO  HomePageStepDefs:48 - fill  username to be search
+2020-07-12 12:18:47 INFO  HomePage:91 - Hit enter key
+2020-07-12 12:18:48 INFO  TestRunner:40 - Destroying the driver
+2020-07-12 12:18:48 INFO  TestRunner:28 - Start initializing the driver
+2020-07-12 12:18:49 INFO  TestRunner:34 - Finish initializing the driver
+2020-07-12 12:18:49 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 12:18:49 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 12:18:49 INFO  HomePage:74 - Fill username non existing
+2020-07-12 12:18:49 INFO  HomePageStepDefs:48 - fill non existing username to be search
+2020-07-12 12:18:49 INFO  HomePage:91 - Hit enter key
+2020-07-12 12:18:49 INFO  TestRunner:40 - Destroying the driver
+2020-07-12 12:23:53 INFO  TestRunner:28 - Start initializing the driver
+2020-07-12 12:23:57 INFO  TestRunner:34 - Finish initializing the driver
+2020-07-12 12:24:02 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 12:24:02 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 12:24:02 INFO  HomePage:74 - Enter username 
+2020-07-12 12:24:03 INFO  HomePageStepDefs:48 - enter  username to be search
+2020-07-12 12:24:03 INFO  HomePage:91 - Hit enter key
+2020-07-12 12:24:03 INFO  TestRunner:40 - Destroying the driver
+2020-07-12 12:24:03 INFO  TestRunner:28 - Start initializing the driver
+2020-07-12 12:24:04 INFO  TestRunner:34 - Finish initializing the driver
+2020-07-12 12:24:04 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 12:24:04 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 12:24:04 INFO  HomePage:74 - Enter username non existing
+2020-07-12 12:24:04 INFO  HomePageStepDefs:48 - enter non existing username to be search
+2020-07-12 12:24:04 INFO  HomePage:91 - Hit enter key
+2020-07-12 12:24:05 INFO  TestRunner:40 - Destroying the driver
+2020-07-12 12:24:22 INFO  TestRunner:28 - Start initializing the driver
+2020-07-12 12:24:24 INFO  TestRunner:34 - Finish initializing the driver
+2020-07-12 12:24:29 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 12:24:29 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 12:24:29 INFO  HomePage:74 - Enter username hemantjanrao
+2020-07-12 12:24:29 INFO  HomePageStepDefs:48 - enter hemantjanrao username to be search
+2020-07-12 12:24:29 INFO  HomePage:83 - Click on Go button
+2020-07-12 12:24:35 INFO  HomePageStepDefs:73 - Get all the public repositories for the given user hemantjanrao
+2020-07-12 12:24:44 INFO  TestRunner:40 - Destroying the driver
+2020-07-12 12:24:44 INFO  TestRunner:28 - Start initializing the driver
+2020-07-12 12:24:45 INFO  TestRunner:34 - Finish initializing the driver
+2020-07-12 12:24:50 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 12:24:51 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 12:24:51 INFO  HomePage:74 - Enter username manojsharma
+2020-07-12 12:24:51 INFO  HomePageStepDefs:48 - enter manojsharma username to be search
+2020-07-12 12:24:51 INFO  HomePage:83 - Click on Go button
+2020-07-12 12:24:56 INFO  HomePageStepDefs:73 - Get all the public repositories for the given user manojsharma
+2020-07-12 12:25:00 INFO  TestRunner:40 - Destroying the driver
+2020-07-12 12:25:36 INFO  TestRunner:28 - Start initializing the driver
+2020-07-12 12:25:38 INFO  TestRunner:34 - Finish initializing the driver
+2020-07-12 12:25:44 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 12:25:44 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 12:25:44 INFO  HomePage:74 - Enter username hemantjanrao
+2020-07-12 12:25:44 INFO  HomePageStepDefs:48 - enter hemantjanrao username to be search
+2020-07-12 12:25:44 INFO  HomePage:83 - Click on Go button
+2020-07-12 12:25:45 INFO  HomePageStepDefs:73 - Get all the public repositories for the given user hemantjanrao
+2020-07-12 12:25:48 INFO  TestRunner:40 - Destroying the driver
+2020-07-12 12:25:48 INFO  TestRunner:28 - Start initializing the driver
+2020-07-12 12:25:49 INFO  TestRunner:34 - Finish initializing the driver
+2020-07-12 12:25:54 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 12:25:54 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 12:25:54 INFO  HomePage:74 - Enter username manojsharma
+2020-07-12 12:25:54 INFO  HomePageStepDefs:48 - enter manojsharma username to be search
+2020-07-12 12:25:54 INFO  HomePage:83 - Click on Go button
+2020-07-12 12:25:55 INFO  HomePageStepDefs:73 - Get all the public repositories for the given user manojsharma
+2020-07-12 12:25:56 INFO  TestRunner:40 - Destroying the driver
+2020-07-12 12:25:56 INFO  TestRunner:28 - Start initializing the driver
+2020-07-12 12:25:57 INFO  TestRunner:34 - Finish initializing the driver
+2020-07-12 12:25:57 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 12:25:57 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 12:25:57 INFO  HomePage:74 - Enter username 
+2020-07-12 12:25:58 INFO  HomePageStepDefs:48 - enter  username to be search
+2020-07-12 12:25:58 INFO  HomePage:91 - Hit enter key
+2020-07-12 12:25:58 INFO  TestRunner:40 - Destroying the driver
+2020-07-12 12:25:58 INFO  TestRunner:28 - Start initializing the driver
+2020-07-12 12:25:59 INFO  TestRunner:34 - Finish initializing the driver
+2020-07-12 12:25:59 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 12:25:59 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 12:25:59 INFO  HomePage:74 - Enter username non existing
+2020-07-12 12:25:59 INFO  HomePageStepDefs:48 - enter non existing username to be search
+2020-07-12 12:25:59 INFO  HomePage:91 - Hit enter key
+2020-07-12 12:26:00 INFO  TestRunner:40 - Destroying the driver

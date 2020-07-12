@@ -23,10 +23,10 @@ public class GithubRepoTest extends BaseWebTest {
                 FileUtils.getResourcePath(GithubRepoTest.class, "TestData.xls"), "username");
     }
 
-    @Test(dataProvider = "username")
     @Story("User search with existing GitHub repositories of the given username ")
     @Description("User search with existing GitHub username and get all the public GitHub repositories for the same " +
             "users")
+    @Test(dataProvider = "username")
     public void testSearchPublicGithubRepositoriesForGivenUsername(String userName) {
 
         // Given, User navigate to the homepage
@@ -78,9 +78,9 @@ public class GithubRepoTest extends BaseWebTest {
                 FileUtils.getResourcePath(GithubRepoTest.class, "TestData.xls"), "error");
     }
 
-    @Test(dataProvider = "errors")
     @Story("User search username and see correct error message")
     @Description("Test to verify error message for given non existing usernames which result into error message")
+    @Test(dataProvider = "errors")
     public void testErrorMessageInCaseIssueWithInput(String userName, String errorMessage) {
 
         // Given, User navigate to the homepage

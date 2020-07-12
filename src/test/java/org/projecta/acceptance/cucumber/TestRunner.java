@@ -13,7 +13,9 @@ import org.testng.annotations.BeforeMethod;
 @CucumberOptions(plugin = {"org.projecta.framework.listner.CustomReportListener"},
         monochrome = true,
         glue = {"org/projecta/stepdefs", "org/projecta/framework/cucumberHooks"},
+        tags="@qa-task and @positive and @negative",
         features = {"src/test/resources/features"}
+
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 
