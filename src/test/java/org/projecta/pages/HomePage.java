@@ -70,7 +70,7 @@ public class HomePage extends BasePage<HomePage> {
      *
      * @param user UserName
      */
-    public void enterUserNameToBeSearched(final String user) {
+    public void enterUserName(final String user) {
         log.info("Fill Github username");
         WebUtils.waitForElementToBeDisplayed(driver, userName, defaultTimeOut);
         userName.sendKeys(user);
@@ -231,5 +231,9 @@ public class HomePage extends BasePage<HomePage> {
         WebUtils.waitForElementToBeDisplayed(driver, lblSuccessMsg, defaultTimeOut);
 
         return WebUtils.getTextValue(lblSuccessMsg);
+    }
+
+    public String constructGithubUrl(String repositoryName, String userName){
+        return "https://github.com/"+userName+"/"+repositoryName;
     }
 }

@@ -6,17 +6,6 @@ import com.google.gson.annotations.Expose;
  * POJO for de-serializing Rest response
  */
 public class RepositoryResponse {
-    public String getName() {
-        return name;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public String getHtml_url() {
-        return html_url;
-    }
 
     @Expose(deserialize = true)
     public String name;
@@ -37,5 +26,17 @@ public class RepositoryResponse {
 
     public void setHtml_url(String html_url) {
         this.html_url = html_url;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public String getHtml_url() {
+        return html_url;
     }
 }

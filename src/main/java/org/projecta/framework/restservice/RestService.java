@@ -21,7 +21,7 @@ public class RestService {
         return RestAssured
                 .given()
                 .baseUri(PropertyUtils.get(Environment.GITHUB_URL))
-                .get(PropertyUtils.get(Environment.REPOSITORY_ENDPOINT).replace("{USERNAME}", userName))
+                .get(PropertyUtils.get(Environment.REPOSITORY_ENDPOINT).replace("{0}", userName))
                 .then()
                 .extract().response();
     }
