@@ -8,7 +8,7 @@ Framework is build using the stack
 * [Selenium Webdriver 3](https://www.selenium.dev/documentation/en/)
 * [Java 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
 * [Cucumber](https://cucumber.io/)
-* [Cucumber](https://testng.org/doc/)
+* [TestNG](https://testng.org/doc/)
 * [Allure Reporting](http://allure.qatools.ru/)
 * [Extent Reporting](https://extentreports.com/)
 * [Selenium Grid](https://www.selenium.dev/documentation/en/grid/grid_3/components_of_a_grid/)
