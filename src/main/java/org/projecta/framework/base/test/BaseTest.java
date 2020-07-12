@@ -8,6 +8,7 @@ import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentAventReporter;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 import jxl.Sheet;
 import jxl.Workbook;
@@ -29,8 +30,8 @@ public class BaseTest {
     protected WebDriver driver;
     protected Logger log = Logger.getLogger(getClass());
 
-    //builds a new report using the html template
-    ExtentHtmlReporter htmlReporter;
+    //ExtentHtmlReporter htmlReporter;
+    ExtentSparkReporter spark;
 
     protected ExtentReports extent;
     //helps to generate the logs in test report.
@@ -46,22 +47,17 @@ public class BaseTest {
     @BeforeTest
     public void baseBeforeTest() {
         // initialize the HtmlReporter
-        htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "/test-output/testReport.html");
-
+        spark = new ExtentSparkReporter(System.getProperty("user.dir") + "/test-output/testReport.html");
+        spark.loadConfig("html-config.xml");
         //initialize ExtentReports and attach the HtmlReporter
         extent = new ExtentReports();
-        extent.attachReporter(htmlReporter);
+        extent.attachReporter(spark);
 
         //To add system or environment info by using the setSystemInfo method.
-        extent.setSystemInfo("OS", System.getenv("OS"));
+        extent.setSystemInfo("OS", System.getProperty("os.name"));
         extent.setSystemInfo("Browser", PropertyUtils.get(Environment.WEB_BROWSER));
-
-        //configuration items to change the look and feel
-        //add content, manage tests etc
-        htmlReporter.config().setDocumentTitle("Extent Report Demo");
-        htmlReporter.config().setReportName("Test Report");
-        htmlReporter.config().setTheme(Theme.STANDARD);
-        htmlReporter.config().setTimeStampFormat("EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'");
+        extent.setSystemInfo("User ", System.getProperty("user.name"));
+        extent.setSystemInfo("Java Version", String.valueOf(Runtime.version()));
 
     }
 

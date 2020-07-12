@@ -5530,3 +5530,307 @@ java.lang.RuntimeException: Error creating Remote webriver
 2020-07-12 12:25:59 INFO  HomePageStepDefs:48 - enter non existing username to be search
 2020-07-12 12:25:59 INFO  HomePage:91 - Hit enter key
 2020-07-12 12:26:00 INFO  TestRunner:40 - Destroying the driver
+2020-07-12 12:38:27 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:38:27 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:38:27 INFO  GithubRepoTest:43 - Starting the Before class of 'Base Test'
+2020-07-12 12:38:27 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:38:27 INFO  GithubRepoTest:34 - Start initializing the driver
+2020-07-12 12:38:30 INFO  GithubRepoTest:41 - Finish initializing the driver
+2020-07-12 12:38:30 INFO  GithubRepoTest:114 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'error'
+2020-07-12 12:38:30 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:38:30 INFO  GithubRepoTest:97 -  =============================================== Starting test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 12:38:35 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:38:36 INFO  HomePage:74 - Enter username 
+2020-07-12 12:38:36 INFO  HomePage:91 - Hit enter key
+2020-07-12 12:38:36 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:38:36 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:38:36 INFO  GithubRepoTest:104 - =============================================== Ending test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 12:38:36 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:38:36 INFO  GithubRepoTest:97 -  =============================================== Starting test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 12:38:36 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:38:36 INFO  HomePage:74 - Enter username non existing
+2020-07-12 12:38:36 INFO  HomePage:91 - Hit enter key
+2020-07-12 12:38:37 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:38:37 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:38:37 INFO  GithubRepoTest:104 - =============================================== Ending test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 12:38:37 INFO  GithubRepoTest:114 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'username'
+2020-07-12 12:38:37 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:38:37 INFO  GithubRepoTest:97 -  =============================================== Starting test method [testSearchPublicGithubRepositoriesForGivenUsername] ===================================
+2020-07-12 12:38:37 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:38:37 INFO  HomePage:74 - Enter username hemantjanrao
+2020-07-12 12:38:37 INFO  HomePage:83 - Click on Go button
+2020-07-12 12:38:41 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:38:41 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:38:41 INFO  GithubRepoTest:104 - =============================================== Ending test method [testSearchPublicGithubRepositoriesForGivenUsername] ===================================
+2020-07-12 12:38:41 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:38:41 INFO  GithubRepoTest:97 -  =============================================== Starting test method [testSearchPublicGithubRepositoriesForGivenUsername] ===================================
+2020-07-12 12:38:46 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:38:46 INFO  HomePage:74 - Enter username xyzs
+2020-07-12 12:38:46 INFO  HomePage:83 - Click on Go button
+2020-07-12 12:38:48 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:38:48 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:38:48 INFO  GithubRepoTest:104 - =============================================== Ending test method [testSearchPublicGithubRepositoriesForGivenUsername] ===================================
+2020-07-12 12:38:48 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:38:48 INFO  GithubRepoTest:48 - Destroying the driver
+2020-07-12 12:38:48 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:38:48 INFO  GithubRepoTest:92 - Starting the After class of 'Base Test'
+2020-07-12 12:38:48 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:40:15 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:40:15 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:40:15 INFO  GithubRepoTest:43 - Starting the Before class of 'Base Test'
+2020-07-12 12:40:15 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:40:15 INFO  GithubRepoTest:34 - Start initializing the driver
+2020-07-12 12:40:18 INFO  GithubRepoTest:41 - Finish initializing the driver
+2020-07-12 12:40:18 INFO  GithubRepoTest:114 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'error'
+2020-07-12 12:40:18 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:40:18 INFO  GithubRepoTest:97 -  =============================================== Starting test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 12:40:23 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:40:24 INFO  HomePage:74 - Enter username 
+2020-07-12 12:40:24 INFO  HomePage:91 - Hit enter key
+2020-07-12 12:40:24 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:40:24 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:40:24 INFO  GithubRepoTest:104 - =============================================== Ending test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 12:40:24 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:40:24 INFO  GithubRepoTest:97 -  =============================================== Starting test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 12:40:24 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:40:25 INFO  HomePage:74 - Enter username non existing
+2020-07-12 12:40:25 INFO  HomePage:91 - Hit enter key
+2020-07-12 12:40:25 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:40:25 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:40:25 INFO  GithubRepoTest:104 - =============================================== Ending test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 12:40:25 INFO  GithubRepoTest:114 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'username'
+2020-07-12 12:40:25 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:40:25 INFO  GithubRepoTest:97 -  =============================================== Starting test method [testSearchPublicGithubRepositoriesForGivenUsername] ===================================
+2020-07-12 12:40:25 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:40:25 INFO  HomePage:74 - Enter username hemantjanrao
+2020-07-12 12:40:25 INFO  HomePage:83 - Click on Go button
+2020-07-12 12:40:30 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:40:30 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:40:30 INFO  GithubRepoTest:104 - =============================================== Ending test method [testSearchPublicGithubRepositoriesForGivenUsername] ===================================
+2020-07-12 12:40:30 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:40:30 INFO  GithubRepoTest:97 -  =============================================== Starting test method [testSearchPublicGithubRepositoriesForGivenUsername] ===================================
+2020-07-12 12:40:35 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:40:35 INFO  HomePage:74 - Enter username xyzs
+2020-07-12 12:40:35 INFO  HomePage:83 - Click on Go button
+2020-07-12 12:40:48 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:40:48 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:40:48 INFO  GithubRepoTest:104 - =============================================== Ending test method [testSearchPublicGithubRepositoriesForGivenUsername] ===================================
+2020-07-12 12:40:48 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:40:48 INFO  GithubRepoTest:48 - Destroying the driver
+2020-07-12 12:40:48 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:40:48 INFO  GithubRepoTest:92 - Starting the After class of 'Base Test'
+2020-07-12 12:40:48 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:41:49 INFO  TestRunner:28 - Start initializing the driver
+2020-07-12 12:41:51 INFO  TestRunner:34 - Finish initializing the driver
+2020-07-12 12:41:57 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 12:41:57 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 12:41:57 INFO  HomePage:74 - Enter username hemantjanrao
+2020-07-12 12:41:57 INFO  HomePageStepDefs:48 - enter hemantjanrao username to be search
+2020-07-12 12:41:57 INFO  HomePage:83 - Click on Go button
+2020-07-12 12:41:58 INFO  HomePageStepDefs:73 - Get all the public repositories for the given user hemantjanrao
+2020-07-12 12:42:01 INFO  TestRunner:40 - Destroying the driver
+2020-07-12 12:42:02 INFO  TestRunner:28 - Start initializing the driver
+2020-07-12 12:42:03 INFO  TestRunner:34 - Finish initializing the driver
+2020-07-12 12:42:09 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 12:42:09 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 12:42:09 INFO  HomePage:74 - Enter username manojsharma
+2020-07-12 12:42:09 INFO  HomePageStepDefs:48 - enter manojsharma username to be search
+2020-07-12 12:42:09 INFO  HomePage:83 - Click on Go button
+2020-07-12 12:42:14 INFO  HomePageStepDefs:73 - Get all the public repositories for the given user manojsharma
+2020-07-12 12:42:22 INFO  TestRunner:40 - Destroying the driver
+2020-07-12 12:42:22 INFO  TestRunner:28 - Start initializing the driver
+2020-07-12 12:42:23 INFO  TestRunner:34 - Finish initializing the driver
+2020-07-12 12:42:28 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 12:42:29 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 12:42:29 INFO  HomePage:74 - Enter username 
+2020-07-12 12:42:29 INFO  HomePageStepDefs:48 - enter  username to be search
+2020-07-12 12:42:29 INFO  HomePage:91 - Hit enter key
+2020-07-12 12:42:29 INFO  TestRunner:40 - Destroying the driver
+2020-07-12 12:42:29 INFO  TestRunner:28 - Start initializing the driver
+2020-07-12 12:42:30 INFO  TestRunner:34 - Finish initializing the driver
+2020-07-12 12:42:31 INFO  HomePageStepDefs:34 - User navigate to the home page
+2020-07-12 12:42:31 INFO  HomePageStepDefs:41 - Page header with text: Get Github Repos present
+2020-07-12 12:42:31 INFO  HomePage:74 - Enter username non existing
+2020-07-12 12:42:31 INFO  HomePageStepDefs:48 - enter non existing username to be search
+2020-07-12 12:42:31 INFO  HomePage:91 - Hit enter key
+2020-07-12 12:42:31 INFO  TestRunner:40 - Destroying the driver
+2020-07-12 12:44:41 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:44:41 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:44:41 INFO  GithubRepoTest:44 - Starting the Before class of 'Base Test'
+2020-07-12 12:44:41 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:44:41 INFO  GithubRepoTest:34 - Start initializing the driver
+2020-07-12 12:44:43 INFO  GithubRepoTest:41 - Finish initializing the driver
+2020-07-12 12:44:43 INFO  GithubRepoTest:116 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'error'
+2020-07-12 12:44:44 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:44:44 INFO  GithubRepoTest:99 -  =============================================== Starting test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 12:44:49 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:44:49 INFO  HomePage:74 - Enter username 
+2020-07-12 12:44:49 INFO  HomePage:91 - Hit enter key
+2020-07-12 12:44:50 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:44:50 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:44:50 INFO  GithubRepoTest:106 - =============================================== Ending test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 12:44:50 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:44:50 INFO  GithubRepoTest:99 -  =============================================== Starting test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 12:44:50 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:44:50 INFO  HomePage:74 - Enter username non existing
+2020-07-12 12:44:50 INFO  HomePage:91 - Hit enter key
+2020-07-12 12:44:50 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:44:50 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:44:50 INFO  GithubRepoTest:106 - =============================================== Ending test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 12:44:50 INFO  GithubRepoTest:116 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'username'
+2020-07-12 12:44:50 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:44:50 INFO  GithubRepoTest:99 -  =============================================== Starting test method [testSearchPublicGithubRepositoriesForGivenUsername] ===================================
+2020-07-12 12:44:50 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:44:51 INFO  HomePage:74 - Enter username hemantjanrao
+2020-07-12 12:44:51 INFO  HomePage:83 - Click on Go button
+2020-07-12 12:45:06 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:45:06 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:45:06 INFO  GithubRepoTest:106 - =============================================== Ending test method [testSearchPublicGithubRepositoriesForGivenUsername] ===================================
+2020-07-12 12:45:06 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:45:06 INFO  GithubRepoTest:99 -  =============================================== Starting test method [testSearchPublicGithubRepositoriesForGivenUsername] ===================================
+2020-07-12 12:45:11 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:45:11 INFO  HomePage:74 - Enter username xyzs
+2020-07-12 12:45:11 INFO  HomePage:83 - Click on Go button
+2020-07-12 12:45:23 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:45:23 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:45:23 INFO  GithubRepoTest:106 - =============================================== Ending test method [testSearchPublicGithubRepositoriesForGivenUsername] ===================================
+2020-07-12 12:45:23 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:45:23 INFO  GithubRepoTest:48 - Destroying the driver
+2020-07-12 12:45:23 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:45:23 INFO  GithubRepoTest:94 - Starting the After class of 'Base Test'
+2020-07-12 12:45:23 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:55:05 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:55:06 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:55:06 INFO  GithubRepoTest:45 - Starting the Before class of 'Base Test'
+2020-07-12 12:55:06 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:55:06 INFO  GithubRepoTest:34 - Start initializing the driver
+2020-07-12 12:55:08 INFO  GithubRepoTest:41 - Finish initializing the driver
+2020-07-12 12:55:08 INFO  GithubRepoTest:116 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'error'
+2020-07-12 12:55:08 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:55:08 INFO  GithubRepoTest:99 -  =============================================== Starting test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 12:55:13 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:55:14 INFO  HomePage:74 - Enter username 
+2020-07-12 12:55:14 INFO  HomePage:91 - Hit enter key
+2020-07-12 12:55:14 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:55:14 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:55:14 INFO  GithubRepoTest:106 - =============================================== Ending test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 12:55:14 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:55:14 INFO  GithubRepoTest:99 -  =============================================== Starting test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 12:55:14 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:55:14 INFO  HomePage:74 - Enter username non existing
+2020-07-12 12:55:15 INFO  HomePage:91 - Hit enter key
+2020-07-12 12:55:15 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:55:15 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:55:15 INFO  GithubRepoTest:106 - =============================================== Ending test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 12:55:15 INFO  GithubRepoTest:116 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'username'
+2020-07-12 12:55:15 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:55:15 INFO  GithubRepoTest:99 -  =============================================== Starting test method [testSearchPublicGithubRepositoriesForGivenUsername] ===================================
+2020-07-12 12:55:15 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:55:15 INFO  HomePage:74 - Enter username hemantjanrao
+2020-07-12 12:55:15 INFO  HomePage:83 - Click on Go button
+2020-07-12 12:55:30 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:55:30 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:55:30 INFO  GithubRepoTest:106 - =============================================== Ending test method [testSearchPublicGithubRepositoriesForGivenUsername] ===================================
+2020-07-12 12:55:30 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:55:30 INFO  GithubRepoTest:99 -  =============================================== Starting test method [testSearchPublicGithubRepositoriesForGivenUsername] ===================================
+2020-07-12 12:55:35 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:55:35 INFO  HomePage:74 - Enter username xyzs
+2020-07-12 12:55:35 INFO  HomePage:83 - Click on Go button
+2020-07-12 12:55:37 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:55:37 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:55:37 INFO  GithubRepoTest:106 - =============================================== Ending test method [testSearchPublicGithubRepositoriesForGivenUsername] ===================================
+2020-07-12 12:55:37 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:55:37 INFO  GithubRepoTest:48 - Destroying the driver
+2020-07-12 12:55:37 INFO  CustomListener:13 - Listener is activated
+2020-07-12 12:55:37 INFO  GithubRepoTest:94 - Starting the After class of 'Base Test'
+2020-07-12 12:55:37 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:02:07 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:02:08 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:02:08 INFO  GithubRepoTest:44 - Starting the Before class of 'Base Test'
+2020-07-12 13:02:08 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:02:08 INFO  GithubRepoTest:34 - Start initializing the driver
+2020-07-12 13:02:10 INFO  GithubRepoTest:41 - Finish initializing the driver
+2020-07-12 13:02:10 INFO  GithubRepoTest:110 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'error'
+2020-07-12 13:02:11 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:02:11 INFO  GithubRepoTest:93 -  =============================================== Starting test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 13:02:16 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:02:16 INFO  HomePage:74 - Enter username 
+2020-07-12 13:02:17 INFO  HomePage:91 - Hit enter key
+2020-07-12 13:02:17 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:02:17 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:02:17 INFO  GithubRepoTest:100 - =============================================== Ending test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 13:02:17 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:02:17 INFO  GithubRepoTest:93 -  =============================================== Starting test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 13:02:17 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:02:17 INFO  HomePage:74 - Enter username non existing
+2020-07-12 13:02:17 INFO  HomePage:91 - Hit enter key
+2020-07-12 13:02:17 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:02:17 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:02:17 INFO  GithubRepoTest:100 - =============================================== Ending test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 13:02:17 INFO  GithubRepoTest:110 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'username'
+2020-07-12 13:02:17 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:02:17 INFO  GithubRepoTest:93 -  =============================================== Starting test method [testSearchPublicGithubRepositoriesForGivenUsername] ===================================
+2020-07-12 13:02:17 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:02:18 INFO  HomePage:74 - Enter username hemantjanrao
+2020-07-12 13:02:18 INFO  HomePage:83 - Click on Go button
+2020-07-12 13:02:22 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:02:22 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:02:22 INFO  GithubRepoTest:100 - =============================================== Ending test method [testSearchPublicGithubRepositoriesForGivenUsername] ===================================
+2020-07-12 13:02:22 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:02:22 INFO  GithubRepoTest:93 -  =============================================== Starting test method [testSearchPublicGithubRepositoriesForGivenUsername] ===================================
+2020-07-12 13:02:27 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:02:27 INFO  HomePage:74 - Enter username xyzs
+2020-07-12 13:02:27 INFO  HomePage:83 - Click on Go button
+2020-07-12 13:02:28 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:02:28 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:02:28 INFO  GithubRepoTest:100 - =============================================== Ending test method [testSearchPublicGithubRepositoriesForGivenUsername] ===================================
+2020-07-12 13:02:28 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:02:28 INFO  GithubRepoTest:48 - Destroying the driver
+2020-07-12 13:02:29 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:02:29 INFO  GithubRepoTest:88 - Starting the After class of 'Base Test'
+2020-07-12 13:02:29 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:04:14 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:04:14 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:04:14 INFO  GithubRepoTest:44 - Starting the Before class of 'Base Test'
+2020-07-12 13:04:14 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:04:14 INFO  GithubRepoTest:34 - Start initializing the driver
+2020-07-12 13:04:17 INFO  GithubRepoTest:41 - Finish initializing the driver
+2020-07-12 13:04:17 INFO  GithubRepoTest:110 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'error'
+2020-07-12 13:04:17 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:04:17 INFO  GithubRepoTest:93 -  =============================================== Starting test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 13:04:22 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:04:23 INFO  HomePage:74 - Enter username 
+2020-07-12 13:04:23 INFO  HomePage:91 - Hit enter key
+2020-07-12 13:04:23 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:04:23 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:04:23 INFO  GithubRepoTest:100 - =============================================== Ending test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 13:04:23 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:04:23 INFO  GithubRepoTest:93 -  =============================================== Starting test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 13:04:23 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:04:23 INFO  HomePage:74 - Enter username non existing
+2020-07-12 13:04:23 INFO  HomePage:91 - Hit enter key
+2020-07-12 13:04:24 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:04:24 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:04:24 INFO  GithubRepoTest:100 - =============================================== Ending test method [testErrorMessageInCaseIssueWithInput] ===================================
+2020-07-12 13:04:24 INFO  GithubRepoTest:110 - Reading data from excel '/Users/hemant.janrao/Documents/qa-automation-coding-challenge/target/test-classes/TestData.xls' with sheet name 'username'
+2020-07-12 13:04:24 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:04:24 INFO  GithubRepoTest:93 -  =============================================== Starting test method [testSearchPublicGithubRepositoriesForGivenUsername] ===================================
+2020-07-12 13:04:24 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:04:24 INFO  HomePage:74 - Enter username hemantjanrao
+2020-07-12 13:04:24 INFO  HomePage:83 - Click on Go button
+2020-07-12 13:04:28 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:04:28 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:04:28 INFO  GithubRepoTest:100 - =============================================== Ending test method [testSearchPublicGithubRepositoriesForGivenUsername] ===================================
+2020-07-12 13:04:28 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:04:28 INFO  GithubRepoTest:93 -  =============================================== Starting test method [testSearchPublicGithubRepositoriesForGivenUsername] ===================================
+2020-07-12 13:04:33 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:04:33 INFO  HomePage:74 - Enter username xyzs
+2020-07-12 13:04:33 INFO  HomePage:83 - Click on Go button
+2020-07-12 13:04:35 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:04:35 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:04:35 INFO  GithubRepoTest:100 - =============================================== Ending test method [testSearchPublicGithubRepositoriesForGivenUsername] ===================================
+2020-07-12 13:04:35 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:04:35 INFO  GithubRepoTest:48 - Destroying the driver
+2020-07-12 13:04:35 INFO  CustomListener:13 - Listener is activated
+2020-07-12 13:04:35 INFO  GithubRepoTest:88 - Starting the After class of 'Base Test'
+2020-07-12 13:04:35 INFO  CustomListener:13 - Listener is activated
