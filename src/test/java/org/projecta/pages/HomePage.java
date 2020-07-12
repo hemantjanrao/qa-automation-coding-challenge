@@ -2,10 +2,7 @@ package org.projecta.pages;
 
 import org.apache.http.HttpStatus;
 import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.projecta.framework.base.page.BasePage;
 import org.projecta.framework.restservice.RepositoryResponse;

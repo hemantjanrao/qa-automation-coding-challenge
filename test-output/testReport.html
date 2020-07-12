@@ -48,7 +48,7 @@
           </li>
             <li class="m-r-10">
                 <a href="#">
-                    <span class="badge badge-primary">Jul 12, 2020 01:04:14 PM</span>
+                    <span class="badge badge-primary">Jul 12, 2020 02:46:10 PM</span>
                 </a>
             </li>
         </ul>
@@ -93,11 +93,11 @@
 					</a>
 					<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
 						<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success pull-right"></span></a>
+						<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger pull-right"></span></a>
 						
 						
 						
-						
-						
+						<a class="dropdown-item" status="skip" href="#"><span>Skip</span><span class="status warning pull-right"></span></a>
 						<div class="dropdown-divider"></div>
 						<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 					</ul>
@@ -106,35 +106,61 @@
 		</div>
 		<div class="test-list-wrapper scrollable">
 			<ul class="test-list-item">
-				<li class="test-item"  status="pass" test-id="1"
+				<li class="test-item"  status="fail" test-id="1"
 					author=""
 					tag=""
 					device="">
-					<div class="status-avatar pass-bg">
-						<i class="fa fa-check text-white"></i>
+					<div class="status-avatar fail-bg">
+						<i class="fa fa-times text-white"></i>
 					</div>
 					<div class="open-test">
 						<div class="test-detail">
-							<p class="name">testErrorMessageInCaseIssueWithInput</p>
-							<p class="duration text-sm">0h 0m 6s+131ms</p>
-							<span class="datetime">13:04:17 PM</span>
+							<p class="name">qa-task.feature</p>
+							<p class="duration text-sm">0h 0m 0s+2ms</p>
+							<span class="datetime">14:46:10 PM</span>
 						</div>
 					</div>
 					<div class="test-contents d-none">
 						<div class="detail-head">
 							<div class="p-v-10 d-inline-block">
 								<div class="info">
-									<h5 class="test-status text-pass">testErrorMessageInCaseIssueWithInput</h5>
-									<span class='badge badge-success'>07.12.2020 13:04:17</span>
-									<span class='badge badge-danger'>07.12.2020 13:04:23</span>
-									<span class='badge badge-default'>0h 0m 6s+131ms</span>
+									<h5 class="test-status text-fail">qa-task.feature</h5>
+									<span class='badge badge-success'>07.12.2020 14:46:10</span>
+									<span class='badge badge-danger'>07.12.2020 14:46:10</span>
+									<span class='badge badge-default'>0h 0m 0s+2ms</span>
 								</div>
 								<div class="m-t-10 m-l-5">
-									Extent test
+									
 								</div>
 							</div>
 						</div>
-<div class="detail-body mt-4">                                              
+<div class="mt-4">
+	<div class="accordion">
+			<div class="card">
+				<div class="card-header" role="tab">
+					<div class="card-title">
+						<div class="node">Verify error message in case of issue with the input</div>
+						<div class="status-avatar float-right fail-bg">
+						    <i class="fa fa-times text-white"></i>
+						</div>
+					</div>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+					</div>
+				</div>
+	<div class="accordion">
+			<div class="card">
+				<div class="card-header" role="tab">
+					<div class="card-title">
+						<div class="node">Triggered the hook : BEFORE</div>
+						<div class="status-avatar float-right pass-bg">
+						    <i class="fa fa-check text-white"></i>
+						</div>
+					</div>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
 <table class="table table-sm">
 	<thead><tr>
 		<th class="status-col">Status</th>
@@ -144,45 +170,27 @@
 	<tbody>
 			<tr class="event-row">
 				<td><i class="fa fa-check text-pass"></i></td>
-				<td>13:04:23</td>
+				<td>14:46:10</td>
 				<td>
-						<span class='badge white-text green'>testErrorMessageInCaseIssueWithInput PASSED </span>
+						This passed
 				</td>
 			</tr>
 	</tbody>
 </table>
-</div>
 					</div>
-				</li>
-				<li class="test-item"  status="pass" test-id="2"
-					author=""
-					tag=""
-					device="">
-					<div class="status-avatar pass-bg">
-						<i class="fa fa-check text-white"></i>
-					</div>
-					<div class="open-test">
-						<div class="test-detail">
-							<p class="name">testErrorMessageInCaseIssueWithInput</p>
-							<p class="duration text-sm">0h 0m 0s+561ms</p>
-							<span class="datetime">13:04:23 PM</span>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<div class="card-title">
+						<div class="node">Given  User navigate to the application page</div>
+						<div class="status-avatar float-right pass-bg">
+						    <i class="fa fa-check text-white"></i>
 						</div>
 					</div>
-					<div class="test-contents d-none">
-						<div class="detail-head">
-							<div class="p-v-10 d-inline-block">
-								<div class="info">
-									<h5 class="test-status text-pass">testErrorMessageInCaseIssueWithInput</h5>
-									<span class='badge badge-success'>07.12.2020 13:04:23</span>
-									<span class='badge badge-danger'>07.12.2020 13:04:24</span>
-									<span class='badge badge-default'>0h 0m 0s+561ms</span>
-								</div>
-								<div class="m-t-10 m-l-5">
-									Extent test
-								</div>
-							</div>
-						</div>
-<div class="detail-body mt-4">                                              
+				</div>
+				<div class="collapse">
+					<div class="card-body">
 <table class="table table-sm">
 	<thead><tr>
 		<th class="status-col">Status</th>
@@ -192,45 +200,27 @@
 	<tbody>
 			<tr class="event-row">
 				<td><i class="fa fa-check text-pass"></i></td>
-				<td>13:04:24</td>
+				<td>14:46:10</td>
 				<td>
-						<span class='badge white-text green'>testErrorMessageInCaseIssueWithInput PASSED </span>
+						This passed
 				</td>
 			</tr>
 	</tbody>
 </table>
-</div>
 					</div>
-				</li>
-				<li class="test-item"  status="pass" test-id="3"
-					author=""
-					tag=""
-					device="">
-					<div class="status-avatar pass-bg">
-						<i class="fa fa-check text-white"></i>
-					</div>
-					<div class="open-test">
-						<div class="test-detail">
-							<p class="name">testSearchPublicGithubRepositoriesForGivenUsername</p>
-							<p class="duration text-sm">0h 0m 4s+9ms</p>
-							<span class="datetime">13:04:24 PM</span>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<div class="card-title">
+						<div class="node">And  See "Get Github Repos" page header</div>
+						<div class="status-avatar float-right pass-bg">
+						    <i class="fa fa-check text-white"></i>
 						</div>
 					</div>
-					<div class="test-contents d-none">
-						<div class="detail-head">
-							<div class="p-v-10 d-inline-block">
-								<div class="info">
-									<h5 class="test-status text-pass">testSearchPublicGithubRepositoriesForGivenUsername</h5>
-									<span class='badge badge-success'>07.12.2020 13:04:24</span>
-									<span class='badge badge-danger'>07.12.2020 13:04:28</span>
-									<span class='badge badge-default'>0h 0m 4s+9ms</span>
-								</div>
-								<div class="m-t-10 m-l-5">
-									Extent test
-								</div>
-							</div>
-						</div>
-<div class="detail-body mt-4">                                              
+				</div>
+				<div class="collapse">
+					<div class="card-body">
 <table class="table table-sm">
 	<thead><tr>
 		<th class="status-col">Status</th>
@@ -240,45 +230,27 @@
 	<tbody>
 			<tr class="event-row">
 				<td><i class="fa fa-check text-pass"></i></td>
-				<td>13:04:28</td>
+				<td>14:46:10</td>
 				<td>
-						<span class='badge white-text green'>testSearchPublicGithubRepositoriesForGivenUsername PASSED </span>
+						This passed
 				</td>
 			</tr>
 	</tbody>
 </table>
-</div>
 					</div>
-				</li>
-				<li class="test-item"  status="pass" test-id="4"
-					author=""
-					tag=""
-					device="">
-					<div class="status-avatar pass-bg">
-						<i class="fa fa-check text-white"></i>
-					</div>
-					<div class="open-test">
-						<div class="test-detail">
-							<p class="name">testSearchPublicGithubRepositoriesForGivenUsername</p>
-							<p class="duration text-sm">0h 0m 6s+772ms</p>
-							<span class="datetime">13:04:28 PM</span>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<div class="card-title">
+						<div class="node">When  User enter "" into search box</div>
+						<div class="status-avatar float-right pass-bg">
+						    <i class="fa fa-check text-white"></i>
 						</div>
 					</div>
-					<div class="test-contents d-none">
-						<div class="detail-head">
-							<div class="p-v-10 d-inline-block">
-								<div class="info">
-									<h5 class="test-status text-pass">testSearchPublicGithubRepositoriesForGivenUsername</h5>
-									<span class='badge badge-success'>07.12.2020 13:04:28</span>
-									<span class='badge badge-danger'>07.12.2020 13:04:35</span>
-									<span class='badge badge-default'>0h 0m 6s+772ms</span>
-								</div>
-								<div class="m-t-10 m-l-5">
-									Extent test
-								</div>
-							</div>
-						</div>
-<div class="detail-body mt-4">                                              
+				</div>
+				<div class="collapse">
+					<div class="card-body">
 <table class="table table-sm">
 	<thead><tr>
 		<th class="status-col">Status</th>
@@ -288,13 +260,335 @@
 	<tbody>
 			<tr class="event-row">
 				<td><i class="fa fa-check text-pass"></i></td>
-				<td>13:04:35</td>
+				<td>14:46:10</td>
 				<td>
-						<span class='badge white-text green'>testSearchPublicGithubRepositoriesForGivenUsername PASSED </span>
+						This passed
 				</td>
 			</tr>
 	</tbody>
 </table>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<div class="card-title">
+						<div class="node">And  Search by "Hitting Enter key"</div>
+						<div class="status-avatar float-right pass-bg">
+						    <i class="fa fa-check text-white"></i>
+						</div>
+					</div>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>14:46:10</td>
+				<td>
+						This passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<div class="card-title">
+						<div class="node">Then  On "Failure"</div>
+						<div class="status-avatar float-right fail-bg">
+						    <i class="fa fa-times text-white"></i>
+						</div>
+					</div>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>14:46:10</td>
+				<td>
+						This failed
+				</td>
+			</tr>
+	</tbody>
+</table>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<div class="card-title">
+						<div class="node">And  See correct error message with text "Github user not found"</div>
+						<div class="status-avatar float-right skip-bg">
+						    <i class="fa fa-long-arrow-right text-white"></i>
+						</div>
+					</div>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-long-arrow-right text-skip"></i></td>
+				<td>14:46:10</td>
+				<td>
+						This step was skipped
+				</td>
+			</tr>
+	</tbody>
+</table>
+					</div>
+				</div>
+			</div>
+	</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<div class="card-title">
+						<div class="node">Verify error message in case of issue with the input</div>
+						<div class="status-avatar float-right fail-bg">
+						    <i class="fa fa-times text-white"></i>
+						</div>
+					</div>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+					</div>
+				</div>
+	<div class="accordion">
+			<div class="card">
+				<div class="card-header" role="tab">
+					<div class="card-title">
+						<div class="node">Triggered the hook : BEFORE</div>
+						<div class="status-avatar float-right pass-bg">
+						    <i class="fa fa-check text-white"></i>
+						</div>
+					</div>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>14:46:10</td>
+				<td>
+						This passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<div class="card-title">
+						<div class="node">Given  User navigate to the application page</div>
+						<div class="status-avatar float-right pass-bg">
+						    <i class="fa fa-check text-white"></i>
+						</div>
+					</div>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>14:46:10</td>
+				<td>
+						This passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<div class="card-title">
+						<div class="node">And  See "Get Github Repos" page header</div>
+						<div class="status-avatar float-right pass-bg">
+						    <i class="fa fa-check text-white"></i>
+						</div>
+					</div>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>14:46:10</td>
+				<td>
+						This passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<div class="card-title">
+						<div class="node">When  User enter "non existing" into search box</div>
+						<div class="status-avatar float-right pass-bg">
+						    <i class="fa fa-check text-white"></i>
+						</div>
+					</div>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>14:46:10</td>
+				<td>
+						This passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<div class="card-title">
+						<div class="node">And  Search by "Hitting Enter key"</div>
+						<div class="status-avatar float-right pass-bg">
+						    <i class="fa fa-check text-white"></i>
+						</div>
+					</div>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>14:46:10</td>
+				<td>
+						This passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<div class="card-title">
+						<div class="node">Then  On "Failure"</div>
+						<div class="status-avatar float-right fail-bg">
+						    <i class="fa fa-times text-white"></i>
+						</div>
+					</div>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>14:46:10</td>
+				<td>
+						This failed
+				</td>
+			</tr>
+	</tbody>
+</table>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<div class="card-title">
+						<div class="node">And  See correct error message with text "Github user not found"</div>
+						<div class="status-avatar float-right skip-bg">
+						    <i class="fa fa-long-arrow-right text-white"></i>
+						</div>
+					</div>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-long-arrow-right text-skip"></i></td>
+				<td>14:46:10</td>
+				<td>
+						This step was skipped
+				</td>
+			</tr>
+	</tbody>
+</table>
+					</div>
+				</div>
+			</div>
+	</div>
+			</div>
+	</div>
 </div>
 					</div>
 				</li>
@@ -318,7 +612,7 @@
 </div>                    <!-- dashboard -->
 <div class="container-fluid p-4 dashboard-view">
 	<div class="row">
-		<div class="col-md-6">
+		<div class="col-sm-12 col-md-4">
 			<div class="card">
 				<div class="card-header">
 					<h6 class="card-title">Tests</h6>
@@ -329,19 +623,39 @@
 					</div>
 				</div>
 				<div class="card-footer">
-					<div><small data-tooltip='100%'>
-						<b>4</b> tests passed
+					<div><small data-tooltip='0%'>
+						<b>0</b> tests passed
 						</small>
 					</div>
 					<div>
-						<small data-tooltip='0%'><b>0</b> tests failed, 
+						<small data-tooltip='100%'><b>1</b> tests failed, 
 						<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 						</small>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="col-md-6">
+		<div class="col-sm-12 col-md-4">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Steps</h6>
+				</div>
+				<div class="card-body">
+					<div class="">
+						<canvas id='child-analysis' width='115' height='90'></canvas>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div><small data-tooltip='71,429%'><b>10</b> steps passed</small></div>
+					<div>
+						<small data-tooltip='14,286%'><b>2</b> steps failed, 
+						<b>2</b> skipped, <b data-tooltip='14,286%'>0</b> others
+						</small>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-12 col-md-4">
 			<div class="card">
 				<div class="card-header">
 					<h6 class="card-title">Log events</h6>
@@ -352,10 +666,10 @@
 					</div>
 				</div>
 				<div class="card-footer">
-					<div><small data-tooltip='100%'><b>4</b> events passed</small></div>
+					<div><small data-tooltip='71,429%'><b>10</b> events passed</small></div>
 					<div>
-						<small data-tooltip='0%'><b>0</b> events failed, 
-						<b data-tooltip='0%'>0</b> others
+						<small data-tooltip='14,286%'><b>2</b> events failed, 
+						<b data-tooltip='14,286%'>2</b> others
 						</small>
 					</div>
 				</div>
@@ -369,10 +683,29 @@
 					<div class="media justify-content-between">
 						<div class="card-header">
 							<h6 class="card-title">Tests</h6>
-							<h2 class="font-size-28 font-weight-light mt-3">4</h2>
+							<h2 class="font-size-28 font-weight-light mt-3">1</h2>
 							<span class="text-semibold text-success font-size-15">
 							<i class="ti-arrow-up font-size-11"></i> 
-							<span>100,00%</span>
+							<span>,00%</span>
+							</span>
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-align-left font-size-70 opacity-01"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+					<div class="media justify-content-between">
+						<div class="card-header">
+							<h6 class="card-title">Steps</h6>
+							<h2 class="font-size-28 font-weight-light mt-3">14</h2>
+							<span class="text-semibold text-success font-size-15">
+							<i class="ti-arrow-up font-size-11"></i> 
+							<span>71,43%</span>
 							</span>
 						</div>
 						<div class="align-self-end">
@@ -388,7 +721,7 @@
 					<div class="media justify-content-between">
 						<div class="card-header">
 							<h6 class="card-title">Start</h6>
-							<h4 class="font-weight-light mt-4">Jul 12, 2020 01:04:14 PM</h4>
+							<h4 class="font-weight-light mt-4">Jul 12, 2020 02:46:10 PM</h4>
 							<span class="text-semibold text-success font-size-15">
 						</div>
 						<div class="align-self-end">
@@ -404,7 +737,7 @@
 					<div class="media justify-content-between">
 						<div class="card-header">
 							<h6 class="card-title">Duration</h6>
-							<h4 class="font-weight-light mt-4">0h 0m 20s+805ms</h4>
+							<h4 class="font-weight-light mt-4">0h 0m 0s+105ms</h4>
 							<span class="text-semibold font-size-15">
 						</div>
 						<div class="align-self-end">
@@ -430,63 +763,28 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-4">
-			<div class="card">
-				<div class="card-header">
-					<h6 class="card-title">Environment</h6>
-				</div>
-				<div class="table-overflow">
-					<table class="table table-sm">
-						<thead>
-							<tr class="bg-gray">
-								<th>Name</th>
-								<th>Value</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>OS</td>
-								<td>Mac OS X</td>
-							</tr>
-							<tr>
-								<td>Browser</td>
-								<td>chrome</td>
-							</tr>
-							<tr>
-								<td>User </td>
-								<td>hemant.janrao</td>
-							</tr>
-							<tr>
-								<td>Java Version</td>
-								<td>11.0.2+9</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-			</div>
-		</div>
 	</div>
 </div>
 <script>
 	var statusGroup = {
-	    parentCount: 4,
-		passParent: 4,
-		failParent: 0,
+	    parentCount: 1,
+		passParent: 0,
+		failParent: 1,
 		fatalParent: 0,
 		errorParent: 0,
 		warningParent: 0,
 		skipParent: 0,
-		exceptionsParent: 0,
-		childCount: 0,
-		passChild: 0,
-		failChild: 0,
+		exceptionsParent: 1,
+		childCount: 14,
+		passChild: 10,
+		failChild: 2,
 		fatalChild: 0,
 		errorChild: 0,
 		warningChild: 0,
-		skipChild: 0,
+		skipChild: 2,
 		infoChild: 0,
 		debugChild: 0,
-		exceptionsChild: 0,
+		exceptionsChild: 4,
 		grandChildCount: 0,
 		passGrandChild: 0,
 		failGrandChild: 0,
@@ -497,13 +795,13 @@
 		infoGrandChild: 0,
 		debugGrandChild: 0,
 		exceptionsGrandChild: 0,
-		eventsCount: 4,
-		passEvents: 4,
-		failEvents: 0,
+		eventsCount: 14,
+		passEvents: 10,
+		failEvents: 2,
 		fatalEvents: 0,
 		errorEvents: 0,
 		warningEvents: 0,
-		skipEvents: 0,
+		skipEvents: 2,
 		infoEvents: 0,
 		debugEvents: 0,
 		exceptionsEvents: 0
@@ -511,7 +809,7 @@
 </script>
 <script>
 	var timeline = {
-	        "testErrorMessageInCaseIssueWithInput":6.131,"testErrorMessageInCaseIssueWithInput":0.561,"testSearchPublicGithubRepositoriesForGivenUsername":4.009,"testSearchPublicGithubRepositoriesForGivenUsername":6.772
+	        "qa-task.feature":0.002
 	};
 </script>
                 </div>

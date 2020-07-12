@@ -74,7 +74,8 @@ public class DriverManager {
                         log.info(String.format("Grid is enabled [%s]", getSeleniumGridHubUrl()));
                         return getRemoteDriver(cap);
                     } else {
-                        return new FirefoxDriver(cap);
+                        //return new FirefoxDriver(cap);
+                        return new FirefoxDriver();
                     }
                 } catch (Exception e) {
                     log.warn("Error creating driver", e);

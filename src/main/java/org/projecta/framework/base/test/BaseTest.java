@@ -73,8 +73,6 @@ public class BaseTest {
             test.log(Status.FAIL, MarkupHelper.createLabel(result.getName() + " FAILED ", ExtentColor.RED));
             test.fail(result.getThrowable());
 
-            test.fail("details", MediaEntityBuilder.createScreenCaptureFromPath("1.png").build());
-
         } else if (result.getStatus() == ITestResult.SUCCESS) {
             test.log(Status.PASS, MarkupHelper.createLabel(result.getName() + " PASSED ", ExtentColor.GREEN));
         } else {
