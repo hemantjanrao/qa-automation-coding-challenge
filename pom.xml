@@ -21,7 +21,7 @@
         <rest-assured>4.3.1</rest-assured>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
-        <groovy.version>3.0.4</groovy.version>
+        <groovy.version>3.0.3</groovy.version>
         <extentreports.version>4.1.7</extentreports.version>
         <cucumber.version>6.1.2</cucumber.version>
     </properties>
