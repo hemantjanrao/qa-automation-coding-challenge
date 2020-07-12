@@ -19,6 +19,7 @@ Framework is build using the stack
 ### Table of Contents
 
 * **[Project Pre-Installation](#Project-Pre-Installation)**<br>
+* **[Running the Tests](#Running-the-Tests)**<br>
 * **[Steps to run TesNG tests](#Steps-to-run-TesNG-tests)**<br>
 * **[Steps to run Cucumber tests](#Steps-to-run-Cucumber-tests )**<br>
 * **[Selenium Grid](#Selenium-Grid)**<br>
@@ -45,7 +46,7 @@ Install *Required software to run tests from IDE*
 2. Go to ***qa-automation-coding-challenge*** folder.
 3. Import the project as maven project.
 
-### Running the Tests 
+## Running the Tests 
 
 #### Available test suites
 - TestNG tests configured to run via file - ***run_test_cucumber.xml***
@@ -83,8 +84,8 @@ It is also possible to trigger tests from command line.
         mvn allure:report           # Generate the report
         mvn allure:serve            # Open the report on browser        
         
-##### Extent report
-1. You can find generated extent report for tests under "/test-output/testReporter.html        
+##### TestNG tests Extent report
+1. You can find generated extent report for tests under "/test-output/testReporter.html"      
         
 ## Steps to run Cucumber tests
 1. Go to ***qa-automation-coding-challenge*** folder.    
@@ -93,8 +94,8 @@ It is also possible to trigger tests from command line.
         mvn clean test -Dsurefire.suiteXmlFiles=run_test_cucumber.xml -Dcucumber.filter.tags="@negative" -Dweb.browser=chrome
 3. Browser to be run can be configured via parameter **-Dbrowser** in commandline or via **config.properties**
 
-#### Extent report 
-1. You can find generated extent report for tests under "/test-output/testReporter.html
+#### Cucumber tests Extent report
+1. You can find generated extent report for tests under "/test-output/testReporter.html"
     
 ## Selenium Grid
 

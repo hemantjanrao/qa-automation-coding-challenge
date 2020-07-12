@@ -41,7 +41,7 @@ public class HomePageStepDefs extends TestRunner {
         log.info(String.format("Page header with text: %s present", pageHeader));
     }
 
-    @When("User enter {string} into search box")
+    @When("Enter {string} into search box")
     public void user_enter_into_searchBox(String githubUserName) {
         userName = githubUserName;
         homePage.enterUserName(githubUserName);
@@ -87,7 +87,7 @@ public class HomePageStepDefs extends TestRunner {
                 apiRepositoriesResult.size()));
     }
 
-    @And("On clicking any repository name link navigate user to actual github repository")
+    @And("On clicking any repository link navigate user to actual github repository")
     public void on_click_any_repository_name_link_navigate_user_to_actual_github_repository() {
         String randomRepositoryNameToBeOpened = webRepositoriesResult.get(rand.nextInt(webRepositoriesResult.size())).name;
         String actualGitHubURL = homePage.openGithubRepo(randomRepositoryNameToBeOpened);

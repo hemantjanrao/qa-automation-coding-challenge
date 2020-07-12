@@ -5,17 +5,10 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.gherkin.model.Given;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
-import com.aventstack.extentreports.reporter.configuration.Theme;
 import io.cucumber.plugin.EventListener;
-import io.cucumber.plugin.event.EventPublisher;
-import io.cucumber.plugin.event.PickleStepTestStep;
-import io.cucumber.plugin.event.TestCaseStarted;
-import io.cucumber.plugin.event.TestRunFinished;
-import io.cucumber.plugin.event.TestRunStarted;
-import io.cucumber.plugin.event.TestSourceRead;
-import io.cucumber.plugin.event.TestStepFinished;
-import io.cucumber.plugin.event.TestStepStarted;
-import io.cucumber.plugin.event.HookTestStep;
+import io.cucumber.plugin.event.*;
+import org.projecta.framework.util.Environment;
+import org.projecta.framework.util.PropertyUtils;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -40,9 +33,17 @@ public class CustomReportListener implements EventListener {
 
     private void runStarted(TestRunStarted event) {
         spark = new ExtentSparkReporter(System.getProperty("user.dir") + "/test-output/testReport.html");
+        spark.loadConfig("html-config.xml");
+
+        //initialize ExtentReports and attach the HtmlReporter
         extent = new ExtentReports();
-        spark.config().setTheme(Theme.STANDARD);
         extent.attachReporter(spark);
+
+        //To add system or environment info by using the setSystemInfo method.
+        extent.setSystemInfo("OS", System.getProperty("os.name"));
+        extent.setSystemInfo("Browser", PropertyUtils.get(Environment.WEB_BROWSER));
+        extent.setSystemInfo("User ", System.getProperty("user.name"));
+        extent.setSystemInfo("Java Version", String.valueOf(Runtime.version()));
     }
 
     private void runFinished(TestRunFinished event) {
