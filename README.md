@@ -49,8 +49,8 @@ Install *Required software to run tests from IDE*
 ## Running the Tests 
 
 #### Available test suites
-- TestNG tests configured to run via file - ***run_test_cucumber.xml***
-- Cucumber tests configured to run via file - ***run_test_testng.xml***
+- TestNG tests configured to run via file: ***run_test_testng.xml***
+- Cucumber tests configured to run via file:  ***run_test_cucumber.xml***
 
 #### Test run configuration
 
@@ -60,14 +60,20 @@ It is possible to configure test run via **config.properties**
 
     web.url=http://localhost:3000
     web.browser=chrome
+    web.chrome.version=83.0.4103.39
+    web.firefox.version=0.26.0
     web.defaultTimeout=20
     github.base.url=https://api.github.com
     repos.endpoint=users/{0}/repos
-    web.isGridEnabled=true
+    web.isGridEnabled=false
     web.seleniumGrid=localhost:4444
 
 #### Command line way
 It is also possible to trigger tests from command line.
+
+**Note:** 
+Currently tests running again specific chrome and firefox browser versions if the browser versions are latest 
+then  no need to specify browser versions framework will by default pickup latest browser version drivers.
 
 ## Steps to run TesNG tests
 1. Go to ***qa-automation-coding-challenge*** folder.
