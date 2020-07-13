@@ -25,8 +25,8 @@ Non-Functional Flow
 	e. placeholder text: No repos for search result
 2. If search take more time than expected then there should be a timeout for the request 
 3. Display loading spinner until application fetches the results for the given username
-4. On a successful search, the system should display message in bol text and green colour
-5. On an unsuccessful search/error the system should display error in Bold text and red color
+4. On a successful search, the system should display message in bold text and green colour
+5. On an unsuccessful search/error the system should display error in bold text and red color
 6. Application should be browser compatible
 
 Suggestions/Observations
@@ -42,6 +42,6 @@ Suggestions/Observations
 number of 
     allowed requests or restrict user once API rate limit reached.
 7. Should app allow Adam to filter only his students or any user from the github? going forward we can implement feature
-    where Adam can only filter his students repo not other users.
+    where Adam can only filter his students repo and not other users.
 
 
