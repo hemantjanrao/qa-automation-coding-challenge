@@ -27,6 +27,7 @@ Non-Functional Flow
 3. Display loading spinner until application fetches the results for the given username
 4. On a successful search, the system should display message in bol text and green colour
 5. On an unsuccessful search/error the system should display error in Bold text and red color
+6. Application should be browser compatible
 
 Suggestions/Observations
 ------------------------
