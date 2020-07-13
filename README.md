@@ -91,7 +91,7 @@ It is also possible to trigger tests from command line.
 1. Go to ***qa-automation-coding-challenge*** folder.    
 2. Use the below command to run the Cucumber tests        
         
-        mvn clean test -Dsurefire.suiteXmlFiles=run_test_cucumber.xml -Dcucumber.filter.tags="@negative" -Dweb.browser=chrome
+        mvn clean test -Dsurefire.suiteXmlFiles=run_test_cucumber.xml -Dcucumber.filter.tags="@positive" -Dweb.browser=chrome
 3. Browser to be run can be configured via parameter **-Dbrowser** in commandline or via **config.properties**
 
 #### Cucumber tests Extent report

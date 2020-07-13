@@ -65,7 +65,12 @@ public class DriverManager {
             case FIREFOX:
 
             case GECKO:
-                WebDriverManager.firefoxdriver().setup();
+                if(PropertyUtils.get(Environment.FIREFOX_VERSION) != null){
+                    WebDriverManager.firefoxdriver().version(PropertyUtils.get(Environment.FIREFOX_VERSION)).setup();
+                } else {
+                    WebDriverManager.firefoxdriver().setup();
+                }
+
                 cap = getFireFoxDesiredCapabilities();
                 cap.setCapability(FirefoxDriver.MARIONETTE, true);
 
@@ -83,7 +88,12 @@ public class DriverManager {
                 }
 
             case CHROME:
-                WebDriverManager.chromedriver().setup();
+                if(PropertyUtils.get(Environment.CHROME_VERSION) != null){
+                    WebDriverManager.chromedriver().version(PropertyUtils.get(Environment.CHROME_VERSION)).setup();
+                } else {
+                    WebDriverManager.chromedriver().setup();
+                }
+
                 cap = getChromeCapabilities();
                 try {
                     if (isSeleniumGridEnabled) {
