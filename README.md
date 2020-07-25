@@ -1,5 +1,3 @@
-mvn test -Dsurefire.suiteXmlFiles=run_test_cucumber.xml -Dcucumber.filter.tags="@qa-task"
-
 # Automation Suite
 
 ## Summary
